@@ -7,7 +7,6 @@ import Map from 'ol/Map';
 import View from 'ol/View';
 import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
-import Feature from 'ol/Feature';
 import Point from 'ol/geom/Point';
 import { fromLonLat, toLonLat } from 'ol/proj';
 import { Style, Icon, Stroke, Fill, Text } from 'ol/style';
@@ -16,6 +15,9 @@ import { click } from 'ol/events/condition';
 import GeoJSON from 'ol/format/GeoJSON';
 import { boundingExtent } from 'ol/extent';
 import Overlay from 'ol/Overlay';
+import Feature from 'ol/Feature';
+import type { Feature as FeatureType } from 'ol';
+import type Geometry from 'ol/geom/Geometry';
 
 interface Location {
   price: string;
@@ -76,7 +78,7 @@ export default function MapComponent({ className = '' }: MapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<Map | null>(null);
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
-  const [locations, setLocations] = useState<Array<{ feature: Feature; location: Location; cityName: string; stateName: string }>>([]);
+  const [locations, setLocations] = useState<Array<{ feature: FeatureType<Geometry>; location: Location; cityName: string; stateName: string }>>([]);
   const [selectedState, setSelectedState] = useState<string | null>(null);
   const [states, setStates] = useState<string[]>([]);
   const [showAllStates, setShowAllStates] = useState(true);
@@ -101,7 +103,7 @@ export default function MapComponent({ className = '' }: MapProps) {
       .then(data => {
         const features = new GeoJSON().readFeatures(data, {
           featureProjection: 'EPSG:3857',
-        });
+        }) as FeatureType<Geometry>[];
         source.addFeatures(features);
         setStateVectorSource(source);
         // Set state names for control panel
@@ -115,7 +117,7 @@ export default function MapComponent({ className = '' }: MapProps) {
       try {
         const response = await fetch('/anytime_mailbox_locations.json');
         const data: MapData = await response.json();
-        const allLocations: Array<{ feature: Feature; location: Location; cityName: string; stateName: string }> = [];
+        const allLocations: Array<{ feature: FeatureType<Geometry>; location: Location; cityName: string; stateName: string }> = [];
         Object.entries(data.states).forEach(([stateName, stateData]) => {
           Object.entries(stateData.cities).forEach(([cityName, location]) => {
             if (location.latitude && location.longitude) {
