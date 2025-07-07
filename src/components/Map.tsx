@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import Map from 'ol/Map';
 import View from 'ol/View';
 import VectorLayer from 'ol/layer/Vector';
@@ -622,10 +622,10 @@ export default function MapComponent({ className = '' }: MapProps) {
   const filteredCountries = intlCountries.filter(c => c.toLowerCase().includes(searchQuery.toLowerCase()));
 
   // Flattened results for keyboard navigation
-  const searchResults: Array<{ type: 'US' | 'International'; value: string; section: string }> = [
+  const searchResults = useMemo(() => [
     ...filteredStates.map(s => ({ type: "US" as const, value: s, section: "US States" })),
     ...filteredCountries.map(c => ({ type: "International" as const, value: c, section: "International" })),
-  ];
+  ], [filteredStates, filteredCountries]);
 
   // Handle search result click
   const handleSearchSelect = (type: 'US' | 'International', value: string) => {
@@ -779,7 +779,6 @@ export default function MapComponent({ className = '' }: MapProps) {
           </div>
           {mode === 'International' && (
             <ControlPanel
-              mode={mode}
               items={intlCountries}
               selected={selectedCountry}
               onSelect={setSelectedCountry}
@@ -789,7 +788,6 @@ export default function MapComponent({ className = '' }: MapProps) {
           )}
           {mode === 'US' && (
             <ControlPanel
-              mode={mode}
               items={states}
               selected={selectedState}
               onSelect={(stateName) => {

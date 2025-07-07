@@ -1,7 +1,6 @@
 import React from 'react';
 
 interface ControlPanelProps {
-  mode: 'US' | 'International';
   items: string[];
   selected: string | null;
   onSelect: (item: string) => void;
@@ -9,7 +8,7 @@ interface ControlPanelProps {
   label: string;
 }
 
-const ControlPanel: React.FC<ControlPanelProps> = ({ mode, items, selected, onSelect, onShowAll, label }) => {
+const ControlPanel: React.FC<ControlPanelProps> = ({ items, selected, onSelect, onShowAll, label }) => {
   return (
     <div className="w-full h-full flex flex-col items-center mb-8">
       <div className="h-full">

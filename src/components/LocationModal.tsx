@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, MapPin, DollarSign, Users, FileText, Truck, Trash2, CreditCard, Store } from 'lucide-react';
+import { ExternalLink, MapPin, FileText, Truck, Trash2, CreditCard, Store } from 'lucide-react';
 
 interface Plan {
   title: string;
@@ -67,8 +67,6 @@ interface LocationModalProps {
 }
 
 export default function LocationModal({ location, isOpen, onClose }: LocationModalProps) {
-  const [selectedPlan, setSelectedPlan] = useState<Plan | null>(null);
-
   if (!location) return null;
 
   const getFeatureIcon = (featureName: string) => {
@@ -190,7 +188,7 @@ export default function LocationModal({ location, isOpen, onClose }: LocationMod
                       <TabsTrigger
                         key={plan.title}
                         value={plan.title}
-                        onClick={() => setSelectedPlan(plan)}
+                        onClick={() => {}}
                         className="text-xs cursor-pointer"
                       >
                         {plan.title}
