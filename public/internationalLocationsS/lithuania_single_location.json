@@ -1,0 +1,204 @@
+{
+  "state": "Lithuania",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/vilnius-4-palangos-street",
+    "cities": [
+      {
+        "city_name": "Lithuania",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 14.95,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "54.6829278",
+            "longitude": "25.2784592",
+            "plan_url": "https://www.anytimemailbox.com/s/vilnius-4-palangos-street",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 14.95,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22143&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "yearly_price": {
+                  "amount": 149.95,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22143&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "features": {
+                  "Incoming Mail": "10 / month",
+                  "Open & Scan": "Each page at €0.50",
+                  "Forwarding": "10 shipping bundles / month",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "22143",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.95,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22143&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                    "yearly_price": {
+                      "amount": 149.95,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22143&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'"
+                  },
+                  "Incoming Mail": "10 / month\nEach additional at €0.35",
+                  "Open & Scan": "Unlimited\nEach page at €0.50",
+                  "Forwarding": "10 shipping bundles / month\nEach additional shipping bundle at €2.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at €0.15",
+                  "Local Pickup": "€3.00 per visit\n€7.00 for each Extra Large Box\n€25.00 for each Crate\nPickup by appointment only",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then €0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then €0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then €0.15 for every mail item per day\nSmall Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nMedium Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nMailing Tube: Free storage for 10 day(s), then €0.50 for every mail item per day\nCrate: Free storage for 10 day(s), then €7.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional €10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 29.95,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22144&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "yearly_price": {
+                  "amount": 299.95,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22144&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "30 shipping bundles / month",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "22144",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.95,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22144&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                    "yearly_price": {
+                      "amount": 299.95,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22144&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at €0.15",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at €0.20",
+                  "Forwarding": "30 shipping bundles / month\nEach additional shipping bundle at €2.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at €0.15",
+                  "Local Pickup": "€3.00 per visit\n€7.00 for each Extra Large Box\n€25.00 for each Crate\nPickup by appointment only",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then €0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then €0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then €0.15 for every mail item per day\nSmall Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nMedium Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nCrate: Free storage for 10 day(s), then €7.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional €10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 34.95,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22145&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "yearly_price": {
+                  "amount": 349.95,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22145&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "35 shipping bundles / month",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "22145",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 34.95,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22145&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                    "yearly_price": {
+                      "amount": 349.95,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22145&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at €0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at €0.50",
+                  "Forwarding": "35 shipping bundles / month\nEach additional shipping bundle at €5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at €0.15",
+                  "Local Pickup": "€3.00 per visit\nPickup by appointment only",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then €0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then €0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then €0.15 for every mail item per day\nSmall Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nMedium Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then €0.50 for every mail item per day\nCrate: Free storage for 10 day(s), then €7.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional €10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n4 Palangos St\nSte 327 #MAILBOX\nVilnius, Vilnius 01402\nLithuania",
+              "street_address": "4 Palangos St",
+              "suite_info": "Ste 327 #MAILBOX",
+              "city_state_zip": "Vilnius, Vilnius 01402",
+              "country": "Lithuania",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx"
+              ],
+              "operator_info": {
+                "name": "Passportology - Vilnius Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Lithuania"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:20:59.023741"
+}

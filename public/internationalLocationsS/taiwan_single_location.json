@@ -1,0 +1,161 @@
+{
+  "state": "Taiwan",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/taoyuan-18f-no-172-sec-2-linghang-n-rd-zhongli-dis",
+    "cities": [
+      {
+        "city_name": "Taiwan",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 25.0,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "25.0086005",
+            "longitude": "121.2039288",
+            "plan_url": "https://www.anytimemailbox.com/s/taoyuan-18f-no-172-sec-2-linghang-n-rd-zhongli-dis",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Starter",
+                "monthly_price": {
+                  "amount": 25.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=17535&siftsessionid=175156350745785105jm2at82p27'",
+                "yearly_price": {
+                  "amount": 275.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=17535&siftsessionid=175156350745785105jm2at82p27'",
+                "features": {
+                  "Incoming Mail": "10 / month",
+                  "Open & Scan": "5 / month",
+                  "Forwarding": "Each shipping bundle at US$ 10.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "17535",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 25.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=17535&siftsessionid=175156350745785105jm2at82p27&firstpagehit=https://www.anytimemailbox.com/s/taoyuan-18f-no-172-sec-2-linghang-n-rd-zhongli-dis'",
+                    "yearly_price": {
+                      "amount": 275.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=17535&siftsessionid=175156350745785105jm2at82p27&firstpagehit=https://www.anytimemailbox.com/s/taoyuan-18f-no-172-sec-2-linghang-n-rd-zhongli-dis'"
+                  },
+                  "Incoming Mail": "10 / month\nEach additional at US$ 1.00",
+                  "Open & Scan": "5 / month\nEach additional at US$ 1.00\n10 pages / month\nEach additional page at US$ 1.00\n5 pages / request\nEach additional page at US$ 1.00",
+                  "Forwarding": "Each shipping bundle at US$ 10.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 10.00 per visit\nUS$ 5.00 for each Small Box and 5 item(s) per month at no cost\nUS$ 10.00 for each Medium Box and 5 item(s) per month at no cost\nPickup by appointment only",
+                  "Physical Storage": "Small Box: Free storage for 15 day(s), then US$ 15.00 for every mail item per month\nMedium Box: Free storage for 15 day(s), then US$ 15.00 for every mail item per month\nLarge Box: Free storage for 7 day(s), then US$ 30.00 for every mail item per month\nAll other mail: Free storage for 30 day(s), then US$ 5.00 for every mail item per month",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 5.00 / month"
+                }
+              },
+              {
+                "title": "Business Lite",
+                "monthly_price": {
+                  "amount": 35.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=17536&siftsessionid=175156350745785105jm2at82p27'",
+                "yearly_price": {
+                  "amount": 385.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=17536&siftsessionid=175156350745785105jm2at82p27'",
+                "features": {
+                  "Incoming Mail": "15 / month",
+                  "Open & Scan": "10 / month",
+                  "Forwarding": "Each shipping bundle at US$ 10.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "17536",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 35.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=17536&siftsessionid=175156350745785105jm2at82p27&firstpagehit=https://www.anytimemailbox.com/s/taoyuan-18f-no-172-sec-2-linghang-n-rd-zhongli-dis'",
+                    "yearly_price": {
+                      "amount": 385.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=17536&siftsessionid=175156350745785105jm2at82p27&firstpagehit=https://www.anytimemailbox.com/s/taoyuan-18f-no-172-sec-2-linghang-n-rd-zhongli-dis'"
+                  },
+                  "Incoming Mail": "15 / month\nEach additional at US$ 1.00",
+                  "Open & Scan": "10 / month\nEach additional at US$ 1.00\n10 pages / month\nEach additional page at US$ 1.00",
+                  "Forwarding": "Each shipping bundle at US$ 10.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Standard Envelope: Free storage for 60 day(s), then US$ 5.00 for every mail item per month\nSmall Box: Free storage for 30 day(s), then US$ 5.00 for every mail item per month\nMedium Box: Free storage for 30 day(s), then US$ 5.00 for every mail item per month\nLarge Box: Free storage for 15 day(s), then US$ 10.00 for every mail item per week\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nUnit #MAILBOX\n18F, No. 172, Sec. 2, Linghang N. Rd, Zhongli District Taoyuan, TAO 32054\n桃園市中壢區領航北路二段 172號18樓\nTaiwan",
+              "street_address": "Unit #MAILBOX",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "桃園市中壢區領航北路二段 172號18樓",
+              "country": "Taiwan",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "MPLUSD Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Taiwan"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:25:19.694469"
+}

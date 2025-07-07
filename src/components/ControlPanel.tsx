@@ -1,0 +1,49 @@
+import React from 'react';
+
+interface ControlPanelProps {
+  mode: 'US' | 'International';
+  items: string[];
+  selected: string | null;
+  onSelect: (item: string) => void;
+  onShowAll: () => void;
+  label: string;
+}
+
+const ControlPanel: React.FC<ControlPanelProps> = ({ mode, items, selected, onSelect, onShowAll, label }) => {
+  return (
+    <div className="w-full flex flex-col items-center mb-8">
+      <div className="w-full max-w-5xl bg-white rounded-2xl shadow-xl px-10 py-8 border border-gray-100">
+        <div className="flex items-center justify-between mb-3">
+          <h3 className="font-black text-gray-600 my-4 text-xl tracking-tight">{label}</h3>
+          <button
+            onClick={onShowAll}
+            className={`text-xs px-4 py-2 font-bold cursor-pointer hover:bg-green-900 hover:text-white rounded-full transition-colors shadow ${
+              !selected
+                ? 'bg-green-600 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            Show All
+          </button>
+        </div>
+        <div className="flex flex-wrap gap-3 max-h-40 overflow-y-auto justify-center">
+          {items.map((item) => (
+            <button
+              key={item}
+              onClick={() => onSelect(item)}
+              className={`text-xs px-4 py-2 rounded-full cursor-pointer hover:bg-green-900 hover:text-white hover:border-green-900 transition-colors border font-semibold shadow-sm ${
+                selected === item
+                  ? 'bg-green-600 text-white border-green-600'
+                  : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50 hover:border-gray-400'
+              }`}
+            >
+              {item}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ControlPanel; 

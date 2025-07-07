@@ -1,0 +1,469 @@
+{
+  "country": "Greece",
+  "regions": [
+    {
+      "region": "Direct Locations",
+      "locations": [
+        {
+          "title": "Athens",
+          "price": {
+            "amount": 19.0,
+            "currency": "USD"
+          },
+          "address": "",
+          "latitude": "38.0357669",
+          "longitude": "23.7761052",
+          "plan_url": "https://www.anytimemailbox.com/s/athens-ipirou-4a",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Essentials",
+              "monthly_price": {
+                "amount": 19.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 209.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25627&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25627&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "5 / month",
+                "Open & Scan": "2 / month",
+                "Forwarding": "Each shipping bundle at €10.00",
+                "Recipients": "1"
+              },
+              "detailed_features": {
+                "Incoming Mail": "5 / month\nEach additional at €0.25",
+                "Open & Scan": "2 / month\nEach additional at €0.50\n5 pages / request\nEach additional page at €0.10",
+                "Forwarding": "Each shipping bundle at €10.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at €0.10",
+                "Local Pickup": "€2.00 per visit\nPickup during business hours",
+                "Physical Storage": "Standard Envelope: Free storage for 14 day(s), then €0.10 for every mail item per day\nLarge Envelope: Free storage for 14 day(s), then €0.10 for every mail item per day\nPadded Mailer: Free storage for 14 day(s), then €0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then €0.25 for every mail item per day\nMedium Box: Free storage for 7 day(s), then €0.50 for every mail item per day\nLarge Box: Free storage for 7 day(s), then €0.75 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then €1.00 for every mail item per day\nMailing Tube: Free storage for 7 day(s), then €1.00 for every mail item per day\nAll other mail: Free storage for 14 day(s), then €0.10 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "1\nEach additional €5.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 19.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25627&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 209.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25627&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Standard",
+              "monthly_price": {
+                "amount": 29.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 319.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25628&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25628&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "10 / month",
+                "Open & Scan": "5 / month",
+                "Forwarding": "Each shipping bundle at €10.00",
+                "Recipients": "2"
+              },
+              "detailed_features": {
+                "Incoming Mail": "10 / month\nEach additional at €0.25",
+                "Open & Scan": "5 / month\nEach additional at €0.50\n5 pages / request\nEach additional page at €0.10",
+                "Forwarding": "Each shipping bundle at €10.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at €0.10",
+                "Local Pickup": "€2.00 per visit\nPickup during business hours",
+                "Physical Storage": "Standard Envelope: Free storage for 14 day(s), then €0.10 for every mail item per day\nLarge Envelope: Free storage for 14 day(s), then €0.10 for every mail item per day\nPadded Mailer: Free storage for 14 day(s), then €0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then €0.25 for every mail item per day\nMedium Box: Free storage for 7 day(s), then €0.50 for every mail item per day\nLarge Box: Free storage for 7 day(s), then €0.75 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then €1.00 for every mail item per day\nMailing Tube: Free storage for 7 day(s), then €1.00 for every mail item per day\nAll other mail: Free storage for 14 day(s), then €0.10 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "2\nEach additional €5.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 29.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25628&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 319.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25628&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Premium",
+              "monthly_price": {
+                "amount": 49.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 539.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25629&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25629&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "30 / month",
+                "Open & Scan": "15 / month",
+                "Forwarding": "Each shipping bundle at €10.00",
+                "Recipients": "5"
+              },
+              "detailed_features": {
+                "Incoming Mail": "30 / month\nEach additional at €0.25",
+                "Open & Scan": "15 / month\nEach additional at €0.50\n5 pages / request\nEach additional page at €0.10",
+                "Forwarding": "Each shipping bundle at €10.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at €0.10",
+                "Local Pickup": "€2.00 per visit\nPickup during business hours",
+                "Physical Storage": "Standard Envelope: Free storage for 14 day(s), then €0.10 for every mail item per day\nLarge Envelope: Free storage for 14 day(s), then €0.10 for every mail item per day\nPadded Mailer: Free storage for 14 day(s), then €0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then €0.25 for every mail item per day\nMedium Box: Free storage for 7 day(s), then €0.50 for every mail item per day\nLarge Box: Free storage for 7 day(s), then €0.75 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then €1.00 for every mail item per day\nMailing Tube: Free storage for 7 day(s), then €1.00 for every mail item per day\nAll other mail: Free storage for 14 day(s), then €0.10 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "5\nEach additional €5.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 49.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25629&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 539.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25629&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nIpirou 4A\nUnit #MAILBOX\nAthens, Attica 14235 Greece",
+            "street_address": "Ipirou 4A",
+            "suite_info": "Unit #MAILBOX",
+            "city_state_zip": "Unit #MAILBOX",
+            "country": "Athens, Attica 14235 Greece",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with DHL"
+            ],
+            "operator_info": {
+              "name": "Scanmail.gr Verified",
+              "verified": true
+            }
+          },
+          "name": "Greater Athens",
+          "region": "Greater Athens"
+        },
+        {
+          "title": "Karpathos - Oktovriou",
+          "price": {
+            "amount": 8.5,
+            "currency": "USD"
+          },
+          "address": "",
+          "latitude": "35.5075569",
+          "longitude": "27.2124176",
+          "plan_url": "https://www.anytimemailbox.com/s/karpathos-28-oktovriou",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Bronze",
+              "monthly_price": {
+                "amount": 8.5,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 100.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24912&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24912&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "30 / month",
+                "Open & Scan": "30 pages / month",
+                "Forwarding": "No handling fees",
+                "Recipients": "2"
+              },
+              "detailed_features": {
+                "Incoming Mail": "30 / month\nEach additional at €0.25",
+                "Open & Scan": "Unlimited\n30 pages / month\nEach additional page at €0.25",
+                "Forwarding": "No handling fees\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at €0.10",
+                "Local Pickup": "€3.00 per visit\nPickup during business hours",
+                "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "2\nEach additional €8.50 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 8.5,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24912&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 100.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24912&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Silver",
+              "monthly_price": {
+                "amount": 10.5,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 120.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24913&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24913&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "60 / month",
+                "Open & Scan": "60 pages / month",
+                "Forwarding": "No handling fees",
+                "Recipients": "3"
+              },
+              "detailed_features": {
+                "Incoming Mail": "60 / month\nEach additional at €0.25",
+                "Open & Scan": "Unlimited\n60 pages / month\nEach additional page at €0.25",
+                "Forwarding": "No handling fees\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at €0.10",
+                "Local Pickup": "€3.00 per visit and first 1 visit(s) per month at no cost\nPickup during business hours",
+                "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "3\nEach additional €8.50 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 10.5,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24913&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 120.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24913&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Gold",
+              "monthly_price": {
+                "amount": 13.5,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 160.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24914&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24914&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "90 / month",
+                "Open & Scan": "90 pages / month",
+                "Forwarding": "No handling fees",
+                "Recipients": "4"
+              },
+              "detailed_features": {
+                "Incoming Mail": "90 / month\nEach additional at €0.25",
+                "Open & Scan": "Unlimited\n90 pages / month\nEach additional page at €0.25",
+                "Forwarding": "No handling fees\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at €0.10",
+                "Local Pickup": "€3.00 per visit and first 2 visit(s) per month at no cost\nPickup during business hours",
+                "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional €8.50 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 13.5,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24914&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 160.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24914&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Platinum",
+              "monthly_price": {
+                "amount": 16.5,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 195.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24915&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24915&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "120 / month",
+                "Open & Scan": "120 pages / month",
+                "Forwarding": "No handling fees",
+                "Recipients": "5"
+              },
+              "detailed_features": {
+                "Incoming Mail": "120 / month\nEach additional at €0.25",
+                "Open & Scan": "Unlimited\n120 pages / month\nEach additional page at €0.25",
+                "Forwarding": "No handling fees\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at €0.10",
+                "Local Pickup": "€3.00 per visit and first 3 visit(s) per month at no cost\nPickup during business hours",
+                "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "5\nEach additional €8.50 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 16.5,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24915&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 195.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24915&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Business",
+              "monthly_price": {
+                "amount": 20.5,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 240.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24917&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24917&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "No handling fees",
+                "Recipients": "10"
+              },
+              "detailed_features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "No handling fees\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at €0.10",
+                "Local Pickup": "Unlimited\nPickup during business hours",
+                "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "10\nEach additional €8.50 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 20.5,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24917&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 240.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24917&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nMAILBOX-28 Oktovriou\nKarpathos, Dodecanese 85700 Greece",
+            "street_address": "MAILBOX-28 Oktovriou",
+            "suite_info": "MAILBOX-28 Oktovriou",
+            "city_state_zip": "MAILBOX-28 Oktovriou",
+            "country": "Karpathos, Dodecanese 85700 Greece",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [],
+            "operator_info": {
+              "name": "Titan Tek Biz Greece Verified",
+              "verified": true
+            }
+          },
+          "name": "Karpathos",
+          "region": "Karpathos"
+        }
+      ],
+      "location_count": 2
+    }
+  ],
+  "total_locations": 2,
+  "scraped_at": "2025-07-07T09:23:57.154050"
+}

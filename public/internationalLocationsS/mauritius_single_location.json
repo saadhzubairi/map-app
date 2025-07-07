@@ -1,0 +1,248 @@
+{
+  "state": "Mauritius",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights",
+    "cities": [
+      {
+        "city_name": "Mauritius",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 895.0,
+              "currency": "MUR"
+            },
+            "address": "",
+            "latitude": "-20.2426414",
+            "longitude": "57.4890807",
+            "plan_url": "https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze (Personal)",
+                "monthly_price": {
+                  "amount": 895.0,
+                  "currency": "MUR"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16681&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "yearly_price": {
+                  "amount": 10695.0,
+                  "currency": "MUR"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16681&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "16681",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 895.0,
+                      "currency": "MUR"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16681&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'",
+                    "yearly_price": {
+                      "amount": 10695.0,
+                      "currency": "MUR"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16681&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at MUR 100.00",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at MUR 100.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Each at MUR 250.00",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at MUR 100.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 5 day(s), then MUR 75.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional MUR 895.00 / month"
+                }
+              },
+              {
+                "title": "Silver (Professional)",
+                "monthly_price": {
+                  "amount": 1695.0,
+                  "currency": "MUR"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16682&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "yearly_price": {
+                  "amount": 20295.0,
+                  "currency": "MUR"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16682&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "16682",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 1695.0,
+                      "currency": "MUR"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16682&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'",
+                    "yearly_price": {
+                      "amount": 20295.0,
+                      "currency": "MUR"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16682&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at MUR 100.00",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at MUR 100.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Each at MUR 250.00",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at MUR 100.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 5 day(s), then MUR 75.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional MUR 1,695.00 / month"
+                }
+              },
+              {
+                "title": "Gold (Personal & Business)",
+                "monthly_price": {
+                  "amount": 3495.0,
+                  "currency": "MUR"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16683&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "yearly_price": {
+                  "amount": 40995.0,
+                  "currency": "MUR"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16683&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "16683",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 3495.0,
+                      "currency": "MUR"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16683&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'",
+                    "yearly_price": {
+                      "amount": 40995.0,
+                      "currency": "MUR"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16683&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at MUR 100.00",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at MUR 100.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Each at MUR 250.00",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at MUR 100.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 5 day(s), then MUR 75.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional MUR 3,495.00 / month"
+                }
+              },
+              {
+                "title": "Platinum (Corporate)",
+                "monthly_price": {
+                  "amount": 5495.0,
+                  "currency": "MUR"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16684&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "yearly_price": {
+                  "amount": 64995.0,
+                  "currency": "MUR"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16684&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "5"
+                },
+                "service_plan_id": "16684",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 5495.0,
+                      "currency": "MUR"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16684&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'",
+                    "yearly_price": {
+                      "amount": 64995.0,
+                      "currency": "MUR"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16684&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at MUR 30.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "MUR 250.00 per visit and first 1 visit(s) per month at no cost\nMUR 500.00 for every mail item and 5 item(s) per month at no cost\nPickup by appointment only",
+                  "Physical Storage": "Free storage for 5 day(s), then MUR 75.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "5\nEach additional MUR 8,495.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\niDeliverd #MAILBOX\nEbene, Port Louis Cybercity Ebene Heights 4th Floor\nEbene, 72201, Mauritius\nMauritius",
+              "street_address": "iDeliverd #MAILBOX",
+              "suite_info": "iDeliverd #MAILBOX",
+              "city_state_zip": "Ebene, 72201, Mauritius",
+              "country": "Mauritius",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx"
+              ],
+              "operator_info": {
+                "name": "iDeliverd Mauritius Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Mauritius"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:21:58.914990"
+}

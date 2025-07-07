@@ -1,0 +1,250 @@
+{
+  "state": "Slovakia",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b",
+    "cities": [
+      {
+        "city_name": "Slovakia",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 12.99,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "48.173165",
+            "longitude": "17.190964",
+            "plan_url": "https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 12.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15240&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                "yearly_price": {
+                  "amount": 129.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15240&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                "features": {
+                  "Incoming Mail": "Each at US$ 0.49",
+                  "Open & Scan": "Each at US$ 0.49",
+                  "Forwarding": "Each at US$ 2.99",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "15240",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 12.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15240&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                    "yearly_price": {
+                      "amount": 129.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15240&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'"
+                  },
+                  "Incoming Mail": "Each at US$ 0.49",
+                  "Open & Scan": "Each at US$ 0.49\nEach page at US$ 0.49",
+                  "Forwarding": "Each at US$ 2.99\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Each at US$ 0.49",
+                  "Shredding": "Each at US$ 0.49",
+                  "Local Pickup": "US$ 4.99 per visit\nUS$ 1.99 for each Standard Envelope\nUS$ 6.99 for each Small Box\nUS$ 7.99 for each Medium Box\nUS$ 8.99 for each Large Box\nUS$ 1.99 for each of all other mail\nPickup by appointment only",
+                  "Physical Storage": "Small Box: Free storage for 1 day(s), then US$ 9.99 for every mail item per month\nMedium Box: Free storage for 1 day(s), then US$ 14.99 for every mail item per month\nLarge Box: Free storage for 1 day(s), then US$ 19.99 for every mail item per month\nAll other mail: Free storage for 1 day(s), then US$ 0.49 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 12.99 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 19.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15241&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                "yearly_price": {
+                  "amount": 199.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15241&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 / month",
+                  "Forwarding": "1 / month",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "15241",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 19.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15241&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                    "yearly_price": {
+                      "amount": 199.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15241&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.50",
+                  "Open & Scan": "10 / month\nEach additional at US$ 0.50\n10 pages / month\nEach additional page at US$ 0.50\n10 pages / request\nEach additional page at US$ 0.50",
+                  "Forwarding": "1 / month\nEach additional at US$ 3.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Each at US$ 0.50",
+                  "Shredding": "Each at US$ 0.50",
+                  "Local Pickup": "US$ 4.99 per visit\nUS$ 4.99 for each Small Box\nUS$ 4.99 for each Medium Box\nUS$ 4.99 for each Large Box\nPickup by appointment only",
+                  "Physical Storage": "Small Box: Free storage for 1 day(s), then US$ 4.99 for every mail item per month\nMedium Box: Free storage for 1 day(s), then US$ 9.99 for every mail item per month\nLarge Box: Free storage for 1 day(s), then US$ 14.99 for every mail item per month\nAll other mail: Free storage for 5 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.99 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15242&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15242&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "1 / month",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "15242",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15242&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15242&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "1 / month\nEach additional at US$ 2.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup by appointment only",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15243&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15243&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "1 / month",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "15243",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15243&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15243&siftsessionid=175156342001748580nfjxy94x9n&firstpagehit=https://www.anytimemailbox.com/s/ruzinov-ivanska-cesta-30b'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "1 / month\nEach additional at US$ 2.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup by appointment only",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nAircraft Sport House\n\n\nIvanska cesta 30/D\nBratislava, 82104\nSlovakia",
+              "street_address": "Aircraft Sport House",
+              "suite_info": "",
+              "city_state_zip": "Bratislava, 82104",
+              "country": "Slovakia",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Slovak Virtual MailBox Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Slovakia"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:23:59.679970"
+}

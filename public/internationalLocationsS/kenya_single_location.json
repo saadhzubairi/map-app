@@ -1,0 +1,248 @@
+{
+  "state": "Kenya",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor",
+    "cities": [
+      {
+        "city_name": "Kenya",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 4379.0,
+              "currency": "KES"
+            },
+            "address": "",
+            "latitude": "-1.299829",
+            "longitude": "36.812762",
+            "plan_url": "https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze (Personal)",
+                "monthly_price": {
+                  "amount": 4379.0,
+                  "currency": "KES"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16516&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                "yearly_price": {
+                  "amount": 52549.0,
+                  "currency": "KES"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16516&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "Each page at KES 75.00",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "16516",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 4379.0,
+                      "currency": "KES"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16516&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                    "yearly_price": {
+                      "amount": 52549.0,
+                      "currency": "KES"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16516&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at KES 75.00",
+                  "Open & Scan": "Unlimited\nEach page at KES 75.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at KES 75.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 30 day(s), then KES 188.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional KES 3,379.00 / month"
+                }
+              },
+              {
+                "title": "Silver (Professional)",
+                "monthly_price": {
+                  "amount": 6569.0,
+                  "currency": "KES"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16517&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                "yearly_price": {
+                  "amount": 78829.0,
+                  "currency": "KES"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16517&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "16517",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 6569.0,
+                      "currency": "KES"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16517&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                    "yearly_price": {
+                      "amount": 78829.0,
+                      "currency": "KES"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16517&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at KES 75.00",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at KES 75.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at KES 75.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 30 day(s), then KES 188.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional KES 5,569.00 / month"
+                }
+              },
+              {
+                "title": "Gold (Personal & Business)",
+                "monthly_price": {
+                  "amount": 11796.0,
+                  "currency": "KES"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16518&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                "yearly_price": {
+                  "amount": 141552.0,
+                  "currency": "KES"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16518&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "16518",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 11796.0,
+                      "currency": "KES"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16518&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                    "yearly_price": {
+                      "amount": 141552.0,
+                      "currency": "KES"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16518&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at KES 75.00",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at KES 75.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at KES 75.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 30 day(s), then KES 188.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional KES 5,995.00 / month"
+                }
+              },
+              {
+                "title": "Platinum (Corporate)",
+                "monthly_price": {
+                  "amount": 34526.0,
+                  "currency": "KES"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16519&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                "yearly_price": {
+                  "amount": 414312.0,
+                  "currency": "KES"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16519&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "5"
+                },
+                "service_plan_id": "16519",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 34526.0,
+                      "currency": "KES"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16519&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'",
+                    "yearly_price": {
+                      "amount": 414312.0,
+                      "currency": "KES"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16519&siftsessionid=175156321191251880ag7awxp6fcg&firstpagehit=https://www.anytimemailbox.com/s/upperhill-britam-towers-4th-ffloor'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at KES 75.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "KES 595.00 per visit and first 1 visit(s) per month at no cost\nKES 595.00 for every mail item\nPickup upon request",
+                  "Physical Storage": "Free storage for 30 day(s), then KES 188.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "5\nEach additional KES 2,795.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\niDeliverd #MAILBOX\nBritam Towers, 24th Floor\nUpperhill, Nairobi 00100\nKenya\nKenya",
+              "street_address": "iDeliverd #MAILBOX",
+              "suite_info": "iDeliverd #MAILBOX",
+              "city_state_zip": "Kenya",
+              "country": "Kenya",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx"
+              ],
+              "operator_info": {
+                "name": "iDeliverd Kenya Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Kenya"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:20:33.062216"
+}

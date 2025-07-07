@@ -1,0 +1,248 @@
+{
+  "state": "Egypt",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi",
+    "cities": [
+      {
+        "city_name": "Egypt",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 595.0,
+              "currency": "EGP"
+            },
+            "address": "",
+            "latitude": "29.965",
+            "longitude": "31.2644",
+            "plan_url": "https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Personal",
+                "monthly_price": {
+                  "amount": 595.0,
+                  "currency": "EGP"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14372&siftsessionid=175156309764283370jlpnbroq55'",
+                "yearly_price": {
+                  "amount": 7140.0,
+                  "currency": "EGP"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14372&siftsessionid=175156309764283370jlpnbroq55'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each at EGP 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "14372",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 595.0,
+                      "currency": "EGP"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14372&siftsessionid=175156309764283370jlpnbroq55&firstpagehit=https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi'",
+                    "yearly_price": {
+                      "amount": 7140.0,
+                      "currency": "EGP"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14372&siftsessionid=175156309764283370jlpnbroq55&firstpagehit=https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at EGP 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at EGP 0.50",
+                  "Forwarding": "Each at EGP 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at EGP 0.15",
+                  "Local Pickup": "EGP 100.00 per visit\nPickup upon request",
+                  "Physical Storage": "Free storage for 30 day(s), then EGP 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional EGP 395.00 / month"
+                }
+              },
+              {
+                "title": "Professional",
+                "monthly_price": {
+                  "amount": 795.0,
+                  "currency": "EGP"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14373&siftsessionid=175156309764283370jlpnbroq55'",
+                "yearly_price": {
+                  "amount": 9540.0,
+                  "currency": "EGP"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14373&siftsessionid=175156309764283370jlpnbroq55'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each at EGP 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "14373",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 795.0,
+                      "currency": "EGP"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14373&siftsessionid=175156309764283370jlpnbroq55&firstpagehit=https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi'",
+                    "yearly_price": {
+                      "amount": 9540.0,
+                      "currency": "EGP"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14373&siftsessionid=175156309764283370jlpnbroq55&firstpagehit=https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at EGP 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at EGP 0.50",
+                  "Forwarding": "Each at EGP 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at EGP 0.15",
+                  "Local Pickup": "EGP 100.00 per visit\nPickup upon request",
+                  "Physical Storage": "Free storage for 30 day(s), then EGP 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional EGP 395.00 / month"
+                }
+              },
+              {
+                "title": "Personal & Business",
+                "monthly_price": {
+                  "amount": 1195.0,
+                  "currency": "EGP"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14374&siftsessionid=175156309764283370jlpnbroq55'",
+                "yearly_price": {
+                  "amount": 14340.0,
+                  "currency": "EGP"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14374&siftsessionid=175156309764283370jlpnbroq55'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each at EGP 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "14374",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 1195.0,
+                      "currency": "EGP"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14374&siftsessionid=175156309764283370jlpnbroq55&firstpagehit=https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi'",
+                    "yearly_price": {
+                      "amount": 14340.0,
+                      "currency": "EGP"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14374&siftsessionid=175156309764283370jlpnbroq55&firstpagehit=https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at EGP 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at EGP 0.50",
+                  "Forwarding": "Each at EGP 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at EGP 0.15",
+                  "Local Pickup": "EGP 100.00 per visit and first 1 visit(s) per month at no cost\nPickup upon request",
+                  "Physical Storage": "Free storage for 30 day(s), then EGP 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional EGP 395.00 / month"
+                }
+              },
+              {
+                "title": "Corporate",
+                "monthly_price": {
+                  "amount": 2595.0,
+                  "currency": "EGP"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14375&siftsessionid=175156309764283370jlpnbroq55'",
+                "yearly_price": {
+                  "amount": 31140.0,
+                  "currency": "EGP"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14375&siftsessionid=175156309764283370jlpnbroq55'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each at EGP 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "14375",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 2595.0,
+                      "currency": "EGP"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14375&siftsessionid=175156309764283370jlpnbroq55&firstpagehit=https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi'",
+                    "yearly_price": {
+                      "amount": 31140.0,
+                      "currency": "EGP"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14375&siftsessionid=175156309764283370jlpnbroq55&firstpagehit=https://www.anytimemailbox.com/s/egypt-road-18-sarayat-el-maadi'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at EGP 0.50",
+                  "Forwarding": "Each at EGP 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "EGP 100.00 per visit and first 5 visit(s) per month at no cost\nPickup upon request",
+                  "Physical Storage": "Free storage for 30 day(s), then EGP 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional EGP 1,795.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nIDV No. #MAILBOX\nRoad 18, Sarayat El Maadi\nEgypt, Cairo 0000\nEgypt",
+              "street_address": "IDV No. #MAILBOX",
+              "suite_info": "IDV No. #MAILBOX",
+              "city_state_zip": "Egypt, Cairo 0000",
+              "country": "Egypt",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx"
+              ],
+              "operator_info": {
+                "name": "iDeliverd Egypt Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Egypt"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:18:35.455129"
+}

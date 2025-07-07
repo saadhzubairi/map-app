@@ -1,0 +1,249 @@
+{
+  "state": "Oman",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street",
+    "cities": [
+      {
+        "city_name": "Oman",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 50.0,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "23.5486296",
+            "longitude": "58.3988147",
+            "plan_url": "https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 50.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12281&siftsessionid=17515633598145960s8orl1eru4j'",
+                "yearly_price": {
+                  "amount": 600.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12281&siftsessionid=17515633598145960s8orl1eru4j'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 4.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "12281",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 50.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12281&siftsessionid=17515633598145960s8orl1eru4j&firstpagehit=https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street'",
+                    "yearly_price": {
+                      "amount": 600.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12281&siftsessionid=17515633598145960s8orl1eru4j&firstpagehit=https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 4.00",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 4.00",
+                  "Forwarding": "Each shipping bundle at US$ 4.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 4.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 5 day(s), then US$ 4.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 50.00 / month"
+                }
+              },
+              {
+                "title": "Professional",
+                "monthly_price": {
+                  "amount": 75.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12282&siftsessionid=17515633598145960s8orl1eru4j'",
+                "yearly_price": {
+                  "amount": 900.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12282&siftsessionid=17515633598145960s8orl1eru4j'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 4.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "12282",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 75.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12282&siftsessionid=17515633598145960s8orl1eru4j&firstpagehit=https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street'",
+                    "yearly_price": {
+                      "amount": 900.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12282&siftsessionid=17515633598145960s8orl1eru4j&firstpagehit=https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 4.00",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 4.00",
+                  "Forwarding": "Each shipping bundle at US$ 4.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 4.00",
+                  "Local Pickup": "US$ 10.00 per visit and first 1 visit(s) per month at no cost\nUS$ 4.00 for every mail item and 1 item(s) per month at no cost\nPickup by appointment only",
+                  "Physical Storage": "Free storage for 5 day(s), then US$ 4.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 75.00 / month"
+                }
+              },
+              {
+                "title": "Personal & Business",
+                "monthly_price": {
+                  "amount": 95.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12283&siftsessionid=17515633598145960s8orl1eru4j'",
+                "yearly_price": {
+                  "amount": 1140.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12283&siftsessionid=17515633598145960s8orl1eru4j'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 4.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "12283",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 95.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12283&siftsessionid=17515633598145960s8orl1eru4j&firstpagehit=https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street'",
+                    "yearly_price": {
+                      "amount": 1140.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12283&siftsessionid=17515633598145960s8orl1eru4j&firstpagehit=https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 4.00",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 4.00",
+                  "Forwarding": "Each shipping bundle at US$ 4.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 4.00",
+                  "Local Pickup": "US$ 10.00 per visit and first 2 visit(s) per month at no cost\nUS$ 4.00 for every mail item and 1 item(s) per month at no cost\nPickup by appointment only",
+                  "Physical Storage": "Free storage for 5 day(s), then US$ 4.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 95.00 / month"
+                }
+              },
+              {
+                "title": "Corporate",
+                "monthly_price": {
+                  "amount": 125.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12284&siftsessionid=17515633598145960s8orl1eru4j'",
+                "yearly_price": {
+                  "amount": 1500.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12284&siftsessionid=17515633598145960s8orl1eru4j'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 4.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "12284",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 125.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12284&siftsessionid=17515633598145960s8orl1eru4j&firstpagehit=https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street'",
+                    "yearly_price": {
+                      "amount": 1500.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12284&siftsessionid=17515633598145960s8orl1eru4j&firstpagehit=https://www.anytimemailbox.com/s/muscat-25-dohat-al-adab-street'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 4.00",
+                  "Forwarding": "Each shipping bundle at US$ 4.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 10.00 per visit and first 10 visit(s) per month at no cost\nUS$ 4.00 for every mail item and 1 item(s) per month at no cost\nPickup by appointment only",
+                  "Physical Storage": "Free storage for 5 day(s), then US$ 4.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 125.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\niDeliverd #MAILBOX\n25 Dohat Al Adab St\nMuscat, Muttrah 125\nOman",
+              "street_address": "iDeliverd #MAILBOX",
+              "suite_info": "iDeliverd #MAILBOX",
+              "city_state_zip": "Muscat, Muttrah 125",
+              "country": "Oman",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "iDeliverd Oman Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Oman"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:22:59.977000"
+}

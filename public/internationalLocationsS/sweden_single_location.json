@@ -1,0 +1,206 @@
+{
+  "state": "Sweden",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10",
+    "cities": [
+      {
+        "city_name": "Sweden",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 120.0,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "59.3309982",
+            "longitude": "18.0483111",
+            "plan_url": "https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 120.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18243&siftsessionid=175156348117789180zepcasobrh'",
+                "yearly_price": {
+                  "amount": 1070.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18243&siftsessionid=175156348117789180zepcasobrh'",
+                "features": {
+                  "Incoming Mail": "2 / month",
+                  "Open & Scan": "2 pages / month",
+                  "Forwarding": "Each shipping bundle at Kr 20.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "18243",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 120.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18243&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'",
+                    "yearly_price": {
+                      "amount": 1070.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18243&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'"
+                  },
+                  "Incoming Mail": "2 / month\nEach additional at Kr 10.00",
+                  "Open & Scan": "Unlimited\n2 pages / month\nEach additional page at Kr 1.00",
+                  "Forwarding": "Each shipping bundle at Kr 20.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "2 / month\nEach additional at Kr 1.00",
+                  "Local Pickup": "Kr 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 10 day(s), then Kr 5.00 for every mail item per day\nSmall Box: Free storage for 10 day(s), then Kr 10.00 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then Kr 20.00 for every mail item per day\nCrate: Free storage for 2 day(s), then Kr 50.00 for every mail item per day\nAll other mail: Free storage for 10 day(s), then Kr 5.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional Kr 20.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 220.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18244&siftsessionid=175156348117789180zepcasobrh'",
+                "yearly_price": {
+                  "amount": 2190.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18244&siftsessionid=175156348117789180zepcasobrh'",
+                "features": {
+                  "Incoming Mail": "20 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at Kr 20.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "18244",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 220.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18244&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'",
+                    "yearly_price": {
+                      "amount": 2190.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18244&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'"
+                  },
+                  "Incoming Mail": "20 / month\nEach additional at Kr 7.00",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at Kr 1.00",
+                  "Forwarding": "Each shipping bundle at Kr 20.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "20 / month\nEach additional at Kr 1.00",
+                  "Local Pickup": "Kr 2.00 per visit and first 20 visit(s) per month at no cost\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 20 day(s), then Kr 5.00 for every mail item per day\nSmall Box: Free storage for 20 day(s), then Kr 5.00 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then Kr 20.00 for every mail item per day\nCrate: Free storage for 5 day(s), then Kr 50.00 for every mail item per day\nAll other mail: Free storage for 20 day(s), then Kr 5.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional Kr 30.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 350.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18245&siftsessionid=175156348117789180zepcasobrh'",
+                "yearly_price": {
+                  "amount": 3500.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18245&siftsessionid=175156348117789180zepcasobrh'",
+                "features": {
+                  "Incoming Mail": "80 / month",
+                  "Open & Scan": "40 pages / month",
+                  "Forwarding": "Each shipping bundle at Kr 20.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "18245",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 350.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18245&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'",
+                    "yearly_price": {
+                      "amount": 3500.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18245&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'"
+                  },
+                  "Incoming Mail": "80 / month\nEach additional at Kr 7.00",
+                  "Open & Scan": "Unlimited\n40 pages / month\nEach additional page at Kr 1.00",
+                  "Forwarding": "Each shipping bundle at Kr 20.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "50 / month\nEach additional at Kr 1.00",
+                  "Local Pickup": "Kr 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Kr 5.00 for every mail item per day\nSmall Box: Free storage for 30 day(s), then Kr 10.00 for every mail item per day\nExtra Large Box: Free storage for 15 day(s), then Kr 20.00 for every mail item per day\nCrate: Free storage for 7 day(s), then Kr 50.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then Kr 5.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional Kr 30.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nKungsholmsgatan 10\nUnit #MAILBOX\nStockholm, 112 27\nSweden",
+              "street_address": "Kungsholmsgatan 10",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Stockholm, 112 27",
+              "country": "Sweden",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Mail Boxes Etc. Kungsholmen Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Sweden"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:24:57.274218"
+}

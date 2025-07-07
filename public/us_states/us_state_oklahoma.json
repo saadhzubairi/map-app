@@ -1,0 +1,2625 @@
+{
+  "state": "Oklahoma",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/l/usa/oklahoma",
+    "cities": [
+      {
+        "city_name": "Bethany",
+        "locations": [
+          {
+            "title": "Bethany",
+            "price": {
+              "amount": 15.0,
+              "currency": "USD"
+            },
+            "address": "7916 NW 23rd Street\nBethany, OK 73008",
+            "latitude": "35.49335",
+            "longitude": "-97.65219",
+            "plan_url": "https://www.anytimemailbox.com/s/bethany-7916-nw-23rd-street",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 15.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7617&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 165.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7617&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "7617",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 15.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7617&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 165.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7617&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 18.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7618&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 198.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7618&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "7618",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 18.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7618&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 198.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7618&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7619&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7619&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "7619",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7619&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7619&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7620&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7620&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "5"
+                },
+                "service_plan_id": "7620",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7620&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7620&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "5\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n7916 NW 23rd Street\nUnit #MAILBOX\nBethany, OK 73008\nUnited States",
+              "street_address": "7916 NW 23rd Street",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Bethany, OK 73008",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": false
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL",
+                "Ship with USPS"
+              ],
+              "operator_info": {
+                "name": "The Mail Drop",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      },
+      {
+        "city_name": "Edmond",
+        "locations": [
+          {
+            "title": "Edmond - Danforth Rd",
+            "price": {
+              "amount": 9.99,
+              "currency": "USD"
+            },
+            "address": "820 W Danforth Rd\nEdmond, OK 73003",
+            "latitude": "35.6663789",
+            "longitude": "-97.4941472",
+            "plan_url": "https://www.anytimemailbox.com/s/edmond-820-w-danforth-road",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 9.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14869&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 109.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14869&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "14869",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 9.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14869&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 109.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14869&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "5 / month\nEach additional at US$ 0.50",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 1.00",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.05 for every mail item per day\nSmall Box: Free storage for 30 day(s), then US$ 0.30 for every mail item per day\nMedium Box: Free storage for 30 day(s), then US$ 0.40 for every mail item per day\nLarge Box: Free storage for 30 day(s), then US$ 0.80 for every mail item per day\nExtra Large Box: Free storage for 20 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 7 day(s), then US$ 6.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14870&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14870&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "14870",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14870&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14870&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "5 / month\nEach additional at US$ 0.50",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 1.00",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.05 for every mail item per day\nSmall Box: Free storage for 30 day(s), then US$ 0.30 for every mail item per day\nMedium Box: Free storage for 30 day(s), then US$ 0.40 for every mail item per day\nLarge Box: Free storage for 30 day(s), then US$ 0.80 for every mail item per day\nExtra Large Box: Free storage for 20 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 7 day(s), then US$ 6.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14871&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14871&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "14871",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14871&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14871&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "5 / month\nEach additional at US$ 0.50",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 1.00",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.05 for every mail item per day\nSmall Box: Free storage for 30 day(s), then US$ 0.30 for every mail item per day\nMedium Box: Free storage for 30 day(s), then US$ 0.40 for every mail item per day\nLarge Box: Free storage for 30 day(s), then US$ 0.80 for every mail item per day\nExtra Large Box: Free storage for 20 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 7 day(s), then US$ 6.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14872&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14872&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "14872",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=14872&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=14872&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "5 / month\nEach additional at US$ 0.50",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.05 for every mail item per day\nSmall Box: Free storage for 30 day(s), then US$ 0.30 for every mail item per day\nMedium Box: Free storage for 30 day(s), then US$ 0.40 for every mail item per day\nLarge Box: Free storage for 30 day(s), then US$ 0.80 for every mail item per day\nExtra Large Box: Free storage for 20 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 7 day(s), then US$ 6.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n820 W Danforth Rd\nUnit #MAILBOX\nEdmond, OK 73003\nUnited States",
+              "street_address": "820 W Danforth Rd",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Edmond, OK 73003",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": true
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Edmond Parcels Plus",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      },
+      {
+        "city_name": "Moore",
+        "locations": [
+          {
+            "title": "Moore",
+            "price": {
+              "amount": 9.99,
+              "currency": "USD"
+            },
+            "address": "519 SW 4th St\nMoore, OK 73160",
+            "latitude": "35.33465",
+            "longitude": "-97.494073",
+            "plan_url": "https://www.anytimemailbox.com/s/moore-519-sw-4th-street",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 9.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26961&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 109.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26961&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "15 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "26961",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 9.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26961&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 109.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26961&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "15 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.50",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nSmall Box: Free storage for 5 day(s), then US$ 0.20 for every mail item per day\nMedium Box: Free storage for 5 day(s), then US$ 0.35 for every mail item per day\nLarge Box: Free storage for 5 day(s), then US$ 0.50 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then US$ 0.75 for every mail item per day\nMailing Tube: Free storage for 5 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 2 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.15 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26962&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26962&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "26962",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26962&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26962&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.50",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nSmall Box: Free storage for 5 day(s), then US$ 0.20 for every mail item per day\nMedium Box: Free storage for 5 day(s), then US$ 0.35 for every mail item per day\nLarge Box: Free storage for 5 day(s), then US$ 0.50 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then US$ 0.75 for every mail item per day\nMailing Tube: Free storage for 5 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 2 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.15 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26963&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26963&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "26963",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26963&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26963&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.50",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nSmall Box: Free storage for 5 day(s), then US$ 0.20 for every mail item per day\nMedium Box: Free storage for 5 day(s), then US$ 0.35 for every mail item per day\nLarge Box: Free storage for 5 day(s), then US$ 0.50 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then US$ 0.75 for every mail item per day\nMailing Tube: Free storage for 5 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 2 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.15 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26964&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26964&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "26964",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26964&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26964&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nSmall Box: Free storage for 5 day(s), then US$ 0.20 for every mail item per day\nMedium Box: Free storage for 5 day(s), then US$ 0.35 for every mail item per day\nLarge Box: Free storage for 5 day(s), then US$ 0.50 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then US$ 0.75 for every mail item per day\nMailing Tube: Free storage for 5 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 2 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.15 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n519 SW 4th St\nSte 105 #MAILBOX\nMoore, OK 73160\nUnited States",
+              "street_address": "519 SW 4th St",
+              "suite_info": "Ste 105 #MAILBOX",
+              "city_state_zip": "Moore, OK 73160",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": false
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Moore Pack & Ship Express",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      },
+      {
+        "city_name": "Mustang",
+        "locations": [
+          {
+            "title": "Mustang",
+            "price": {
+              "amount": 11.99,
+              "currency": "USD"
+            },
+            "address": "210 N Mustang Mall Ter\nMustang, OK 73064",
+            "latitude": "35.3932616",
+            "longitude": "-97.7030623",
+            "plan_url": "https://www.anytimemailbox.com/s/mustang-210-n-mustang-mall-terrace",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 11.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27292&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 129.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27292&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "27292",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 11.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27292&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 129.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27292&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then US$ 0.50 for every mail item per day\nMedium Box: Free storage for 7 day(s), then US$ 0.75 for every mail item per day\nLarge Box: Free storage for 7 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27293&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27293&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "27293",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27293&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27293&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then US$ 0.50 for every mail item per day\nMedium Box: Free storage for 7 day(s), then US$ 0.75 for every mail item per day\nLarge Box: Free storage for 7 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27294&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27294&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "27294",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27294&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27294&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then US$ 0.50 for every mail item per day\nMedium Box: Free storage for 7 day(s), then US$ 0.75 for every mail item per day\nLarge Box: Free storage for 7 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27295&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27295&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "27295",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27295&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27295&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then US$ 0.50 for every mail item per day\nMedium Box: Free storage for 7 day(s), then US$ 0.75 for every mail item per day\nLarge Box: Free storage for 7 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n210 N Mustang Mall Ter\nUnit #MAILBOX\nMustang, OK 73064\nUnited States",
+              "street_address": "210 N Mustang Mall Ter",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Mustang, OK 73064",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": false
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS"
+              ],
+              "operator_info": {
+                "name": "Ship It Sooner",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      },
+      {
+        "city_name": "Oklahoma City",
+        "locations": [
+          {
+            "title": "Oklahoma City - MacArthur Blvd",
+            "price": {
+              "amount": 14.99,
+              "currency": "USD"
+            },
+            "address": "12220 N MacArthur Blvd\nOklahoma City, OK 73162",
+            "latitude": "35.5939326",
+            "longitude": "-97.6187926",
+            "plan_url": "https://www.anytimemailbox.com/s/oklahoma-city-12220-n-macarthur-blvd",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=13753&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=13753&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "13753",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=13753&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=13753&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=13754&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=13754&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "13754",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=13754&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=13754&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=13755&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=13755&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "13755",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=13755&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=13755&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n12220 N MacArthur Blvd\nSte F #MAILBOX\nOklahoma City, OK 73162\nUnited States",
+              "street_address": "12220 N MacArthur Blvd",
+              "suite_info": "Ste F #MAILBOX",
+              "city_state_zip": "Oklahoma City, OK 73162",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": false
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Postal Annex #18024",
+                "verified": true
+              }
+            }
+          },
+          {
+            "title": "Oklahoma City - Western Ave (6608)",
+            "price": {
+              "amount": 9.99,
+              "currency": "USD"
+            },
+            "address": "6608 N Western Ave\nOklahoma City, OK 73116",
+            "latitude": "35.5393826",
+            "longitude": "-97.5293242",
+            "plan_url": "https://www.anytimemailbox.com/s/oklahoma-city-6608-n-western-avenue",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 9.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12960&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 109.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12960&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each at US$ 2.50",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "12960",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 9.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12960&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 109.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12960&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 2.00\n2 pages / request\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each at US$ 2.50\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 2.25",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Small Box: Free storage for 30 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 15 day(s), then US$ 0.35 for every mail item per day\nLarge Box: Free storage for 15 day(s), then US$ 0.50 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then US$ 0.75 for every mail item per day\nCrate: Free storage for 5 day(s), then US$ 5.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12961&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12961&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each at US$ 2.50",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "12961",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12961&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12961&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50\n10 pages / request\nEach additional page at US$ 0.25",
+                  "Forwarding": "Each at US$ 2.50\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 2.25",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.50 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12962&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12962&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each at US$ 2.50",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "12962",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12962&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12962&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each at US$ 2.50\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 2.25",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12963&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12963&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each at US$ 2.50",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "12963",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12963&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12963&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each at US$ 2.50\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n6608 N Western Ave\n#MAILBOX\nOklahoma City, OK 73116\nUnited States",
+              "street_address": "6608 N Western Ave",
+              "suite_info": "#MAILBOX",
+              "city_state_zip": "Oklahoma City, OK 73116",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": false
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL",
+                "Ship with USPS"
+              ],
+              "operator_info": {
+                "name": "NICHOLS HILLS PACK AND SHIP",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 2
+      },
+      {
+        "city_name": "Stillwater",
+        "locations": [
+          {
+            "title": "Stillwater - Main St",
+            "price": {
+              "amount": 9.97,
+              "currency": "USD"
+            },
+            "address": "901 S Main St\nStillwater, OK 74074",
+            "latitude": "36.1121942",
+            "longitude": "-97.0583054",
+            "plan_url": "https://www.anytimemailbox.com/s/stillwater-901-s-main-street",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Add on - Physical Mailbox",
+                "monthly_price": {
+                  "amount": 9.97,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20739&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 109.97,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20739&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Each page at US$ 0.50",
+                  "Forwarding": "Each at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "20739",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 9.97,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20739&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 109.97,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20739&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\nEach page at US$ 0.50",
+                  "Forwarding": "Each at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.10",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 9.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20735&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 109.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20735&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "20735",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 9.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20735&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 109.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20735&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20736&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20736&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "20736",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20736&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20736&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20737&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20737&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "20737",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20737&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20737&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20738&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20738&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "20738",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20738&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20738&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n901 S Main St\nUnit #MAILBOX\nStillwater, OK 74074\nUnited States",
+              "street_address": "901 S Main St",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Stillwater, OK 74074",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": false
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS"
+              ],
+              "operator_info": {
+                "name": "WorkIT Coworking Center, LLC",
+                "verified": true
+              }
+            }
+          },
+          {
+            "title": "Stillwater - Washington St",
+            "price": {
+              "amount": 9.99,
+              "currency": "USD"
+            },
+            "address": "601 S Washington St\nStillwater, OK 74074",
+            "latitude": "36.115343",
+            "longitude": "-97.068985",
+            "plan_url": "https://www.anytimemailbox.com/s/stillwater-601-s-washington-street",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 9.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18055&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 109.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18055&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "18055",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 9.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18055&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 109.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18055&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 15 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 15 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 15 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 15 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18056&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18056&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "18056",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18056&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18056&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 15 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 15 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 15 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 15 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18057&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18057&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "18057",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18057&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18057&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18058&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18058&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "18058",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18058&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18058&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n601 S Washington St\nUnit #MAILBOX\nStillwater, OK 74074\nUnited States",
+              "street_address": "601 S Washington St",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Stillwater, OK 74074",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": false
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Postal Pack & Ship Plus",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 2
+      },
+      {
+        "city_name": "Tulsa",
+        "locations": [
+          {
+            "title": "Tulsa - 129th Ave",
+            "price": {
+              "amount": 9.99,
+              "currency": "USD"
+            },
+            "address": "3171 S 129th E Ave\nTulsa, OK 74134",
+            "latitude": "36.1179742",
+            "longitude": "-95.8327303",
+            "plan_url": "https://www.anytimemailbox.com/s/tulsa-3171-s-129th-e-avenue",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 9.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20864&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 109.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20864&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "20864",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 9.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20864&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 109.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20864&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Each at US$ 6.50",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.25",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20865&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20865&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "20865",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20865&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20865&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Each at US$ 6.50",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.25",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20866&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20866&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "20866",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20866&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20866&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Each at US$ 6.50",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.25",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20867&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20867&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "20867",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20867&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20867&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Each at US$ 6.50",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.15 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n3171 S 129th E Ave\nSte A #MAILBOX\nTulsa, OK 74134\nUnited States",
+              "street_address": "3171 S 129th E Ave",
+              "suite_info": "Ste A #MAILBOX",
+              "city_state_zip": "Tulsa, OK 74134",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": true
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Mail World Office",
+                "verified": true
+              }
+            }
+          },
+          {
+            "title": "Tulsa - 91st St",
+            "price": {
+              "amount": 11.99,
+              "currency": "USD"
+            },
+            "address": "4785 E 91st St\nTulsa, OK 74137",
+            "latitude": "36.0322705",
+            "longitude": "-95.9239353",
+            "plan_url": "https://www.anytimemailbox.com/s/tulsa-4785-e-91st-street",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 11.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27242&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 129.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27242&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "27242",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 11.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27242&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 129.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27242&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then US$ 0.50 for every mail item per day\nMedium Box: Free storage for 7 day(s), then US$ 0.75 for every mail item per day\nLarge Box: Free storage for 7 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27243&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 164.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27243&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each at US$ 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "27243",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27243&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 164.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27243&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 1.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then US$ 0.50 for every mail item per day\nMedium Box: Free storage for 7 day(s), then US$ 0.75 for every mail item per day\nLarge Box: Free storage for 7 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27244&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 329.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27244&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "27244",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27244&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 329.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27244&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then US$ 0.50 for every mail item per day\nMedium Box: Free storage for 7 day(s), then US$ 0.75 for every mail item per day\nLarge Box: Free storage for 7 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27245&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27245&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "27245",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=27245&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=27245&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 7 day(s), then US$ 0.50 for every mail item per day\nMedium Box: Free storage for 7 day(s), then US$ 0.75 for every mail item per day\nLarge Box: Free storage for 7 day(s), then US$ 1.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then US$ 1.50 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n4785 E 91st St\nSte A #MAILBOX\nTulsa, OK 74137\nUnited States",
+              "street_address": "4785 E 91st St",
+              "suite_info": "Ste A #MAILBOX",
+              "city_state_zip": "Tulsa, OK 74137",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": false
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Stork Shipping",
+                "verified": true
+              }
+            }
+          },
+          {
+            "title": "Tulsa - Yale Ave",
+            "price": {
+              "amount": 10.99,
+              "currency": "USD"
+            },
+            "address": "430 S Yale Ave\nTulsa, OK 74112",
+            "latitude": "36.1548659",
+            "longitude": "-95.9225249",
+            "plan_url": "https://www.anytimemailbox.com/s/tulsa-430-s-yale-avenue",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 10.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24111&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 131.88,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24111&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "24111",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 10.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24111&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 131.88,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24111&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 0.75",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.75\n5 pages / request\nEach additional page at US$ 0.75",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Each at US$ 30.00",
+                  "Recycling": "Each at US$ 0.15",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 5.00 per visit and first 1 visit(s) per month at no cost\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 15.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24112&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 191.88,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24112&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "24112",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 15.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24112&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 191.88,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24112&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 0.75",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.75\n10 pages / request\nEach additional page at US$ 0.75",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Each at US$ 30.00",
+                  "Recycling": "Each at US$ 0.15",
+                  "Shredding": "Each at US$ 0.15",
+                  "Local Pickup": "US$ 5.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 30.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24113&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 371.88,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24113&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 6.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "24113",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 30.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24113&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 371.88,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24113&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 0.75",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.75\n20 pages / request\nEach additional page at US$ 0.75",
+                  "Forwarding": "Each shipping bundle at US$ 6.00\nShipping fees will apply",
+                  "Check Deposit": "Each at US$ 30.00",
+                  "Recycling": "Each at US$ 0.05",
+                  "Shredding": "Each at US$ 0.10",
+                  "Local Pickup": "US$ 5.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional US$ 10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 69.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24114&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "yearly_price": {
+                  "amount": 659.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24114&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "24114",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 69.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24114&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'",
+                    "yearly_price": {
+                      "amount": 659.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24114&siftsessionid=1751485869175653804de7w1i5atz&firstpagehit=https://www.anytimemailbox.com/locations'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Each at US$ 15.00",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 5.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional US$ 10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\n430 S Yale Ave\nUnit #MAILBOX\nTulsa, OK 74112\nUnited States",
+              "street_address": "430 S Yale Ave",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Tulsa, OK 74112",
+              "country": "United States",
+              "features": [
+                {
+                  "name": "Open & Scan",
+                  "available": true
+                },
+                {
+                  "name": "Recycling",
+                  "available": true
+                },
+                {
+                  "name": "Forwarding",
+                  "available": true
+                },
+                {
+                  "name": "Shredding",
+                  "available": true
+                },
+                {
+                  "name": "Check Deposit",
+                  "available": true
+                },
+                {
+                  "name": "Local Pickup",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with USPS",
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "The Mail Center Tulsa",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 3
+      }
+    ],
+    "state_name": "Oklahoma"
+  },
+  "total_locations": 11,
+  "scraped_at": "2025-07-02T15:54:03.078638"
+}

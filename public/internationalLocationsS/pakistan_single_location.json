@@ -1,0 +1,249 @@
+{
+  "state": "Pakistan",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall",
+    "cities": [
+      {
+        "city_name": "Pakistan",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 4999.0,
+              "currency": "PKR"
+            },
+            "address": "",
+            "latitude": "33.6678401",
+            "longitude": "72.9969336",
+            "plan_url": "https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 4999.0,
+                  "currency": "PKR"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15437&siftsessionid=17515633899117112041akupge1jk'",
+                "yearly_price": {
+                  "amount": 49999.0,
+                  "currency": "PKR"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15437&siftsessionid=17515633899117112041akupge1jk'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at PKR 850.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "15437",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 4999.0,
+                      "currency": "PKR"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15437&siftsessionid=17515633899117112041akupge1jk&firstpagehit=https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall'",
+                    "yearly_price": {
+                      "amount": 49999.0,
+                      "currency": "PKR"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15437&siftsessionid=17515633899117112041akupge1jk&firstpagehit=https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at PKR 59.99",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at PKR 85.00",
+                  "Forwarding": "Each shipping bundle at PKR 850.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at PKR 25.15",
+                  "Local Pickup": "PKR 678.30 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then PKR 39.99 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional PKR 1,999.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 5999.0,
+                  "currency": "PKR"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15438&siftsessionid=17515633899117112041akupge1jk'",
+                "yearly_price": {
+                  "amount": 64999.0,
+                  "currency": "PKR"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15438&siftsessionid=17515633899117112041akupge1jk'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at PKR 850.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "15438",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 5999.0,
+                      "currency": "PKR"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15438&siftsessionid=17515633899117112041akupge1jk&firstpagehit=https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall'",
+                    "yearly_price": {
+                      "amount": 64999.0,
+                      "currency": "PKR"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15438&siftsessionid=17515633899117112041akupge1jk&firstpagehit=https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at PKR 59.99",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at PKR 85.00",
+                  "Forwarding": "Each shipping bundle at PKR 850.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at PKR 25.15",
+                  "Local Pickup": "PKR 678.30 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then PKR 39.99 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional PKR 1,599.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 7999.0,
+                  "currency": "PKR"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15439&siftsessionid=17515633899117112041akupge1jk'",
+                "yearly_price": {
+                  "amount": 84999.0,
+                  "currency": "PKR"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15439&siftsessionid=17515633899117112041akupge1jk'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at PKR 850.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "15439",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 7999.0,
+                      "currency": "PKR"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15439&siftsessionid=17515633899117112041akupge1jk&firstpagehit=https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall'",
+                    "yearly_price": {
+                      "amount": 84999.0,
+                      "currency": "PKR"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15439&siftsessionid=17515633899117112041akupge1jk&firstpagehit=https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at PKR 59.99",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at PKR 85.00",
+                  "Forwarding": "Each shipping bundle at PKR 850.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at PKR 25.15",
+                  "Local Pickup": "PKR 678.30 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then PKR 25.50 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional PKR 1,499.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 9799.0,
+                  "currency": "PKR"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15440&siftsessionid=17515633899117112041akupge1jk'",
+                "yearly_price": {
+                  "amount": 104999.0,
+                  "currency": "PKR"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15440&siftsessionid=17515633899117112041akupge1jk'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at PKR 850.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "15440",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 9799.0,
+                      "currency": "PKR"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15440&siftsessionid=17515633899117112041akupge1jk&firstpagehit=https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall'",
+                    "yearly_price": {
+                      "amount": 104999.0,
+                      "currency": "PKR"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15440&siftsessionid=17515633899117112041akupge1jk&firstpagehit=https://www.anytimemailbox.com/s/islamabad-office-no-61-lower-ground-al-anayat-mall'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at PKR 59.99",
+                  "Forwarding": "Each shipping bundle at PKR 850.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "PKR 375.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then PKR 19.99 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional PKR 1,399.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nOffice No 12 2nd Floor SCS Mall\nNew City Phase II Wah\nWah, Islamabad 47040\nRegistration Number MAILBOX\nPakistan",
+              "street_address": "Office No 12 2nd Floor SCS Mall",
+              "suite_info": "Registration Number MAILBOX",
+              "city_state_zip": "Registration Number MAILBOX",
+              "country": "Pakistan",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "AMSHIVE WORK SPACE Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Pakistan"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:23:29.137823"
+}

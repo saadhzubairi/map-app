@@ -18,6 +18,10 @@ import Overlay from 'ol/Overlay';
 import Feature from 'ol/Feature';
 import type { Feature as FeatureType } from 'ol';
 import type Geometry from 'ol/geom/Geometry';
+import LocationModal from './LocationModal';
+import LocationCard from './LocationCard';
+import ControlPanel from './ControlPanel';
+import CustomMapLayout from './CustomMapLayout';
 
 interface Location {
   price: string;
@@ -54,37 +58,80 @@ interface MapProps {
 // --- MAP STYLE CONFIGURATION ---
 const MAP_STYLE = {
   // Map background color
-  backgroundColor: '#f8fafc', // Tailwind slate-50
+  backgroundColor: '#fafafa', // Tailwind slate-50
 
   // State border
   stateBorderColor: '#666',
   stateBorderWidth: 0.5,
 
   // State fill
-  stateFillColor: '#ffefd6', // almost transparent
+  stateFillColor: '#eceff1', // almost transparent
 
   // State label
   stateLabelColor: '#222',
   stateLabelFont: 'bold 14px sans-serif',
-  stateLabelStrokeColor: '#fff',
+  stateLabelStrokeColor: '#78909c',
   stateLabelStrokeWidth: 1,
 
-  // Pin icon SVG color (main fill)
-  pinColor: '#fa851e', // Tailwind blue-500
-  pinBorderColor: '#823f05', // Tailwind blue-900
+  pinColor: '#43a047',
+  pinBorderColor: '#1b5e20', 
 };
+
+// Helper to get all state JSON filenames
+const STATE_JSONS = [
+  'us_state_alabama.json', 'us_state_alaska.json', 'us_state_arizona.json', 'us_state_arkansas.json', 'us_state_california.json', 'us_state_colorado.json', 'us_state_connecticut.json', 'us_state_delaware.json', 'us_state_florida.json', 'us_state_georgia.json', 'us_state_hawaii.json', 'us_state_idaho.json', 'us_state_illinois.json', 'us_state_indiana.json', 'us_state_iowa.json', 'us_state_kansas.json', 'us_state_kentucky.json', 'us_state_louisiana.json', 'us_state_maine.json', 'us_state_maryland.json', 'us_state_massachusetts.json', 'us_state_michigan.json', 'us_state_minnesota.json', 'us_state_mississippi.json', 'us_state_missouri.json', 'us_state_montana.json', 'us_state_nebraska.json', 'us_state_nevada.json', 'us_state_new_hampshire.json', 'us_state_new_jersey.json', 'us_state_new_mexico.json', 'us_state_new_york.json', 'us_state_north_carolina.json', 'us_state_north_dakota.json', 'us_state_ohio.json', 'us_state_oklahoma.json', 'us_state_oregon.json', 'us_state_pennsylvania.json', 'us_state_rhode_island.json', 'us_state_south_carolina.json', 'us_state_south_dakota.json', 'us_state_tennessee.json', 'us_state_texas.json', 'us_state_utah.json', 'us_state_vermont.json', 'us_state_virginia.json', 'us_state_washington.json', 'us_state_west_virginia.json', 'us_state_wisconsin.json', 'us_state_wyoming.json',
+];
+
+// New Location type for per-state JSONs
+interface Plan {
+  title: string;
+  monthly_price: { amount: number; currency: string };
+  yearly_price: { amount: number; currency: string };
+  features: Record<string, string>;
+  detailed_features: Record<string, any>;
+  service_plan_id: string;
+}
+interface LocationInfo {
+  address_title: string;
+  address_text: string;
+  street_address: string;
+  suite_info: string;
+  city_state_zip: string;
+  country: string;
+  features: Array<{ name: string; available: boolean }>;
+  shipping_carriers: string[];
+  operator_info: { name: string; verified: boolean };
+}
+export interface StateLocation {
+  title: string;
+  price: { amount: number; currency: string };
+  address: string;
+  latitude: string;
+  longitude: string;
+  plan_url: string;
+  is_premier: boolean;
+  plans: Plan[];
+  location_info: LocationInfo;
+}
+
+const INTL_SINGLE_FILES = [
+  'austria_single_location.json', 'belgium_single_location.json', 'colombia_single_location.json', 'cyprus_single_location.json', 'denmark_single_location.json', 'egypt_single_location.json', 'hungary_single_location.json', 'india_single_location.json', 'italy_single_location.json', 'kenya_single_location.json', 'lithuania_single_location.json', 'malta_single_location.json', 'mauritius_single_location.json', 'netherlands_single_location.json', 'oman_single_location.json', 'pakistan_single_location.json', 'slovakia_single_location.json', 'slovenia_single_location.json', 'sweden_single_location.json', 'taiwan_single_location.json', 'thailand_single_location.json', 'united_arab_emirates_single_location.json', 'zambia_single_location.json',
+];
+const INTL_MULTI_FILES = [
+  'australia_multi_locations.json', 'brazil_multi_locations.json', 'bulgaria_multi_locations.json', 'canada_multi_locations.json', 'caribbean_multi_locations.json', 'china_multi_locations.json', 'croatia_multi_locations.json', 'czech_republic_multi_locations.json', 'france_multi_locations.json', 'greece_multi_locations.json', 'hong_kong_multi_locations.json', 'indonesia_multi_locations.json', 'ireland_multi_locations.json', 'malaysia_multi_locations.json', 'mexico_multi_locations.json', 'nigeria_multi_locations.json', 'philippines_multi_locations.json', 'portugal_multi_locations.json', 'romania_multi_locations.json', 'singapore_multi_locations.json', 'south_africa_multi_locations.json', 'spain_multi_locations.json', 'switzerland_multi_locations.json',
+];
 
 export default function MapComponent({ className = '' }: MapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<Map | null>(null);
-  const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
-  const [locations, setLocations] = useState<Array<{ feature: FeatureType<Geometry>; location: Location; cityName: string; stateName: string }>>([]);
+  const [selectedLocation, setSelectedLocation] = useState<StateLocation | null>(null);
+  const [locations, setLocations] = useState<Array<{ feature: FeatureType<Geometry>; location: StateLocation; cityName: string; stateName: string }>>([]);
   const [selectedState, setSelectedState] = useState<string | null>(null);
   const [states, setStates] = useState<string[]>([]);
   const [showAllStates, setShowAllStates] = useState(true);
   const [stateVectorSource, setStateVectorSource] = useState<VectorSource | null>(null);
   const [tooltipLocation, setTooltipLocation] = useState<{ x: number; y: number } | null>(null);
-  const [hoveredLocation, setHoveredLocation] = useState<Location | null>(null);
+  const [hoveredLocation, setHoveredLocation] = useState<StateLocation | null>(null);
   const [filteredPins, setFilteredPins] = useState<typeof locations>([]);
   const [mapLocked, setMapLocked] = useState(false);
   const [highlightedCard, setHighlightedCard] = useState<string | null>(null);
@@ -94,6 +141,10 @@ export default function MapComponent({ className = '' }: MapProps) {
   const cardRefs = useRef<{ [address: string]: HTMLDivElement | null }>({});
   const [mapView, setMapView] = useState<View | null>(null);
   const [stateExtent, setStateExtent] = useState<number[] | null>(null);
+  const [mode, setMode] = useState<'US' | 'International'>('US');
+  const [intlLocations, setIntlLocations] = useState<Array<{ feature: FeatureType<Geometry>; location: StateLocation; country: string; city?: string; region?: string }>>([]);
+  const [intlCountries, setIntlCountries] = useState<string[]>([]);
+  const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
 
   // Load US states GeoJSON and set up the vector source
   useEffect(() => {
@@ -111,49 +162,58 @@ export default function MapComponent({ className = '' }: MapProps) {
       });
   }, []);
 
-  // Load mailbox locations
+  // Load all state JSONs and flatten locations
   useEffect(() => {
-    const loadLocations = async () => {
+    const loadAllStates = async () => {
       try {
-        const response = await fetch('/anytime_mailbox_locations.json');
-        const data: MapData = await response.json();
-        const allLocations: Array<{ feature: FeatureType<Geometry>; location: Location; cityName: string; stateName: string }> = [];
-        Object.entries(data.states).forEach(([stateName, stateData]) => {
-          Object.entries(stateData.cities).forEach(([cityName, location]) => {
-            if (location.latitude && location.longitude) {
-              const feature = new Feature({
-                geometry: new Point(fromLonLat([parseFloat(location.longitude), parseFloat(location.latitude)])),
-                name: cityName,
-                state: stateName,
-                location: location
-              });
-              feature.setStyle(new Style({
-                image: new Icon({
-                  anchor: [0.5, 1],
-                  src: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="${MAP_STYLE.pinColor}" stroke="${MAP_STYLE.pinBorderColor}" stroke-width="2"/>
-                      <circle cx="12" cy="9" r="2.5" fill="white"/>
-                    </svg>
-                  `)
-                })
-              }));
-              allLocations.push({ feature, location, cityName, stateName });
+        const allLocations: Array<{ feature: FeatureType<Geometry>; location: StateLocation; cityName: string; stateName: string }> = [];
+        await Promise.all(
+          STATE_JSONS.map(async (filename) => {
+            const res = await fetch(`/us_states/${filename}`);
+            if (!res.ok) return;
+            const data = await res.json();
+            const stateName = data.state;
+            const stateData = data.state_data;
+            if (!stateData || !stateData.cities) return;
+            for (const city of stateData.cities) {
+              const cityName = city.city_name;
+              for (const location of city.locations) {
+                if (location.latitude && location.longitude) {
+                  const feature = new Feature({
+                    geometry: new Point(fromLonLat([parseFloat(location.longitude), parseFloat(location.latitude)])),
+                    name: cityName,
+                    state: stateName,
+                    location: location
+                  });
+                  feature.setStyle(new Style({
+                    image: new Icon({
+                      anchor: [0.5, 1],
+                      src: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="${MAP_STYLE.pinColor}" stroke="${MAP_STYLE.pinBorderColor}" stroke-width="2"/>
+                          <circle cx="12" cy="9" r="2.5" fill="white"/>
+                        </svg>
+                      `)
+                    })
+                  }));
+                  allLocations.push({ feature, location, cityName, stateName });
+                }
+              }
             }
-          });
-        });
+          })
+        );
         setLocations(allLocations);
-      } catch (error) {
-        console.error('Error loading locations:', error);
+      } catch (err) {
+        console.error('Error loading state locations:', err);
       }
     };
-    loadLocations();
+    loadAllStates();
   }, []);
 
   // Filter pins by state
   useEffect(() => {
     if (!selectedState) {
-      setFilteredPins(locations);
+      setFilteredPins([]);
       setMapLocked(false);
     } else {
       setFilteredPins(locations.filter(l => l.stateName === selectedState));
@@ -163,51 +223,63 @@ export default function MapComponent({ className = '' }: MapProps) {
 
   // Set up the map
   useEffect(() => {
-    if (!mapRef.current || mapInstanceRef.current || !stateVectorSource) return;
+    if (!mapRef.current || mapInstanceRef.current) return;
 
     mapRef.current.style.background = MAP_STYLE.backgroundColor;
 
-    // State borders and labels layer
-    const stateLayer = new VectorLayer({
-      source: stateVectorSource,
-      style: feature => [
-        new Style({
-          stroke: new Stroke({ color: MAP_STYLE.stateBorderColor, width: MAP_STYLE.stateBorderWidth }),
-          fill: new Fill({ color: MAP_STYLE.stateFillColor })
-        }),
-        new Style({
-          text: new Text({
-            text: feature.get('NAME'),
-            font: MAP_STYLE.stateLabelFont,
-            fill: new Fill({ color: MAP_STYLE.stateLabelColor }),
-            stroke: new Stroke({ color: MAP_STYLE.stateLabelStrokeColor, width: MAP_STYLE.stateLabelStrokeWidth }),
+    // --- US State Layer ---
+    let stateLayer: VectorLayer<VectorSource> | null = null;
+    if (mode === 'US' && stateVectorSource) {
+      stateLayer = new VectorLayer({
+        source: stateVectorSource,
+        style: feature => [
+          new Style({
+            stroke: new Stroke({ color: MAP_STYLE.stateBorderColor, width: MAP_STYLE.stateBorderWidth }),
+            fill: new Fill({ color: MAP_STYLE.stateFillColor })
+          }),
+          new Style({
+            text: new Text({
+              text: feature.get('NAME'),
+              font: MAP_STYLE.stateLabelFont,
+              fill: new Fill({ color: MAP_STYLE.stateLabelColor }),
+              stroke: new Stroke({ color: MAP_STYLE.stateLabelStrokeColor, width: MAP_STYLE.stateLabelStrokeWidth }),
+            })
           })
-        })
-      ]
-    });
+        ]
+      });
+    }
 
-    // Mailbox pins layer (filtered)
+    // --- Pin Layer ---
     const pinSource = new VectorSource();
-    (selectedState ? locations.filter(l => l.stateName === selectedState) : locations).forEach(({ feature }) => pinSource.addFeature(feature));
+    if (mode === 'US') {
+      (selectedState ? locations.filter(l => l.stateName === selectedState) : locations).forEach(({ feature }) => pinSource.addFeature(feature));
+    } else if (mode === 'International') {
+      intlLocations.forEach(({ feature }) => pinSource.addFeature(feature));
+    }
     const pinLayer = new VectorLayer({ source: pinSource });
     pinLayerRef.current = pinLayer;
 
-    // Create map
+    // --- Map View ---
+    let center = fromLonLat([-98.5795, 39.8283]);
+    let zoom = 4;
+    if (mode === 'International') {
+      center = fromLonLat([10, 20]); // Center globally
+      zoom = 2;
+    }
     const view = new View({
-      center: fromLonLat([-98.5795, 39.8283]),
-      zoom: 4,
+      center,
+      zoom,
       enableRotation: false,
     });
     setMapView(view);
     const map = new Map({
       target: mapRef.current,
-      layers: [stateLayer, pinLayer],
+      layers: stateLayer ? [stateLayer, pinLayer] : [pinLayer],
       view,
       controls: [],
-      interactions: [] // We'll add interactions below
+      interactions: []
     });
 
-    // Add/Remove map interactions based on mapLocked
     import('ol/interaction').then(({ MouseWheelZoom, DoubleClickZoom, PinchZoom, DragPan }) => {
       map.addInteraction(new DragPan());
       map.addInteraction(new MouseWheelZoom());
@@ -233,16 +305,15 @@ export default function MapComponent({ className = '' }: MapProps) {
       setTooltipLocation(null);
     });
 
-    // --- Click logic for pin: scroll to card in list if state selected, else do nothing ---
+    // --- Click logic for pin ---
     map.on('click', (evt) => {
-      if (!selectedState) return; // Only active in state mode
+      if (mode === 'US' && !selectedState) return; // Only active in state mode
       if (map.hasFeatureAtPixel(evt.pixel)) {
         const features = map.getFeaturesAtPixel(evt.pixel);
         const pinFeature = features?.find(f => f.get('location'));
         if (pinFeature) {
           const location = pinFeature.get('location');
           setHighlightedCard(location.address);
-          // Scroll to card
           setTimeout(() => {
             const ref = cardRefs.current[location.address];
             if (ref) {
@@ -263,7 +334,7 @@ export default function MapComponent({ className = '' }: MapProps) {
         mapInstanceRef.current = null;
       }
     };
-  }, [stateVectorSource, locations, selectedState, mapLocked]);
+  }, [stateVectorSource, locations, selectedState, mapLocked, mode, intlLocations]);
 
   // --- Zoom and lock to state when selected ---
   useEffect(() => {
@@ -381,124 +452,176 @@ export default function MapComponent({ className = '' }: MapProps) {
     };
   }, [selectedLocation]);
 
-  // --- Layout: 3/4 map, 1/4 pane if state selected ---
+  // Pin click handler to open modal with tier info
+  const handlePinClick = (location: StateLocation) => {
+    setSelectedLocation(location);
+  };
+
+  // Load international locations (single + multi)
+  useEffect(() => {
+    if (mode !== 'International') return;
+    const loadIntl = async () => {
+      const allIntl: Array<{ feature: FeatureType<Geometry>; location: StateLocation; country: string; city?: string; region?: string }> = [];
+      const countrySet = new Set<string>();
+      // Single-location files
+      await Promise.all(
+        INTL_SINGLE_FILES.map(async (filename) => {
+          const res = await fetch(`/internationalLocationsS/${filename}`);
+          if (!res.ok) return;
+          const data = await res.json();
+          const country = data.state;
+          const stateData = data.state_data;
+          if (!stateData || !stateData.cities) return;
+          for (const city of stateData.cities) {
+            for (const location of city.locations) {
+              if (location.latitude && location.longitude) {
+                const feature = new Feature({
+                  geometry: new Point(fromLonLat([parseFloat(location.longitude), parseFloat(location.latitude)])),
+                  name: city.city_name,
+                  country,
+                  location
+                });
+                feature.setStyle(new Style({
+                  image: new Icon({
+                    anchor: [0.5, 1],
+                    src: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="${MAP_STYLE.pinColor}" stroke="${MAP_STYLE.pinBorderColor}" stroke-width="2"/>
+                        <circle cx="12" cy="9" r="2.5" fill="white"/>
+                      </svg>
+                    `)
+                  })
+                }));
+                allIntl.push({ feature, location, country, city: city.city_name });
+                countrySet.add(country);
+              }
+            }
+          }
+        })
+      );
+      // Multi-location files
+      await Promise.all(
+        INTL_MULTI_FILES.map(async (filename) => {
+          const res = await fetch(`/InternationalLocationsR/${filename}`);
+          if (!res.ok) return;
+          const data = await res.json();
+          const country = data.country;
+          if (!data.regions) return;
+          for (const region of data.regions) {
+            for (const location of region.locations) {
+              if (location.latitude && location.longitude) {
+                const feature = new Feature({
+                  geometry: new Point(fromLonLat([parseFloat(location.longitude), parseFloat(location.latitude)])),
+                  name: location.name || location.title || '',
+                  country,
+                  location
+                });
+                feature.setStyle(new Style({
+                  image: new Icon({
+                    anchor: [0.5, 1],
+                    src: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="${MAP_STYLE.pinColor}" stroke="${MAP_STYLE.pinBorderColor}" stroke-width="2"/>
+                        <circle cx="12" cy="9" r="2.5" fill="white"/>
+                      </svg>
+                    `)
+                  })
+                }));
+                allIntl.push({ feature, location, country, region: region.region });
+                countrySet.add(country);
+              }
+            }
+          }
+        })
+      );
+      setIntlLocations(allIntl);
+      setIntlCountries(Array.from(countrySet).sort());
+    };
+    loadIntl();
+  }, [mode]);
+
+  // Add before the render/return statement:
+  const filteredIntlPins: Array<{ feature: FeatureType<Geometry>; location: StateLocation; country: string; city?: string; region?: string }> = selectedCountry ? intlLocations.filter(l => l.country === selectedCountry) : intlLocations;
+
+  // --- Layout: 3/4 map, 1/4 pane if state/country selected ---
   return (
-    <div className={className} style={{ display: 'flex', flexDirection: 'row', position: 'relative', width: '100%' }}>
-      {/* Side pane with list of cards for selected state */}
-      {selectedState && (
-        <div className="h-[600px] bg-white border-r border-gray-200 overflow-y-auto p-4" style={{ width: '25%', minWidth: 260, maxWidth: 400 }}>
-          <h2 className="font-bold text-lg mb-4">{selectedState} Locations</h2>
-          {filteredPins.length === 0 && <div className="text-gray-500 text-sm">No locations found.</div>}
-          {filteredPins.map(({ location, cityName }, idx) => (
-            <div
-              key={cityName + idx}
-              ref={el => { cardRefs.current[location.address] = el; }}
-              className={`mb-4 p-3 rounded-lg border border-gray-200 shadow hover:shadow-md bg-orange-50 cursor-pointer transition ${highlightedCard === location.address ? 'ring-2 ring-orange-500' : ''}`}
-              onClick={() => setHighlightedCard(location.address)}
-            >
-              <div className="font-semibold text-gray-900 text-base mb-1">{location.address.split(',')[0]}</div>
-              <div className="text-xs text-gray-600 mb-1">{location.address}</div>
-              <div className="text-orange-600 font-medium text-xs mb-1">{location.price}</div>
-              {location.badges.length > 0 && (
-                <div className="flex flex-wrap gap-1 mb-1">
-                  {location.badges.map((badge, i) => (
-                    <span key={i} className="inline-block bg-orange-100 text-orange-800 text-[10px] px-2 py-0.5 rounded-full">{badge}</span>
-                  ))}
-                </div>
-              )}
-              <a
-                href={location.plan_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-orange-600 text-white text-xs px-2 py-1 rounded hover:bg-orange-700 transition-colors mt-1"
-                onClick={e => e.stopPropagation()}
-              >View Details</a>
-            </div>
-          ))}
-        </div>
-      )}
-      {/* Map area (3/4 or full width) */}
-      <div ref={mapContainerRef} style={{ width: selectedState ? '75%' : '100%', transition: 'width 0.3s' }}>
-        <div 
-          ref={mapRef} 
-          className="w-full h-[600px] rounded-lg shadow-lg relative"
-        />
-        {/* Tooltip Card (on pin hover) */}
-        {hoveredLocation && tooltipLocation && (
-          <div
-            ref={tooltipRef}
-            style={{
-              position: 'fixed',
-              left: tooltipLocation.x + 10,
-              top: tooltipLocation.y - 10,
-              zIndex: 1000,
-              pointerEvents: 'none',
-              minWidth: 220,
-              maxWidth: 320
-            }}
-            className="bg-white rounded-lg shadow-xl p-4 border border-gray-200 animate-fade-in"
-          >
-            <div className="flex justify-between items-start mb-2">
-              <h3 className="font-semibold text-gray-900 text-sm">
-                {hoveredLocation.address.split(',')[0]}
-              </h3>
-            </div>
-            <p className="text-gray-600 text-xs mb-2">
-              {hoveredLocation.address}
-            </p>
-            <p className="text-orange-600 font-medium text-sm mb-3">
-              {hoveredLocation.price}
-            </p>
-            {hoveredLocation.badges.length > 0 && (
-              <div className="flex flex-wrap gap-1 mb-3">
-                {hoveredLocation.badges.map((badge, index) => (
-                  <span 
-                    key={index}
-                    className="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full"
-                  >
-                    {badge}
-                  </span>
+    <div className={className + " min-h-screen w-full flex flex-col items-center justify-center bg-white"}>
+      {/* Main content row: sidebar + map */}
+      <div className="flex flex-row justify-center items-center w-full max-w-[1600px] mx-auto gap-8 flex-1 py-12">
+        {/* Sidebar */}
+        {((mode === 'US' && selectedState) || mode === 'International') && (
+          <div className="h-[700px] max-h-[80vh] w-[400px] shadow-xl rounded-2xl bg-white border border-gray-100 overflow-y-auto p-6 flex flex-col gap-4 justify-start">
+            <h2 className="font-extrabold text-2xl mb-2 text-center text-green-700 tracking-tight">
+              {mode === 'US' && selectedState ? `${selectedState} Locations` : selectedCountry ? `${selectedCountry} Locations` : 'International Locations'}
+            </h2>
+            {(mode === 'US' && selectedState && filteredPins.length === 0) || (mode === 'International' && filteredIntlPins.length === 0) ? (
+              <div className="text-gray-400 text-base text-center">No locations found.</div>
+            ) : (
+              <>
+                {(mode === 'US' && selectedState ? filteredPins : filteredIntlPins).map((item: any, idx: number) => (
+                  <LocationCard
+                    key={(item.location.address || item.location.title || item.country || item.city || item.region || '') + idx}
+                    location={item.location}
+                    country={item.country}
+                    city={item.city}
+                    region={item.region}
+                    mode={mode}
+                    selected={selectedLocation === item.location}
+                    onSelect={setSelectedLocation}
+                  />
                 ))}
-              </div>
+              </>
             )}
           </div>
         )}
+        {/* Map area */}
+        <CustomMapLayout mapRef={mapRef} mapContainerRef={mapContainerRef}>
+          {/* Tooltip and overlays can be added here if needed */}
+        </CustomMapLayout>
       </div>
-      {/* State Selection Control Panel - below the map, spaced lower */}
-      <div className="w-full flex flex-col items-center" style={{ position: 'absolute', left: 0, top: 'calc(100% + 32px)', width: '100%' }}>
-        <div className="w-full max-w-5xl bg-white rounded-lg shadow-xl p-4 border border-gray-200">
-          <div className="flex items-center justify-between mb-3">
-            <h3 className="font-semibold text-gray-900 text-sm">
-              {selectedState ? `Showing: ${selectedState}` : 'All States'}
-            </h3>
-            <button
-              onClick={() => { setHighlightedCard(null); focusOnState(null); }}
-              className={`text-xs px-3 py-1 rounded-full transition-colors ${
-                !selectedState 
-                  ? 'bg-orange-600 text-white' 
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
-            >
-              Show All
-            </button>
-          </div>
-          <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto justify-center">
-            {states.map((stateName) => (
-              <button
-                key={stateName}
-                onClick={() => { setHighlightedCard(null); focusOnState(stateName); }}
-                className={`text-xs px-3 py-2 rounded-full transition-colors border ${
-                  selectedState === stateName
-                    ? 'bg-orange-600 text-white border-orange-600'
-                    : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50 hover:border-gray-400'
-                }`}
-              >
-                {getStateAbbreviation(stateName)}
-              </button>
-            ))}
-          </div>
+      {/* Toggle below map, above control panel */}
+      <div className="w-full flex justify-center mt-2 mb-6 z-30">
+        <div className="flex items-center gap-4 bg-white rounded-full shadow-lg px-8 py-3 border border-gray-200">
+          <button
+            className={`px-6 py-2 rounded-full font-bold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 ${mode === 'US' ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+            onClick={() => setMode('US')}
+          >
+            US
+          </button>
+          <button
+            className={`px-6 py-2 rounded-full font-bold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 ${mode === 'International' ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+            onClick={() => setMode('International')}
+          >
+            International
+          </button>
         </div>
       </div>
+      {/* Country/State Selection Control Panel */}
+      {mode === 'International' && (
+        <ControlPanel
+          mode={mode}
+          items={intlCountries}
+          selected={selectedCountry}
+          onSelect={setSelectedCountry}
+          onShowAll={() => setSelectedCountry(null)}
+          label="All Countries"
+        />
+      )}
+      {mode === 'US' && (
+        <ControlPanel
+          mode={mode}
+          items={states}
+          selected={selectedState}
+          onSelect={(stateName) => { setHighlightedCard(null); focusOnState(stateName); }}
+          onShowAll={() => { setHighlightedCard(null); focusOnState(null); }}
+          label="All States"
+        />
+      )}
+      <LocationModal
+        location={selectedLocation}
+        isOpen={!!selectedLocation}
+        onClose={() => setSelectedLocation(null)}
+      />
     </div>
   );
 } 

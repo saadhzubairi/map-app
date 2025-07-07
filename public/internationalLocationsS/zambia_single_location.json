@@ -1,0 +1,249 @@
+{
+  "state": "Zambia",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road",
+    "cities": [
+      {
+        "city_name": "Zambia",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 19.0,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "-15.3930728",
+            "longitude": "28.3149316",
+            "plan_url": "https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Personal",
+                "monthly_price": {
+                  "amount": 19.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12275&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                "yearly_price": {
+                  "amount": 228.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12275&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "12275",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 19.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12275&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                    "yearly_price": {
+                      "amount": 228.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12275&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at US$ 5.00",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 5.00",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 5.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 5 day(s), then US$ 5.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 19.00 / month"
+                }
+              },
+              {
+                "title": "Professional",
+                "monthly_price": {
+                  "amount": 39.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12277&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                "yearly_price": {
+                  "amount": 468.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12277&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "12277",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 39.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12277&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                    "yearly_price": {
+                      "amount": 468.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12277&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at US$ 5.00",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 5.00",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 5.00",
+                  "Local Pickup": "US$ 5.00 per visit and first 1 visit(s) per month at no cost\nUS$ 5.00 for every mail item and 1 item(s) per month at no cost\nPickup upon request",
+                  "Physical Storage": "Free storage for 5 day(s), then US$ 5.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional US$ 39.00 / month"
+                }
+              },
+              {
+                "title": "Personal & Business",
+                "monthly_price": {
+                  "amount": 79.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12278&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                "yearly_price": {
+                  "amount": 948.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12278&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "12278",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 79.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12278&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                    "yearly_price": {
+                      "amount": 948.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12278&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at US$ 5.00",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 5.00",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at US$ 5.00",
+                  "Local Pickup": "US$ 5.00 per visit and first 2 visit(s) per month at no cost\nUS$ 5.00 for every mail item and 1 item(s) per month at no cost\nPickup upon request",
+                  "Physical Storage": "Free storage for 5 day(s), then US$ 5.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional US$ 79.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 125.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12279&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                "yearly_price": {
+                  "amount": 1500.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12279&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Each shipping bundle at US$ 5.00",
+                  "Recipients": "5"
+                },
+                "service_plan_id": "12279",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 125.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12279&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'",
+                    "yearly_price": {
+                      "amount": 1500.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12279&siftsessionid=175156359164664230ie6f0rxnike&firstpagehit=https://www.anytimemailbox.com/s/lusaka-plot-2374-great-east-road'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 5.00",
+                  "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                  "Check Deposit": "Unlimited",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "US$ 5.00 per visit and first 5 visit(s) per month at no cost\nUS$ 5.00 for every mail item and 1 item(s) per month at no cost\nPickup upon request",
+                  "Physical Storage": "Free storage for 5 day(s), then US$ 5.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "5\nEach additional US$ 125.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\niDeliverd #MAILBOX\nPlot #15584, 1 Katima Mulilo Road, 9th Floor, SunShare Towers, Lusaka, 00000, Zambia\nZambia",
+              "street_address": "iDeliverd #MAILBOX",
+              "suite_info": "iDeliverd #MAILBOX",
+              "city_state_zip": "Plot #15584, 1 Katima Mulilo Road, 9th Floor, SunShare Towers, Lusaka, 00000, Zambia",
+              "country": "Zambia",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "iDeliverd Mailbox Zambia Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Zambia"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:26:51.241327"
+}

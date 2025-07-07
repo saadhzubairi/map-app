@@ -1,0 +1,248 @@
+{
+  "state": "Slovenia",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7",
+    "cities": [
+      {
+        "city_name": "Slovenia",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 10.22,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "46.0552678",
+            "longitude": "14.5033584",
+            "plan_url": "https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 10.22,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24263&siftsessionid=175156345034953690btwwwfvfsj'",
+                "yearly_price": {
+                  "amount": 103.66,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24263&siftsessionid=175156345034953690btwwwfvfsj'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Unlimited",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "24263",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 10.22,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24263&siftsessionid=175156345034953690btwwwfvfsj&firstpagehit=https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7'",
+                    "yearly_price": {
+                      "amount": 103.66,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24263&siftsessionid=175156345034953690btwwwfvfsj&firstpagehit=https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at €0.30",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at €0.43",
+                  "Forwarding": "Unlimited\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at €0.14",
+                  "Local Pickup": "€1.73 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional €8.63 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 14.73,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24264&siftsessionid=175156345034953690btwwwfvfsj'",
+                "yearly_price": {
+                  "amount": 154.75,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24264&siftsessionid=175156345034953690btwwwfvfsj'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Unlimited",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "24264",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 14.73,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24264&siftsessionid=175156345034953690btwwwfvfsj&firstpagehit=https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7'",
+                    "yearly_price": {
+                      "amount": 154.75,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24264&siftsessionid=175156345034953690btwwwfvfsj&firstpagehit=https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at €0.30",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at €0.43",
+                  "Forwarding": "Unlimited\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at €0.14",
+                  "Local Pickup": "€1.73 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional €8.63 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 29.33,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24265&siftsessionid=175156345034953690btwwwfvfsj'",
+                "yearly_price": {
+                  "amount": 309.38,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24265&siftsessionid=175156345034953690btwwwfvfsj'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Unlimited",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "24265",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.33,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24265&siftsessionid=175156345034953690btwwwfvfsj&firstpagehit=https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7'",
+                    "yearly_price": {
+                      "amount": 309.38,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24265&siftsessionid=175156345034953690btwwwfvfsj&firstpagehit=https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at €0.30",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at €0.43",
+                  "Forwarding": "Unlimited\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at €0.14",
+                  "Local Pickup": "€1.73 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional €8.63 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 65.83,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24266&siftsessionid=175156345034953690btwwwfvfsj'",
+                "yearly_price": {
+                  "amount": 617.29,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24266&siftsessionid=175156345034953690btwwwfvfsj'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "Unlimited",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "24266",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 65.83,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=24266&siftsessionid=175156345034953690btwwwfvfsj&firstpagehit=https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7'",
+                    "yearly_price": {
+                      "amount": 617.29,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=24266&siftsessionid=175156345034953690btwwwfvfsj&firstpagehit=https://www.anytimemailbox.com/s/ljubljana-gosposvetska-cesta-7'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at €0.43",
+                  "Forwarding": "Unlimited\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "€1.73 per visit\nPickup during business hours",
+                  "Physical Storage": "Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional €8.63 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nUnit #MAILBOX\nGosposvetska cesta 7\n1000 Ljubljana, Slovenia\nSlovenia",
+              "street_address": "Unit #MAILBOX",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "1000 Ljubljana, Slovenia",
+              "country": "Slovenia",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Mail Boxes Etc. Slovenia Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Slovenia"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:24:30.010327"
+}

@@ -1,0 +1,207 @@
+{
+  "state": "Belgium",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/bruxelles-boulevard-du-regent-54",
+    "cities": [
+      {
+        "city_name": "Belgium",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 15.0,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "50.8484112",
+            "longitude": "4.368966",
+            "plan_url": "https://www.anytimemailbox.com/s/bruxelles-boulevard-du-regent-54",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 15.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12888&siftsessionid=175156300783387230riksitoutb'",
+                "yearly_price": {
+                  "amount": 165.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12888&siftsessionid=175156300783387230riksitoutb'",
+                "features": {
+                  "Incoming Mail": "2 / month",
+                  "Open & Scan": "2 pages / month",
+                  "Forwarding": "Each at €7.00",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "12888",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 15.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12888&siftsessionid=175156300783387230riksitoutb&firstpagehit=https://www.anytimemailbox.com/s/bruxelles-boulevard-du-regent-54'",
+                    "yearly_price": {
+                      "amount": 165.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12888&siftsessionid=175156300783387230riksitoutb&firstpagehit=https://www.anytimemailbox.com/s/bruxelles-boulevard-du-regent-54'"
+                  },
+                  "Incoming Mail": "2 / month\nEach additional at €1.50",
+                  "Open & Scan": "Unlimited\n2 pages / month\nEach additional page at €0.15",
+                  "Forwarding": "Each at €7.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "2 / month\nEach additional at €0.15",
+                  "Local Pickup": "€0.50 per visit and first 2 visit(s) per month at no cost\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 10 day(s), then €0.75 for every mail item per day\nSmall Box: Free storage for 10 day(s), then €1.50 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then €3.00 for every mail item per day\nCrate: Free storage for 2 day(s), then €7.50 for every mail item per month\nAll other mail: Free storage for 10 day(s), then €0.75 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional €3.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 30.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12889&siftsessionid=175156300783387230riksitoutb'",
+                "yearly_price": {
+                  "amount": 295.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12889&siftsessionid=175156300783387230riksitoutb'",
+                "features": {
+                  "Incoming Mail": "20 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each at €7.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "12889",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 30.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12889&siftsessionid=175156300783387230riksitoutb&firstpagehit=https://www.anytimemailbox.com/s/bruxelles-boulevard-du-regent-54'",
+                    "yearly_price": {
+                      "amount": 295.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12889&siftsessionid=175156300783387230riksitoutb&firstpagehit=https://www.anytimemailbox.com/s/bruxelles-boulevard-du-regent-54'"
+                  },
+                  "Incoming Mail": "20 / month\nEach additional at €1.00",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at €0.15",
+                  "Forwarding": "Each at €7.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "20 / month\nEach additional at €0.15",
+                  "Local Pickup": "€0.30 per visit and first 20 visit(s) per month at no cost\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 20 day(s), then €0.75 for every mail item per day\nSmall Box: Free storage for 20 day(s), then €0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then €3.00 for every mail item per day\nCrate: Free storage for 5 day(s), then €7.00 for every mail item per day\nAll other mail: Free storage for 20 day(s), then €0.75 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional €5.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 50.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12890&siftsessionid=175156300783387230riksitoutb'",
+                "yearly_price": {
+                  "amount": 500.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12890&siftsessionid=175156300783387230riksitoutb'",
+                "features": {
+                  "Incoming Mail": "100 / month",
+                  "Open & Scan": "50 pages / month",
+                  "Forwarding": "Each at €7.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "12890",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 50.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12890&siftsessionid=175156300783387230riksitoutb&firstpagehit=https://www.anytimemailbox.com/s/bruxelles-boulevard-du-regent-54'",
+                    "yearly_price": {
+                      "amount": 500.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12890&siftsessionid=175156300783387230riksitoutb&firstpagehit=https://www.anytimemailbox.com/s/bruxelles-boulevard-du-regent-54'"
+                  },
+                  "Incoming Mail": "100 / month\nEach additional at €1.00",
+                  "Open & Scan": "Unlimited\n50 pages / month\nEach additional page at €0.15",
+                  "Forwarding": "Each at €7.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "50 / month\nEach additional at €0.15",
+                  "Local Pickup": "€0.30 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then €0.75 for every mail item per day\nSmall Box: Free storage for 30 day(s), then €1.50 for every mail item per day\nExtra Large Box: Free storage for 15 day(s), then €3.00 for every mail item per month\nCrate: Free storage for 7 day(s), then €7.00 for every mail item per month\nAll other mail: Free storage for 30 day(s), then €0.75 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional €5.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nBoulevard du Régent 54\n#MAILBOX\n1000 Bruxelles, Belgium\nBelgium",
+              "street_address": "Boulevard du Régent 54",
+              "suite_info": "#MAILBOX",
+              "city_state_zip": "1000 Bruxelles, Belgium",
+              "country": "Belgium",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL",
+                "Ship with USPS"
+              ],
+              "operator_info": {
+                "name": "MBE Bruxelles Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Belgium"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:17:02.776213"
+}

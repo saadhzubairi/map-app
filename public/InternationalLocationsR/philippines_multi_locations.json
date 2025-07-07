@@ -1,0 +1,475 @@
+{
+  "country": "Philippines",
+  "regions": [
+    {
+      "region": "Direct Locations",
+      "locations": [
+        {
+          "title": "Bacolod City",
+          "price": {
+            "amount": 1000.0,
+            "currency": "USD"
+          },
+          "address": "",
+          "latitude": "10.6789137",
+          "longitude": "122.9539622",
+          "plan_url": "https://www.anytimemailbox.com/s/bacolod-2nd-flr-st-annes-bldg-lacson-st",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Virtual Address with Business Permit",
+              "monthly_price": {
+                "amount": 1000.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 10000.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26699&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26699&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Not available",
+                "Recipients": "1"
+              },
+              "detailed_features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Not available",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Unlimited",
+                "Local Pickup": "Unlimited\nPickup during business hours",
+                "Physical Storage": "Free storage for 30 day(s), then ₱30.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "1",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 1000.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26699&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 10000.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26699&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Bronze",
+              "monthly_price": {
+                "amount": 2499.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 24990.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22628&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22628&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "30 / month",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited",
+                "Recipients": "2"
+              },
+              "detailed_features": {
+                "Incoming Mail": "30 / month\nEach additional at ₱5.00",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at ₱10.00",
+                "Local Pickup": "Not available",
+                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "2\nEach additional ₱500.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 2499.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22628&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 24990.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22628&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Silver",
+              "monthly_price": {
+                "amount": 3499.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 34990.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22629&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22629&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "60 / month",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited",
+                "Recipients": "3"
+              },
+              "detailed_features": {
+                "Incoming Mail": "60 / month\nEach additional at ₱5.00",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at ₱10.00",
+                "Local Pickup": "Not available",
+                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "3\nEach additional ₱500.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 3499.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22629&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 34990.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22629&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Gold",
+              "monthly_price": {
+                "amount": 4999.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 49990.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22630&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22630&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "125 / month",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited",
+                "Recipients": "4"
+              },
+              "detailed_features": {
+                "Incoming Mail": "125 / month\nEach additional at ₱5.00",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at ₱10.00",
+                "Local Pickup": "Not available",
+                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional ₱10.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 4999.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22630&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 49990.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22630&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            },
+            {
+              "title": "Unlimited",
+              "monthly_price": {
+                "amount": 8999.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 99990.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22631&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22631&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited",
+                "Recipients": "5"
+              },
+              "detailed_features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Unlimited",
+                "Local Pickup": "Not available",
+                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "5\nEach additional ₱500.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 8999.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22631&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 99990.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22631&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nUnit AMAILBOX - 2nd Fl\nBacolod City, NEC Philippines 6100",
+            "street_address": "Unit AMAILBOX - 2nd Fl",
+            "suite_info": "Unit AMAILBOX - 2nd Fl",
+            "city_state_zip": "Unit AMAILBOX - 2nd Fl",
+            "country": "Bacolod City, NEC Philippines 6100",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with FedEx",
+              "Ship with UPS",
+              "Ship with DHL"
+            ],
+            "operator_info": {
+              "name": "Banwa CoWorking Space Verified",
+              "verified": true
+            }
+          },
+          "name": "Bacolod",
+          "region": "Bacolod"
+        },
+        {
+          "title": "Taguig",
+          "price": {
+            "amount": 0,
+            "currency": "USD"
+          },
+          "address": "",
+          "latitude": "14.556149",
+          "longitude": "121.0537",
+          "plan_url": "https://www.anytimemailbox.com/s/taguig-11th-flr-one-park-dr-bgc-9th-ave",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Bronze",
+              "monthly_price": {
+                "amount": 0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "",
+              "yearly_button_url": "",
+              "features": {
+                "Incoming Mail": "30 / month",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited",
+                "Recipients": "2"
+              },
+              "detailed_features": {
+                "Incoming Mail": "30 / month\nEach additional at ₱50.00",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Check Deposit": "Each at ₱250.00",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at ₱10.00",
+                "Local Pickup": "Not available",
+                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "2\nEach additional ₱500.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "",
+                  "yearly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": ""
+                }
+              }
+            },
+            {
+              "title": "Silver",
+              "monthly_price": {
+                "amount": 0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "",
+              "yearly_button_url": "",
+              "features": {
+                "Incoming Mail": "60 / month",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited",
+                "Recipients": "3"
+              },
+              "detailed_features": {
+                "Incoming Mail": "60 / month\nEach additional at ₱50.00",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Check Deposit": "Each at ₱250.00",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at ₱10.00",
+                "Local Pickup": "Not available",
+                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "3\nEach additional ₱500.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "",
+                  "yearly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": ""
+                }
+              }
+            },
+            {
+              "title": "Gold",
+              "monthly_price": {
+                "amount": 0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "",
+              "yearly_button_url": "",
+              "features": {
+                "Incoming Mail": "125 / month",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited",
+                "Recipients": "4"
+              },
+              "detailed_features": {
+                "Incoming Mail": "125 / month\nEach additional at ₱50.00",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Check Deposit": "Each at ₱250.00",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at ₱10.00",
+                "Local Pickup": "Not available",
+                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional ₱500.00 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "",
+                  "yearly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": ""
+                }
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\n11th Flr One Park Dr BGC, 9th Ave\nUnit 1101 #MAILBOX\nTaguig, NCR 1630\nPhilippines",
+            "street_address": "11th Flr One Park Dr BGC, 9th Ave",
+            "suite_info": "Unit 1101 #MAILBOX",
+            "city_state_zip": "Taguig, NCR 1630",
+            "country": "Philippines",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": true
+              },
+              {
+                "name": "Local Pickup",
+                "available": false
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with FedEx",
+              "Ship with UPS",
+              "Ship with DHL"
+            ],
+            "operator_info": {
+              "name": "Taskraft Verified",
+              "verified": true
+            }
+          },
+          "name": "Luzon",
+          "region": "Luzon"
+        }
+      ],
+      "location_count": 2
+    }
+  ],
+  "total_locations": 2,
+  "scraped_at": "2025-07-07T09:37:39.100985"
+}

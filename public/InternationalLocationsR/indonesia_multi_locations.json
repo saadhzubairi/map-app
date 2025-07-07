@@ -1,0 +1,315 @@
+{
+  "country": "Indonesia",
+  "regions": [
+    {
+      "region": "Direct Locations",
+      "locations": [
+        {
+          "title": "Balikpapan",
+          "price": {
+            "amount": 350000.0,
+            "currency": "USD"
+          },
+          "address": "",
+          "latitude": "-1.242274",
+          "longitude": "116.8888189",
+          "plan_url": "https://www.anytimemailbox.com/s/indonesia-balikpapan",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Unlimited",
+              "monthly_price": {
+                "amount": 350000.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 4200000.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26946&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26946&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Each shipping bundle at Rp 50,000",
+                "Recipients": "2"
+              },
+              "detailed_features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited\nEach page at Rp 2,000",
+                "Forwarding": "Each shipping bundle at Rp 50,000\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Unlimited",
+                "Local Pickup": "Unlimited\nPickup during business hours",
+                "Physical Storage": "Small Box: Free storage for 14 day(s), then Rp 5,000 for every mail item per day\nMedium Box: Free storage for 14 day(s), then Rp 10,000 for every mail item per day\nLarge Box: Free storage for 30 day(s), then Rp 15,000 for every mail item per day\nExtra Large Box: Free storage for 14 day(s), then Rp 20,000 for every mail item per day\nAll other mail: Free storage for 14 day(s), then Rp 1,000 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "2\nEach additional Rp 50,000 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 350000.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26946&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 4200000.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26946&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nJl. Syarifuddin Yoes Perum Sepinggan Pratama Ruko Blok SQ 2 No.9 RT.47\nKel.Sepinggan Baru. Kec.Balikpapan Selatan #MAILBOX\nBalikpapan, KI 76115\nIndonesia",
+            "street_address": "Jl. Syarifuddin Yoes Perum Sepinggan Pratama Ruko Blok SQ 2 No.9 RT.47",
+            "suite_info": "Kel.Sepinggan Baru. Kec.Balikpapan Selatan #MAILBOX",
+            "city_state_zip": "Balikpapan, KI 76115",
+            "country": "Indonesia",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with UPS"
+            ],
+            "operator_info": {
+              "name": "PT. Asta Bintang Karya Balikpapan Verified",
+              "verified": true
+            }
+          },
+          "name": "Balikpapan",
+          "region": "Balikpapan"
+        },
+        {
+          "title": "Yogyakarta",
+          "price": {
+            "amount": 350000.0,
+            "currency": "USD"
+          },
+          "address": "",
+          "latitude": "-7.7970769",
+          "longitude": "110.3249896",
+          "plan_url": "https://www.anytimemailbox.com/s/yogyakarta-jalan-gamping-tengah-13-gamping-lor-amb",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Unlimited",
+              "monthly_price": {
+                "amount": 350000.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 4200000.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26947&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26947&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Each shipping bundle at Rp 50,000",
+                "Recipients": "2"
+              },
+              "detailed_features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited\nEach page at Rp 2,000",
+                "Forwarding": "Each shipping bundle at Rp 50,000\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Unlimited",
+                "Local Pickup": "Unlimited\nPickup by appointment only",
+                "Physical Storage": "Small Box: Free storage for 14 day(s), then Rp 5,000 for every mail item per day\nMedium Box: Free storage for 14 day(s), then Rp 10,000 for every mail item per day\nLarge Box: Free storage for 14 day(s), then Rp 15,000 for every mail item per day\nExtra Large Box: Free storage for 14 day(s), then Rp 20,000 for every mail item per day\nAll other mail: Free storage for 14 day(s), then Rp 1,000 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "2\nEach additional Rp 50,000 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 350000.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26947&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 4200000.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26947&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nJl. Gamping Tengah No. 13, Gamping Lor, Ambarketawang, Kec. Gamping, Kabupaten Sleman\nUnit #MAILBOX\nYogyakarta, YO 55294\nIndonesia",
+            "street_address": "Jl. Gamping Tengah No. 13, Gamping Lor, Ambarketawang, Kec. Gamping, Kabupaten Sleman",
+            "suite_info": "Unit #MAILBOX",
+            "city_state_zip": "Yogyakarta, YO 55294",
+            "country": "Indonesia",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with UPS"
+            ],
+            "operator_info": {
+              "name": "PT. Asta Bumi Cipta - Yogyakarta Verified",
+              "verified": true
+            }
+          },
+          "name": "Daerah Istimewa",
+          "region": "Daerah Istimewa"
+        },
+        {
+          "title": "Central Jakarta - JL MH Thamrin",
+          "price": {
+            "amount": 350000.0,
+            "currency": "USD"
+          },
+          "address": "",
+          "latitude": "-6.190827",
+          "longitude": "106.823028",
+          "plan_url": "https://www.anytimemailbox.com/s/central-jakarta-jl-mh-thamrin-no20",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Unlimited",
+              "monthly_price": {
+                "amount": 350000.0,
+                "currency": "USD"
+              },
+              "yearly_price": {
+                "amount": 4200000.0,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18346&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18346&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Each shipping bundle at Rp 50,000",
+                "Recipients": "2"
+              },
+              "detailed_features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited\nEach page at Rp 2,000",
+                "Forwarding": "Each shipping bundle at Rp 50,000\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Unlimited",
+                "Local Pickup": "Unlimited\nPickup by appointment only",
+                "Physical Storage": "Small Box: Free storage for 14 day(s), then Rp 5,000 for every mail item per day\nMedium Box: Free storage for 14 day(s), then Rp 10,000 for every mail item per day\nLarge Box: Free storage for 14 day(s), then Rp 15,000 for every mail item per day\nExtra Large Box: Free storage for 14 day(s), then Rp 20,000 for every mail item per day\nAll other mail: Free storage for 14 day(s), then Rp 1,000 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "2\nEach additional Rp 50,000 / month",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 350000.0,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18346&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+                  "yearly_price": {
+                    "amount": 4200000.0,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18346&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
+                }
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nPT. Asta Bumi Cipta\n\n\nMailbox #MAILBOX\nJl. M.H. Thamrin No.9, RT.2/RW.1, Kelurahan Kebon Sirih, Kecamatan Menteng\nMenara Cakrawala 9th floor, North Wing, Unit 904\nCentral Jakarta, JK 10340\nIndonesia",
+            "street_address": "PT. Asta Bumi Cipta",
+            "suite_info": "Mailbox #MAILBOX",
+            "city_state_zip": "Central Jakarta, JK 10340",
+            "country": "Indonesia",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with FedEx",
+              "Ship with UPS",
+              "Ship with DHL"
+            ],
+            "operator_info": {
+              "name": "PT. Asta Bintang Karya Verified",
+              "verified": true
+            }
+          },
+          "name": "Jakarta",
+          "region": "Jakarta"
+        }
+      ],
+      "location_count": 3
+    }
+  ],
+  "total_locations": 3,
+  "scraped_at": "2025-07-07T09:25:40.478282"
+}

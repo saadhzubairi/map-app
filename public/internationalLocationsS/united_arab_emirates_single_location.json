@@ -1,0 +1,248 @@
+{
+  "state": "United Arab Emirates",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city",
+    "cities": [
+      {
+        "city_name": "United Arab Emirates",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 195.0,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "25.0429947",
+            "longitude": "55.221677",
+            "plan_url": "https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze (Personal)",
+                "monthly_price": {
+                  "amount": 195.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16511&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                "yearly_price": {
+                  "amount": 2340.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16511&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "16511",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 195.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16511&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                    "yearly_price": {
+                      "amount": 2340.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16511&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at Dhs 0.35",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at Dhs 10.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at Dhs 10.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 7 day(s), then Dhs 4.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional Dhs 195.00 / month"
+                }
+              },
+              {
+                "title": "Silver (Professional)",
+                "monthly_price": {
+                  "amount": 295.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16512&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                "yearly_price": {
+                  "amount": 3540.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16512&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                "features": {
+                  "Incoming Mail": "60 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "16512",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 295.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16512&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                    "yearly_price": {
+                      "amount": 3540.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16512&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'"
+                  },
+                  "Incoming Mail": "60 / month\nEach additional at Dhs 0.35",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at Dhs 10.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at Dhs 10.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 7 day(s), then Dhs 4.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional Dhs 195.00 / month"
+                }
+              },
+              {
+                "title": "Gold (Personal & Business)",
+                "monthly_price": {
+                  "amount": 595.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16513&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                "yearly_price": {
+                  "amount": 7140.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16513&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "16513",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 595.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16513&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                    "yearly_price": {
+                      "amount": 7140.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16513&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at Dhs 0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at Dhs 10.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at Dhs 10.00",
+                  "Local Pickup": "Not available",
+                  "Physical Storage": "Free storage for 7 day(s), then Dhs 4.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional Dhs 195.00 / month"
+                }
+              },
+              {
+                "title": "Platinum (Corporate)",
+                "monthly_price": {
+                  "amount": 895.0,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16514&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                "yearly_price": {
+                  "amount": 10740.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16514&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "100 pages / month",
+                  "Forwarding": "No handling fees",
+                  "Recipients": "5"
+                },
+                "service_plan_id": "16514",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 895.0,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16514&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'",
+                    "yearly_price": {
+                      "amount": 10740.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16514&siftsessionid=175156356069344870pbmndwzfbgj&firstpagehit=https://www.anytimemailbox.com/s/dubai-the-bridge-level-2-dubai-sports-city'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at Dhs 10.00",
+                  "Forwarding": "No handling fees\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Unlimited",
+                  "Local Pickup": "Dhs 100.00 per visit and first 1 visit(s) per month at no cost\nPickup upon request",
+                  "Physical Storage": "Free storage for 7 day(s), then Dhs 4.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "5\nEach additional Dhs 195.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\niDeliverd No.#MAILBOX\nThe Bridge, Level 2, Dubai Sports City. Dubai, 39226\nUnited Arabs Emirates\nUnited Arab Emirates",
+              "street_address": "iDeliverd No.#MAILBOX",
+              "suite_info": "iDeliverd No.#MAILBOX",
+              "city_state_zip": "United Arabs Emirates",
+              "country": "United Arab Emirates",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx"
+              ],
+              "operator_info": {
+                "name": "iDeliverd UAE Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "United Arab Emirates"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:26:20.850579"
+}

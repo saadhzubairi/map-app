@@ -1,0 +1,250 @@
+{
+  "state": "Italy",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/marghera-via-longhena-56",
+    "cities": [
+      {
+        "city_name": "Italy",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 29.95,
+              "currency": "USD"
+            },
+            "address": "",
+            "latitude": "45.480215",
+            "longitude": "12.2239728",
+            "plan_url": "https://www.anytimemailbox.com/s/marghera-via-longhena-56",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Bronze",
+                "monthly_price": {
+                  "amount": 29.95,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18348&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "yearly_price": {
+                  "amount": 133.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18348&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "features": {
+                  "Incoming Mail": "5 / month",
+                  "Open & Scan": "2 pages / month",
+                  "Forwarding": "1 shipping bundles / month",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "18348",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 29.95,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18348&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                    "yearly_price": {
+                      "amount": 133.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18348&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'"
+                  },
+                  "Incoming Mail": "5 / month\nEach additional at €0.35",
+                  "Open & Scan": "Unlimited\n2 pages / month\nEach additional page at €0.50",
+                  "Forwarding": "1 shipping bundles / month\nEach additional shipping bundle at €7.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Each at €0.10",
+                  "Shredding": "Each at €0.15",
+                  "Local Pickup": "€4.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 5 day(s), then €0.05 for every mail item per day\nLarge Envelope: Free storage for 5 day(s), then €0.10 for every mail item per day\nPadded Mailer: Free storage for 5 day(s), then €0.10 for every mail item per day\nSmall Box: Free storage for 5 day(s), then €0.10 for every mail item per day\nLarge Box: Free storage for 5 day(s), then €0.10 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then €0.20 for every mail item per day\nMailing Tube: Free storage for 5 day(s), then €0.25 for every mail item per day\nCrate: Free storage for 2 day(s), then €1.00 for every mail item per day\nAll other mail: Free storage for 5 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional €11.00 / month"
+                }
+              },
+              {
+                "title": "Silver",
+                "monthly_price": {
+                  "amount": 34.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18349&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "yearly_price": {
+                  "amount": 180.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18349&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "features": {
+                  "Incoming Mail": "10 / month",
+                  "Open & Scan": "2 / month",
+                  "Forwarding": "Each 2 shipping bundles or fraction thereof at €7.00",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "18349",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 34.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18349&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                    "yearly_price": {
+                      "amount": 180.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18349&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'"
+                  },
+                  "Incoming Mail": "10 / month\nEach additional at €0.35",
+                  "Open & Scan": "2 / month\nEach additional at €0.20\n10 pages / month\nEach additional page at €0.50\nEach page at €0.20",
+                  "Forwarding": "Each 2 shipping bundles or fraction thereof at €7.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Each at €0.15",
+                  "Shredding": "Each at €0.15",
+                  "Local Pickup": "€2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 6 day(s), then €0.05 for every mail item per day\nLarge Envelope: Free storage for 6 day(s), then €0.10 for every mail item per day\nPadded Mailer: Free storage for 6 day(s), then €0.10 for every mail item per day\nSmall Box: Free storage for 6 day(s), then €0.10 for every mail item per day\nMedium Box: Free storage for 5 day(s), then €0.10 for every mail item per day\nLarge Box: Free storage for 5 day(s), then €0.10 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then €0.10 for every mail item per day\nMailing Tube: Free storage for 5 day(s), then €0.25 for every mail item per day\nCrate: Free storage for 2 day(s), then €1.00 for every mail item per day\nAll other mail: Free storage for 6 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional €12.00 / month"
+                }
+              },
+              {
+                "title": "Gold",
+                "monthly_price": {
+                  "amount": 44.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18350&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "yearly_price": {
+                  "amount": 215.0,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18350&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "features": {
+                  "Incoming Mail": "125 / month",
+                  "Open & Scan": "20 pages / month",
+                  "Forwarding": "Each 3 shipping bundles or fraction thereof at €7.00",
+                  "Recipients": "3"
+                },
+                "service_plan_id": "18350",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 44.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18350&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                    "yearly_price": {
+                      "amount": 215.0,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18350&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'"
+                  },
+                  "Incoming Mail": "125 / month\nEach additional at €0.35",
+                  "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at €0.50",
+                  "Forwarding": "Each 3 shipping bundles or fraction thereof at €7.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at €0.15",
+                  "Local Pickup": "€2.00 per visit\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then €0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then €0.05 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then €0.05 for every mail item per day\nSmall Box: Free storage for 30 day(s), then €0.05 for every mail item per day\nMedium Box: Free storage for 5 day(s), then €0.05 for every mail item per day\nLarge Box: Free storage for 5 day(s), then €0.05 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then €0.05 for every mail item per day\nMailing Tube: Free storage for 5 day(s), then €0.25 for every mail item per day\nCrate: Free storage for 2 day(s), then €1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "3\nEach additional €10.00 / month"
+                }
+              },
+              {
+                "title": "Unlimited",
+                "monthly_price": {
+                  "amount": 84.99,
+                  "currency": "USD"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18351&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "yearly_price": {
+                  "amount": 677.99,
+                  "currency": "USD"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18351&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "features": {
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "50 pages / month",
+                  "Forwarding": "Each 2 shipping bundles or fraction thereof at €7.00",
+                  "Recipients": "4"
+                },
+                "service_plan_id": "18351",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 84.99,
+                      "currency": "USD"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18351&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                    "yearly_price": {
+                      "amount": 677.99,
+                      "currency": "USD"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18351&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'"
+                  },
+                  "Incoming Mail": "Unlimited",
+                  "Open & Scan": "Unlimited\n50 pages / month\nEach additional page at €0.50",
+                  "Forwarding": "Each 2 shipping bundles or fraction thereof at €7.00\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at €0.15",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then €0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then €0.05 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then €0.05 for every mail item per day\nSmall Box: Free storage for 30 day(s), then €0.05 for every mail item per day\nMedium Box: Free storage for 5 day(s), then €0.05 for every mail item per day\nLarge Box: Free storage for 5 day(s), then €0.05 for every mail item per day\nExtra Large Box: Free storage for 5 day(s), then €0.05 for every mail item per day\nMailing Tube: Free storage for 2 day(s), then €1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then €0.05 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "4\nEach additional €10.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nVia Longhena 1\nUnit #MAILBOX\nMarghera, VE 30175\nItaly",
+              "street_address": "Via Longhena 1",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Marghera, VE 30175",
+              "country": "Italy",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx",
+                "Ship with UPS",
+                "Ship with DHL"
+              ],
+              "operator_info": {
+                "name": "Arresources Enterprises Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Italy"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:20:00.194488"
+}

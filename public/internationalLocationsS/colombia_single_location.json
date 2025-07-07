@@ -1,0 +1,160 @@
+{
+  "state": "Colombia",
+  "state_data": {
+    "state_url": "https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50",
+    "cities": [
+      {
+        "city_name": "Colombia",
+        "locations": [
+          {
+            "title": "",
+            "price": {
+              "amount": 40000.0,
+              "currency": "COP"
+            },
+            "address": "",
+            "latitude": "4.9161346",
+            "longitude": "-74.024491",
+            "plan_url": "https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50",
+            "is_premier": false,
+            "plans": [
+              {
+                "title": "Personal",
+                "monthly_price": {
+                  "amount": 40000.0,
+                  "currency": "COP"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26566&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                "yearly_price": {
+                  "amount": 400000.0,
+                  "currency": "COP"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26566&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                "features": {
+                  "Incoming Mail": "20 / month",
+                  "Open & Scan": "5 pages / month",
+                  "Forwarding": "Unlimited",
+                  "Recipients": "1"
+                },
+                "service_plan_id": "26566",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 40000.0,
+                      "currency": "COP"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26566&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                    "yearly_price": {
+                      "amount": 400000.0,
+                      "currency": "COP"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26566&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'"
+                  },
+                  "Incoming Mail": "20 / month\nEach additional at COP 1,000.00",
+                  "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at COP 100.00",
+                  "Forwarding": "Unlimited\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at COP 100.00",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nLarge Envelope: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nPadded Mailer: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nSmall Box: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nMedium Box: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nLarge Box: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nMailing Tube: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nAll other mail: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "1\nEach additional COP 20,000.00 / month"
+                }
+              },
+              {
+                "title": "Business",
+                "monthly_price": {
+                  "amount": 80000.0,
+                  "currency": "COP"
+                },
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26567&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                "yearly_price": {
+                  "amount": 800000.0,
+                  "currency": "COP"
+                },
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26567&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                "features": {
+                  "Incoming Mail": "30 / month",
+                  "Open & Scan": "10 pages / month",
+                  "Forwarding": "Unlimited",
+                  "Recipients": "2"
+                },
+                "service_plan_id": "26567",
+                "detailed_features": {
+                  "pricing": {
+                    "monthly_price": {
+                      "amount": 80000.0,
+                      "currency": "COP"
+                    },
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26567&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                    "yearly_price": {
+                      "amount": 800000.0,
+                      "currency": "COP"
+                    },
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26567&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'"
+                  },
+                  "Incoming Mail": "30 / month\nEach additional at COP 1,000.00",
+                  "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at COP 100.00",
+                  "Forwarding": "Unlimited\nShipping fees will apply",
+                  "Check Deposit": "Not available",
+                  "Recycling": "Unlimited",
+                  "Shredding": "Each at COP 100.00",
+                  "Local Pickup": "Unlimited\nPickup during business hours",
+                  "Physical Storage": "Standard Envelope: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nLarge Envelope: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nPadded Mailer: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nSmall Box: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nMedium Box: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nLarge Box: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nExtra Large Box: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nMailing Tube: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day\nAll other mail: Free storage for 7 day(s), then COP 1,000.00 for every mail item per day",
+                  "Online Storage": "Unlimited",
+                  "Recipients": "2\nEach additional COP 20,000.00 / month"
+                }
+              }
+            ],
+            "location_info": {
+              "address_title": "Your Real Street Address",
+              "address_text": "YOUR NAME\nCarrera 3 #1-50 Unit #MAILBOX\nCajicá, Cundinamarca Colombia 240250",
+              "street_address": "Carrera 3 #1-50 Unit #MAILBOX",
+              "suite_info": "Carrera 3 #1-50 Unit #MAILBOX",
+              "city_state_zip": "Carrera 3 #1-50 Unit #MAILBOX",
+              "country": "Cajicá, Cundinamarca Colombia 240250",
+              "features": [
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": true
+                },
+                {
+                  "name": "",
+                  "available": false
+                },
+                {
+                  "name": "",
+                  "available": true
+                }
+              ],
+              "shipping_carriers": [
+                "Ship with FedEx"
+              ],
+              "operator_info": {
+                "name": "Homebox Storage Verified",
+                "verified": true
+              }
+            }
+          }
+        ],
+        "location_count": 1
+      }
+    ],
+    "state_name": "Colombia"
+  },
+  "total_locations": 1,
+  "scraped_at": "2025-07-03T13:17:23.642389"
+}
