@@ -22,6 +22,9 @@ import LocationModal from './LocationModal';
 import LocationCard from './LocationCard';
 import ControlPanel from './ControlPanel';
 import CustomMapLayout from './CustomMapLayout';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Input } from '@/components/ui/input';
+import PdfExportDialogButton from './PdfExportDialog';
 
 interface Location {
   price: string;
@@ -74,7 +77,7 @@ const MAP_STYLE = {
   stateLabelStrokeWidth: 1,
 
   pinColor: '#43a047',
-  pinBorderColor: '#1b5e20', 
+  pinBorderColor: '#1b5e20',
 };
 
 // Helper to get all state JSON filenames
@@ -142,9 +145,35 @@ export default function MapComponent({ className = '' }: MapProps) {
   const [mapView, setMapView] = useState<View | null>(null);
   const [stateExtent, setStateExtent] = useState<number[] | null>(null);
   const [mode, setMode] = useState<'US' | 'International'>('US');
-  const [intlLocations, setIntlLocations] = useState<Array<{ feature: FeatureType<Geometry>; location: StateLocation; country: string; city?: string; region?: string }>>([]);
   const [intlCountries, setIntlCountries] = useState<string[]>([]);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+  const [usLocations, setUsLocations] = useState<Array<{ feature: FeatureType<Geometry>; location: StateLocation; cityName: string; stateName: string }>>([]);
+  const [intlLocations, setIntlLocations] = useState<Array<{ feature: FeatureType<Geometry>; location: StateLocation; country: string; city?: string; region?: string }>>([]);
+  const [usLoaded, setUsLoaded] = useState(false);
+  const [intlLoaded, setIntlLoaded] = useState(false);
+  const [showMap, setShowMap] = useState(true);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const searchInputRef = useRef<HTMLInputElement>(null);
+  const [highlightedIndex, setHighlightedIndex] = useState(0);
+
+  // Hotkey: Ctrl+K to open search
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setSearchOpen(true);
+        setTimeout(() => searchInputRef.current?.focus(), 50);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
+
+  // Reset highlight when dialog opens or query changes
+  useEffect(() => {
+    setHighlightedIndex(0);
+  }, [searchOpen, searchQuery]);
 
   // Load US states GeoJSON and set up the vector source
   useEffect(() => {
@@ -162,8 +191,9 @@ export default function MapComponent({ className = '' }: MapProps) {
       });
   }, []);
 
-  // Load all state JSONs and flatten locations
+  // Preload all US and International data on mount
   useEffect(() => {
+    // US locations
     const loadAllStates = async () => {
       try {
         const allLocations: Array<{ feature: FeatureType<Geometry>; location: StateLocation; cityName: string; stateName: string }> = [];
@@ -202,13 +232,99 @@ export default function MapComponent({ className = '' }: MapProps) {
             }
           })
         );
-        setLocations(allLocations);
+        setUsLocations(allLocations);
+        setUsLoaded(true);
       } catch (err) {
         console.error('Error loading state locations:', err);
       }
     };
+    // International locations
+    const loadIntl = async () => {
+      const allIntl: Array<{ feature: FeatureType<Geometry>; location: StateLocation; country: string; city?: string; region?: string }> = [];
+      const countrySet = new Set<string>();
+      // Single-location files
+      await Promise.all(
+        INTL_SINGLE_FILES.map(async (filename) => {
+          const res = await fetch(`/internationalLocationsS/${filename}`);
+          if (!res.ok) return;
+          const data = await res.json();
+          const country = data.state;
+          const stateData = data.state_data;
+          if (!stateData || !stateData.cities) return;
+          for (const city of stateData.cities) {
+            for (const location of city.locations) {
+              if (location.latitude && location.longitude) {
+                const feature = new Feature({
+                  geometry: new Point(fromLonLat([parseFloat(location.longitude), parseFloat(location.latitude)])),
+                  name: city.city_name,
+                  country,
+                  location
+                });
+                feature.setStyle(new Style({
+                  image: new Icon({
+                    anchor: [0.5, 1],
+                    src: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="${MAP_STYLE.pinColor}" stroke="${MAP_STYLE.pinBorderColor}" stroke-width="2"/>
+                        <circle cx="12" cy="9" r="2.5" fill="white"/>
+                      </svg>
+                    `)
+                  })
+                }));
+                allIntl.push({ feature, location, country, city: city.city_name });
+                countrySet.add(country);
+              }
+            }
+          }
+        })
+      );
+      // Multi-location files
+      await Promise.all(
+        INTL_MULTI_FILES.map(async (filename) => {
+          const res = await fetch(`/InternationalLocationsR/${filename}`);
+          if (!res.ok) return;
+          const data = await res.json();
+          const country = data.country;
+          if (!data.regions) return;
+          for (const region of data.regions) {
+            for (const location of region.locations) {
+              if (location.latitude && location.longitude) {
+                const feature = new Feature({
+                  geometry: new Point(fromLonLat([parseFloat(location.longitude), parseFloat(location.latitude)])),
+                  name: location.name || location.title || '',
+                  country,
+                  location
+                });
+                feature.setStyle(new Style({
+                  image: new Icon({
+                    anchor: [0.5, 1],
+                    src: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="${MAP_STYLE.pinColor}" stroke="${MAP_STYLE.pinBorderColor}" stroke-width="2"/>
+                        <circle cx="12" cy="9" r="2.5" fill="white"/>
+                      </svg>
+                    `)
+                  })
+                }));
+                allIntl.push({ feature, location, country, region: region.region });
+                countrySet.add(country);
+              }
+            }
+          }
+        })
+      );
+      setIntlLocations(allIntl);
+      setIntlCountries(Array.from(countrySet).sort());
+      setIntlLoaded(true);
+    };
     loadAllStates();
+    loadIntl();
   }, []);
+
+  // Use preloaded data for rendering
+  useEffect(() => {
+    setLocations(usLocations);
+  }, [usLocations]);
 
   // Filter pins by state
   useEffect(() => {
@@ -216,10 +332,10 @@ export default function MapComponent({ className = '' }: MapProps) {
       setFilteredPins([]);
       setMapLocked(false);
     } else {
-      setFilteredPins(locations.filter(l => l.stateName === selectedState));
+      setFilteredPins(usLocations.filter(l => l.stateName === selectedState));
       setMapLocked(true);
     }
-  }, [selectedState, locations]);
+  }, [selectedState, usLocations]);
 
   // Set up the map
   useEffect(() => {
@@ -252,7 +368,7 @@ export default function MapComponent({ className = '' }: MapProps) {
     // --- Pin Layer ---
     const pinSource = new VectorSource();
     if (mode === 'US') {
-      (selectedState ? locations.filter(l => l.stateName === selectedState) : locations).forEach(({ feature }) => pinSource.addFeature(feature));
+      (selectedState ? usLocations.filter(l => l.stateName === selectedState) : usLocations).forEach(({ feature }) => pinSource.addFeature(feature));
     } else if (mode === 'International') {
       intlLocations.forEach(({ feature }) => pinSource.addFeature(feature));
     }
@@ -326,6 +442,28 @@ export default function MapComponent({ className = '' }: MapProps) {
       setHighlightedCard(null);
     });
 
+    // --- World country outlines layer (International mode only) ---
+    if (mode === 'International') {
+      fetch('/world-countries.json')
+        .then(res => res.json())
+        .then(data => {
+          const features = new GeoJSON().readFeatures(data, {
+            featureProjection: 'EPSG:3857',
+          }) as Feature<Geometry>[];
+          const worldLayer = new VectorLayer({
+            source: new VectorSource({
+              features,
+            }),
+            style: new Style({
+              stroke: new Stroke({ color: '#bbb', width: 1 }),
+              fill: new Fill({ color: 'rgba(200,200,200,0.07)' }),
+            }),
+            zIndex: 0,
+          });
+          map.getLayers().insertAt(0, worldLayer);
+        });
+    }
+
     mapInstanceRef.current = map;
 
     return () => {
@@ -334,7 +472,7 @@ export default function MapComponent({ className = '' }: MapProps) {
         mapInstanceRef.current = null;
       }
     };
-  }, [stateVectorSource, locations, selectedState, mapLocked, mode, intlLocations]);
+  }, [stateVectorSource, usLocations, selectedState, mapLocked, mode, intlLocations]);
 
   // --- Zoom and lock to state when selected ---
   useEffect(() => {
@@ -416,7 +554,7 @@ export default function MapComponent({ className = '' }: MapProps) {
   // In the mailbox pin style, use the config for pin color
   useEffect(() => {
     // Update pin styles if config changes
-    locations.forEach(({ feature }) => {
+    usLocations.forEach(({ feature }) => {
       feature.setStyle(new Style({
         image: new Icon({
           anchor: [0.5, 1],
@@ -429,7 +567,7 @@ export default function MapComponent({ className = '' }: MapProps) {
         })
       }));
     });
-  }, [locations]);
+  }, [usLocations]);
 
   // Dismiss side card when clicking outside
   useEffect(() => {
@@ -457,171 +595,287 @@ export default function MapComponent({ className = '' }: MapProps) {
     setSelectedLocation(location);
   };
 
-  // Load international locations (single + multi)
-  useEffect(() => {
-    if (mode !== 'International') return;
-    const loadIntl = async () => {
-      const allIntl: Array<{ feature: FeatureType<Geometry>; location: StateLocation; country: string; city?: string; region?: string }> = [];
-      const countrySet = new Set<string>();
-      // Single-location files
-      await Promise.all(
-        INTL_SINGLE_FILES.map(async (filename) => {
-          const res = await fetch(`/internationalLocationsS/${filename}`);
-          if (!res.ok) return;
-          const data = await res.json();
-          const country = data.state;
-          const stateData = data.state_data;
-          if (!stateData || !stateData.cities) return;
-          for (const city of stateData.cities) {
-            for (const location of city.locations) {
-              if (location.latitude && location.longitude) {
-                const feature = new Feature({
-                  geometry: new Point(fromLonLat([parseFloat(location.longitude), parseFloat(location.latitude)])),
-                  name: city.city_name,
-                  country,
-                  location
-                });
-                feature.setStyle(new Style({
-                  image: new Icon({
-                    anchor: [0.5, 1],
-                    src: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="${MAP_STYLE.pinColor}" stroke="${MAP_STYLE.pinBorderColor}" stroke-width="2"/>
-                        <circle cx="12" cy="9" r="2.5" fill="white"/>
-                      </svg>
-                    `)
-                  })
-                }));
-                allIntl.push({ feature, location, country, city: city.city_name });
-                countrySet.add(country);
-              }
-            }
-          }
-        })
-      );
-      // Multi-location files
-      await Promise.all(
-        INTL_MULTI_FILES.map(async (filename) => {
-          const res = await fetch(`/InternationalLocationsR/${filename}`);
-          if (!res.ok) return;
-          const data = await res.json();
-          const country = data.country;
-          if (!data.regions) return;
-          for (const region of data.regions) {
-            for (const location of region.locations) {
-              if (location.latitude && location.longitude) {
-                const feature = new Feature({
-                  geometry: new Point(fromLonLat([parseFloat(location.longitude), parseFloat(location.latitude)])),
-                  name: location.name || location.title || '',
-                  country,
-                  location
-                });
-                feature.setStyle(new Style({
-                  image: new Icon({
-                    anchor: [0.5, 1],
-                    src: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="${MAP_STYLE.pinColor}" stroke="${MAP_STYLE.pinBorderColor}" stroke-width="2"/>
-                        <circle cx="12" cy="9" r="2.5" fill="white"/>
-                      </svg>
-                    `)
-                  })
-                }));
-                allIntl.push({ feature, location, country, region: region.region });
-                countrySet.add(country);
-              }
-            }
-          }
-        })
-      );
-      setIntlLocations(allIntl);
-      setIntlCountries(Array.from(countrySet).sort());
-    };
-    loadIntl();
-  }, [mode]);
-
+  // Remove fetches from tab switch handlers and use preloaded data for both modes.
   // Add before the render/return statement:
   const filteredIntlPins: Array<{ feature: FeatureType<Geometry>; location: StateLocation; country: string; city?: string; region?: string }> = selectedCountry ? intlLocations.filter(l => l.country === selectedCountry) : intlLocations;
 
+  // When states are loaded, select the first state by default in US mode
+  useEffect(() => {
+    if (mode === 'US' && states.length > 0 && !selectedState) {
+      setSelectedState(states[0]);
+    }
+  }, [mode, states, selectedState]);
+
+  // When switching to US mode, always select the first state
+  const handleModeSwitch = (newMode: 'US' | 'International') => {
+    setMode(newMode);
+    if (newMode === 'US' && states.length > 0) {
+      setSelectedState(states[0]);
+    }
+    if (newMode === 'International') {
+      setSelectedState(null);
+    }
+  };
+
+  // Filtered search results
+  const filteredStates = states.filter(s => s.toLowerCase().includes(searchQuery.toLowerCase()));
+  const filteredCountries = intlCountries.filter(c => c.toLowerCase().includes(searchQuery.toLowerCase()));
+
+  // Flattened results for keyboard navigation
+  const searchResults: Array<{ type: 'US' | 'International'; value: string; section: string }> = [
+    ...filteredStates.map(s => ({ type: "US" as const, value: s, section: "US States" })),
+    ...filteredCountries.map(c => ({ type: "International" as const, value: c, section: "International" })),
+  ];
+
+  // Handle search result click
+  const handleSearchSelect = (type: 'US' | 'International', value: string) => {
+    setSearchOpen(false);
+    setSearchQuery('');
+    if (type === 'US') {
+      setMode('US');
+      setSelectedState(value);
+    } else {
+      setMode('International');
+      setSelectedCountry(value);
+    }
+  };
+
+  // Keyboard navigation for search results
+  useEffect(() => {
+    if (!searchOpen) return;
+    const handler = (e: KeyboardEvent) => {
+      if (searchResults.length === 0) return;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setHighlightedIndex(i => (i + 1) % searchResults.length);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setHighlightedIndex(i => (i - 1 + searchResults.length) % searchResults.length);
+      } else if (e.key === 'Enter') {
+        if (searchResults[highlightedIndex]) {
+          e.preventDefault();
+          const { type, value } = searchResults[highlightedIndex];
+          handleSearchSelect(type, value);
+        }
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [searchOpen, searchResults, highlightedIndex]);
+
   // --- Layout: 3/4 map, 1/4 pane if state/country selected ---
   return (
-    <div className={className + " min-h-screen w-full flex flex-col items-center justify-center bg-white"}>
-      {/* Main content row: sidebar + map */}
-      <div className="flex flex-row justify-center items-center w-full max-w-[1600px] mx-auto gap-8 flex-1 py-12">
-        {/* Sidebar */}
+    <div className={className + " w-full flex flex-col items-center justify-center bg-white"}>
+      {/* Main content row: sidebar + map + selector */}
+      <div className={`flex flex-row justify-center items-center w-full max-w-[1600px] mx-auto gap-8 bg-gray-50 ${!showMap ? 'transition-all' : ''}`}>
+        {/* Sidebar: Location cards */}
+
         {((mode === 'US' && selectedState) || mode === 'International') && (
-          <div className="h-[700px] max-h-[80vh] w-[400px] shadow-xl rounded-2xl bg-white border border-gray-100 overflow-y-auto p-6 flex flex-col gap-4 justify-start">
-            <h2 className="font-extrabold text-2xl mb-2 text-center text-green-700 tracking-tight">
-              {mode === 'US' && selectedState ? `${selectedState} Locations` : selectedCountry ? `${selectedCountry} Locations` : 'International Locations'}
-            </h2>
-            {(mode === 'US' && selectedState && filteredPins.length === 0) || (mode === 'International' && filteredIntlPins.length === 0) ? (
-              <div className="text-gray-400 text-base text-center">No locations found.</div>
-            ) : (
-              <>
-                {(mode === 'US' && selectedState ? filteredPins : filteredIntlPins).map((item: any, idx: number) => (
-                  <LocationCard
-                    key={(item.location.address || item.location.title || item.country || item.city || item.region || '') + idx}
-                    location={item.location}
-                    country={item.country}
-                    city={item.city}
-                    region={item.region}
-                    mode={mode}
-                    selected={selectedLocation === item.location}
-                    onSelect={setSelectedLocation}
-                  />
-                ))}
-              </>
-            )}
+          <div className={`rounded-2xl flex flex-col justify-between items-center pb-6 pt-2 h-[700px] max-h-[80vh] ${showMap ? 'w-[400px]' : 'w-[900px]'} shadow-xl`}>
+            <div className={`  max-h-[60vh] overflow-y-auto p-6 transition-all duration-300`}>
+              <h2 className="font-extrabold text-2xl mb-2 text-center text-green-700 tracking-tight">
+                {mode === 'US' && selectedState ? `${selectedState} Locations` : selectedCountry ? `${selectedCountry} Locations` : 'International Locations'}
+              </h2>
+              {(mode === 'US' && selectedState ? filteredPins.length === 0 : filteredIntlPins.length === 0) ? (
+                <div className="text-gray-400 text-base text-center">No locations found.</div>
+              ) : (
+                <div className={`grid gap-4 ${showMap ? 'grid-cols-1' : 'grid-cols-2'}`}>
+                  {(mode === 'US' && selectedState ? filteredPins : filteredIntlPins).map((item: any, idx: number) => {
+                    // Generate a unique key and ref id for each card
+                    const addressKey = (item.location.address ? item.location.address.replace(/\s+/g, '') : '') +
+                      '_' + (item.location.latitude || '') +
+                      '_' + (item.location.longitude || '') +
+                      '_' + idx;
+                    return (
+                      <LocationCard
+                        key={addressKey}
+                        location={item.location}
+                        country={item.country}
+                        city={item.city}
+                        region={item.region}
+                        mode={mode}
+                        selected={selectedLocation === item.location}
+                        highlighted={highlightedCard === item.location.address}
+                        onSelect={setSelectedLocation}
+                        ref={(el: HTMLDivElement | null) => { cardRefs.current[item.location.address] = el; }}
+                      />
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+            <div className="">
+              <PdfExportDialogButton />
+            </div>
+          </div>
+
+        )}
+
+
+        {/* Map area (conditionally rendered) */}
+        {showMap && (
+          <CustomMapLayout mapRef={mapRef} mapContainerRef={mapContainerRef}>
+            {/* Tooltip and overlays can be added here if needed */}
+          </CustomMapLayout>
+        )}
+        {/* Tooltip for pin hover */}
+        {showMap && hoveredLocation && tooltipLocation && (
+          <div
+            style={{
+              position: 'fixed',
+              left: tooltipLocation.x + 16,
+              top: tooltipLocation.y + 8,
+              zIndex: 1000,
+              pointerEvents: 'none',
+              background: 'white',
+              border: '1px solid #d1d5db',
+              borderRadius: '0.5rem',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+              padding: '0.5rem 1rem',
+              minWidth: 220,
+              maxWidth: 320,
+              fontSize: '0.95rem',
+              color: '#222',
+              fontWeight: 500,
+            }}
+          >
+            <div style={{ fontWeight: 700, marginBottom: 2 }}>
+              {hoveredLocation.title || hoveredLocation.address?.split('\n')[0] || 'Location'}
+            </div>
+            <div style={{ fontSize: '0.92rem', color: '#555' }}>
+              {hoveredLocation.address}
+            </div>
           </div>
         )}
-        {/* Map area */}
-        <CustomMapLayout mapRef={mapRef} mapContainerRef={mapContainerRef}>
-          {/* Tooltip and overlays can be added here if needed */}
-        </CustomMapLayout>
-      </div>
-      {/* Toggle below map, above control panel */}
-      <div className="w-full flex justify-center mt-2 mb-6 z-30">
-        <div className="flex items-center gap-4 bg-white rounded-full shadow-lg px-8 py-3 border border-gray-200">
-          <button
-            className={`px-6 py-2 rounded-full font-bold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 ${mode === 'US' ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
-            onClick={() => setMode('US')}
-          >
-            US
-          </button>
-          <button
-            className={`px-6 py-2 rounded-full font-bold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 ${mode === 'International' ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
-            onClick={() => setMode('International')}
-          >
-            International
-          </button>
+        {/* Right panel: Toggle + Country/State Selector */}
+        <div className={`h-[700px] max-h-[80vh] w-[340px] shadow-xl rounded-2xl bg-white border border-gray-100  p-2 flex flex-col gap-4 justify-start transition-all duration-300`}>
+          {/* Toggle at the top of the control panel */}
+          <div className="w-full flex flex-col items-center my-2 z-30 gap-2">
+            <div className="flex items-center gap-4 bg-white rounded-full shadow-lg px-8 py-3 border border-gray-200">
+              <button
+                className={`cursor-pointer px-6 py-2 rounded-full font-bold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 ${mode === 'US' ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+                onClick={() => handleModeSwitch('US')}
+              >
+                US
+              </button>
+              <button
+                className={`cursor-pointer px-6 py-2 rounded-full font-bold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 ${mode === 'International' ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+                onClick={() => handleModeSwitch('International')}
+              >
+                International
+              </button>
+            </div>
+            {/* Show Map toggle */}
+            <div className="flex items-center gap-2 mt-2">
+              <label htmlFor="show-map-toggle" className="text-gray-700 font-medium text-base select-none">Show Map</label>
+              <input
+                id="show-map-toggle"
+                type="checkbox"
+                checked={showMap}
+                onChange={e => setShowMap(e.target.checked)}
+                className="w-5 h-5 accent-green-600 cursor-pointer"
+              />
+            </div>
+          </div>
+          {mode === 'International' && (
+            <ControlPanel
+              mode={mode}
+              items={intlCountries}
+              selected={selectedCountry}
+              onSelect={setSelectedCountry}
+              onShowAll={() => setSelectedCountry(null)}
+              label="All Countries"
+            />
+          )}
+          {mode === 'US' && (
+            <ControlPanel
+              mode={mode}
+              items={states}
+              selected={selectedState}
+              onSelect={(stateName) => {
+                setHighlightedCard(null);
+                if (showMap) {
+                  focusOnState(stateName);
+                } else {
+                  setSelectedState(stateName);
+                }
+              }}
+              onShowAll={() => { setHighlightedCard(null); focusOnState(null); }}
+              label="All States"
+            />
+          )}
         </div>
       </div>
-      {/* Country/State Selection Control Panel */}
-      {mode === 'International' && (
-        <ControlPanel
-          mode={mode}
-          items={intlCountries}
-          selected={selectedCountry}
-          onSelect={setSelectedCountry}
-          onShowAll={() => setSelectedCountry(null)}
-          label="All Countries"
-        />
-      )}
-      {mode === 'US' && (
-        <ControlPanel
-          mode={mode}
-          items={states}
-          selected={selectedState}
-          onSelect={(stateName) => { setHighlightedCard(null); focusOnState(stateName); }}
-          onShowAll={() => { setHighlightedCard(null); focusOnState(null); }}
-          label="All States"
-        />
-      )}
       <LocationModal
         location={selectedLocation}
         isOpen={!!selectedLocation}
         onClose={() => setSelectedLocation(null)}
       />
+      {/* Search Dialog (Ctrl+K) */}
+      <Dialog open={searchOpen} onOpenChange={setSearchOpen}>
+        <DialogContent showCloseButton className="bg-white text-gray-900">
+          <DialogHeader>
+            <DialogTitle>Search Locations</DialogTitle>
+          </DialogHeader>
+          <Input
+            ref={searchInputRef}
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            placeholder="Search for a US state or international country..."
+            className="mb-4 text-lg px-4 py-2"
+            autoFocus
+          />
+          <div className="flex flex-col gap-4 max-h-96 overflow-y-auto">
+            <div>
+              <div className="text-xs font-semibold text-gray-500 mb-1">US States</div>
+              {filteredStates.length === 0 ? (
+                <div className="text-gray-400 text-sm">No states found.</div>
+              ) : (
+                <ul className="divide-y divide-gray-100">
+                  {filteredStates.map((state, idx) => {
+                    const globalIdx = idx;
+                    const isHighlighted = highlightedIndex === globalIdx;
+                    return (
+                      <li key={state}>
+                        <button
+                          className={`w-full text-left px-3 py-2 rounded transition-colors font-medium text-gray-800 focus:bg-green-100 focus:outline-none ${isHighlighted ? 'bg-green-100' : 'hover:bg-green-50'}`}
+                          onClick={() => handleSearchSelect('US', state)}
+                        >
+                          {state}
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+            </div>
+            <div>
+              <div className="text-xs font-semibold text-gray-500 mb-1">International</div>
+              {filteredCountries.length === 0 ? (
+                <div className="text-gray-400 text-sm">No countries found.</div>
+              ) : (
+                <ul className="divide-y divide-gray-100">
+                  {filteredCountries.map((country, idx) => {
+                    const globalIdx = filteredStates.length + idx;
+                    const isHighlighted = highlightedIndex === globalIdx;
+                    return (
+                      <li key={country}>
+                        <button
+                          className={`w-full text-left px-3 py-2 rounded transition-colors font-medium text-gray-800 focus:bg-green-100 focus:outline-none ${isHighlighted ? 'bg-green-100' : 'hover:bg-green-50'}`}
+                          onClick={() => handleSearchSelect('International', country)}
+                        >
+                          {country}
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+            </div>
+          </div>
+          <div className="text-xs text-gray-400 mt-4 text-center">Press <kbd className="px-1 py-0.5 bg-gray-200 rounded border text-xs font-mono">Ctrl+K</kbd> to open this search anytime.</div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 } 

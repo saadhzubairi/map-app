@@ -11,9 +11,9 @@ interface ControlPanelProps {
 
 const ControlPanel: React.FC<ControlPanelProps> = ({ mode, items, selected, onSelect, onShowAll, label }) => {
   return (
-    <div className="w-full flex flex-col items-center mb-8">
-      <div className="w-full max-w-5xl bg-white rounded-2xl shadow-xl px-10 py-8 border border-gray-100">
-        <div className="flex items-center justify-between mb-3">
+    <div className="w-full h-full flex flex-col items-center mb-8">
+      <div className="h-full">
+        <div className="mx-4 pr-4 pl-8 shadow-sm rounded-full border  flex items-center justify-between mb-3">
           <h3 className="font-black text-gray-600 my-4 text-xl tracking-tight">{label}</h3>
           <button
             onClick={onShowAll}
@@ -26,7 +26,7 @@ const ControlPanel: React.FC<ControlPanelProps> = ({ mode, items, selected, onSe
             Show All
           </button>
         </div>
-        <div className="flex flex-wrap gap-3 max-h-40 overflow-y-auto justify-center">
+        <div className="flex flex-wrap gap-3 h-[70%] py-2 overflow-y-scroll justify-center">
           {items.map((item) => (
             <button
               key={item}
