@@ -7,12 +7,12 @@
         "city_name": "Mauritius",
         "locations": [
           {
-            "title": "",
+            "title": "Ebene",
             "price": {
               "amount": 895.0,
               "currency": "MUR"
             },
-            "address": "",
+            "address": "Ebene, 72201, Mauritius",
             "latitude": "-20.2426414",
             "longitude": "57.4890807",
             "plan_url": "https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights",
@@ -24,12 +24,12 @@
                   "amount": 895.0,
                   "currency": "MUR"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16681&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16681&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 10695.0,
                   "currency": "MUR"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16681&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16681&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "30 / month",
                   "Open & Scan": "5 pages / month",
@@ -43,12 +43,12 @@
                       "amount": 895.0,
                       "currency": "MUR"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16681&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16681&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 10695.0,
                       "currency": "MUR"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16681&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16681&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "30 / month\nEach additional at MUR 100.00",
                   "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at MUR 100.00",
@@ -68,12 +68,12 @@
                   "amount": 1695.0,
                   "currency": "MUR"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16682&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16682&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 20295.0,
                   "currency": "MUR"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16682&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16682&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "60 / month",
                   "Open & Scan": "10 pages / month",
@@ -87,12 +87,12 @@
                       "amount": 1695.0,
                       "currency": "MUR"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16682&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16682&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 20295.0,
                       "currency": "MUR"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16682&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16682&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "60 / month\nEach additional at MUR 100.00",
                   "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at MUR 100.00",
@@ -112,12 +112,12 @@
                   "amount": 3495.0,
                   "currency": "MUR"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16683&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16683&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 40995.0,
                   "currency": "MUR"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16683&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16683&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "125 / month",
                   "Open & Scan": "20 pages / month",
@@ -131,12 +131,12 @@
                       "amount": 3495.0,
                       "currency": "MUR"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16683&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16683&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 40995.0,
                       "currency": "MUR"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16683&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16683&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "125 / month\nEach additional at MUR 100.00",
                   "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at MUR 100.00",
@@ -156,12 +156,12 @@
                   "amount": 5495.0,
                   "currency": "MUR"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16684&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16684&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 64995.0,
                   "currency": "MUR"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16684&siftsessionid=1751563299717051807hgmp2lmsjx'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16684&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "Unlimited",
                   "Open & Scan": "100 pages / month",
@@ -175,12 +175,12 @@
                       "amount": 5495.0,
                       "currency": "MUR"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16684&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16684&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 64995.0,
                       "currency": "MUR"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16684&siftsessionid=1751563299717051807hgmp2lmsjx&firstpagehit=https://www.anytimemailbox.com/s/ebene-ebene-port-louis-cybercity-ebene-heights'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16684&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "Unlimited",
                   "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at MUR 30.00",
@@ -199,32 +199,32 @@
               "address_title": "Your Real Street Address",
               "address_text": "YOUR NAME\niDeliverd #MAILBOX\nEbene, Port Louis Cybercity Ebene Heights 4th Floor\nEbene, 72201, Mauritius\nMauritius",
               "street_address": "iDeliverd #MAILBOX",
-              "suite_info": "iDeliverd #MAILBOX",
+              "suite_info": "Ebene, Port Louis Cybercity Ebene Heights 4th Floor",
               "city_state_zip": "Ebene, 72201, Mauritius",
               "country": "Mauritius",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -244,5 +244,5 @@
     "state_name": "Mauritius"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:21:58.914990"
+  "scraped_at": "2025-07-08T16:52:36.594749"
 }

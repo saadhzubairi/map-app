@@ -7,12 +7,12 @@
         "city_name": "Denmark",
         "locations": [
           {
-            "title": "",
+            "title": "Copenhagen",
             "price": {
               "amount": 180.0,
               "currency": "DKK"
             },
-            "address": "",
+            "address": "Oesterbrogade 226 st 1, Copenhagen, 2100",
             "latitude": "55.7134383",
             "longitude": "12.5788594",
             "plan_url": "https://www.anytimemailbox.com/s/copenhagen-osterbrogade-226-st-1",
@@ -24,12 +24,12 @@
                   "amount": 180.0,
                   "currency": "DKK"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19795&siftsessionid=17515630723017840ss8jrqr8xf'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19795&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 1799.0,
                   "currency": "DKK"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19795&siftsessionid=17515630723017840ss8jrqr8xf'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19795&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "2 / month",
                   "Open & Scan": "2 pages / month",
@@ -43,12 +43,12 @@
                       "amount": 180.0,
                       "currency": "DKK"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19795&siftsessionid=17515630723017840ss8jrqr8xf&firstpagehit=https://www.anytimemailbox.com/s/copenhagen-osterbrogade-226-st-1'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19795&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 1799.0,
                       "currency": "DKK"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19795&siftsessionid=17515630723017840ss8jrqr8xf&firstpagehit=https://www.anytimemailbox.com/s/copenhagen-osterbrogade-226-st-1'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19795&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "2 / month\nEach additional at DKK 10.00",
                   "Open & Scan": "Unlimited\n2 pages / month\nEach additional page at DKK 1.00",
@@ -68,12 +68,12 @@
                   "amount": 250.0,
                   "currency": "DKK"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11559&siftsessionid=17515630723017840ss8jrqr8xf'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11559&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 2499.0,
                   "currency": "DKK"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11559&siftsessionid=17515630723017840ss8jrqr8xf'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11559&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "10 / month",
                   "Open & Scan": "10 pages / month",
@@ -87,12 +87,12 @@
                       "amount": 250.0,
                       "currency": "DKK"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11559&siftsessionid=17515630723017840ss8jrqr8xf&firstpagehit=https://www.anytimemailbox.com/s/copenhagen-osterbrogade-226-st-1'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11559&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 2499.0,
                       "currency": "DKK"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11559&siftsessionid=17515630723017840ss8jrqr8xf&firstpagehit=https://www.anytimemailbox.com/s/copenhagen-osterbrogade-226-st-1'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11559&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "10 / month\nEach additional at DKK 7.00",
                   "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at DKK 1.00",
@@ -112,12 +112,12 @@
                   "amount": 380.0,
                   "currency": "DKK"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11560&siftsessionid=17515630723017840ss8jrqr8xf'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11560&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 3799.0,
                   "currency": "DKK"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11560&siftsessionid=17515630723017840ss8jrqr8xf'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11560&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "30 / month",
                   "Open & Scan": "30 pages / month",
@@ -131,12 +131,12 @@
                       "amount": 380.0,
                       "currency": "DKK"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11560&siftsessionid=17515630723017840ss8jrqr8xf&firstpagehit=https://www.anytimemailbox.com/s/copenhagen-osterbrogade-226-st-1'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11560&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 3799.0,
                       "currency": "DKK"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11560&siftsessionid=17515630723017840ss8jrqr8xf&firstpagehit=https://www.anytimemailbox.com/s/copenhagen-osterbrogade-226-st-1'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11560&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "30 / month\nEach additional at DKK 7.00",
                   "Open & Scan": "Unlimited\n30 pages / month\nEach additional page at DKK 1.00",
@@ -160,27 +160,27 @@
               "country": "Denmark",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -202,5 +202,5 @@
     "state_name": "Denmark"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:18:06.824222"
+  "scraped_at": "2025-07-08T16:49:56.191307"
 }

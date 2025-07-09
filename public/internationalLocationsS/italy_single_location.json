@@ -7,12 +7,12 @@
         "city_name": "Italy",
         "locations": [
           {
-            "title": "",
+            "title": "Marghera",
             "price": {
               "amount": 29.95,
               "currency": "USD"
             },
-            "address": "",
+            "address": "Via Longhena 1, Marghera, VE 30175",
             "latitude": "45.480215",
             "longitude": "12.2239728",
             "plan_url": "https://www.anytimemailbox.com/s/marghera-via-longhena-56",
@@ -24,12 +24,12 @@
                   "amount": 29.95,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18348&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18348&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 133.99,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18348&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18348&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "5 / month",
                   "Open & Scan": "2 pages / month",
@@ -43,12 +43,12 @@
                       "amount": 29.95,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18348&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18348&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 133.99,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18348&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18348&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "5 / month\nEach additional at €0.35",
                   "Open & Scan": "Unlimited\n2 pages / month\nEach additional page at €0.50",
@@ -68,12 +68,12 @@
                   "amount": 34.99,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18349&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18349&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 180.99,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18349&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18349&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "10 / month",
                   "Open & Scan": "2 / month",
@@ -87,12 +87,12 @@
                       "amount": 34.99,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18349&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18349&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 180.99,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18349&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18349&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "10 / month\nEach additional at €0.35",
                   "Open & Scan": "2 / month\nEach additional at €0.20\n10 pages / month\nEach additional page at €0.50\nEach page at €0.20",
@@ -112,12 +112,12 @@
                   "amount": 44.99,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18350&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18350&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 215.0,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18350&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18350&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "125 / month",
                   "Open & Scan": "20 pages / month",
@@ -131,12 +131,12 @@
                       "amount": 44.99,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18350&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18350&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 215.0,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18350&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18350&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "125 / month\nEach additional at €0.35",
                   "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at €0.50",
@@ -156,12 +156,12 @@
                   "amount": 84.99,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18351&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18351&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 677.99,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18351&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18351&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "Unlimited",
                   "Open & Scan": "50 pages / month",
@@ -175,12 +175,12 @@
                       "amount": 84.99,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18351&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18351&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 677.99,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18351&siftsessionid=175156317965396460cpph40rvc3r&firstpagehit=https://www.anytimemailbox.com/s/marghera-via-longhena-56'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18351&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "Unlimited",
                   "Open & Scan": "Unlimited\n50 pages / month\nEach additional page at €0.50",
@@ -204,27 +204,27 @@
               "country": "Italy",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -246,5 +246,5 @@
     "state_name": "Italy"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:20:00.194488"
+  "scraped_at": "2025-07-08T16:51:17.542732"
 }

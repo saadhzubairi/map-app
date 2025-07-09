@@ -7,12 +7,12 @@
         "city_name": "Austria",
         "locations": [
           {
-            "title": "",
+            "title": "Vienna",
             "price": {
               "amount": 12.99,
               "currency": "USD"
             },
-            "address": "",
+            "address": "Nauschgasse 4/3/2, 1220 Vienna",
             "latitude": "48.234286",
             "longitude": "16.42295",
             "plan_url": "https://www.anytimemailbox.com/s/vienna-nauschgasse-432",
@@ -24,12 +24,12 @@
                   "amount": 12.99,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15157&siftsessionid=1751562979673787601dqkm0pz6iv'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15157&siftsessionid=175200771664970360yzocamw523'",
                 "yearly_price": {
                   "amount": 129.99,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15157&siftsessionid=1751562979673787601dqkm0pz6iv'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15157&siftsessionid=175200771664970360yzocamw523'",
                 "features": {
                   "Incoming Mail": "Each at US$ 0.50",
                   "Open & Scan": "Each at US$ 0.50",
@@ -43,12 +43,12 @@
                       "amount": 12.99,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15157&siftsessionid=1751562979673787601dqkm0pz6iv&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15157&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 129.99,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15157&siftsessionid=1751562979673787601dqkm0pz6iv&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15157&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "Each at US$ 0.50",
                   "Open & Scan": "Each at US$ 0.50\nEach page at US$ 0.50\nEach page at US$ 0.50",
@@ -68,12 +68,12 @@
                   "amount": 15.99,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15158&siftsessionid=1751562979673787601dqkm0pz6iv'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15158&siftsessionid=175200771664970360yzocamw523'",
                 "yearly_price": {
                   "amount": 159.99,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15158&siftsessionid=1751562979673787601dqkm0pz6iv'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15158&siftsessionid=175200771664970360yzocamw523'",
                 "features": {
                   "Incoming Mail": "10 / month",
                   "Open & Scan": "5 pages / month",
@@ -87,12 +87,12 @@
                       "amount": 15.99,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15158&siftsessionid=1751562979673787601dqkm0pz6iv&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15158&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 159.99,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15158&siftsessionid=1751562979673787601dqkm0pz6iv&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15158&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "10 / month\nEach additional at US$ 0.49",
                   "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.49\n5 pages / request\nEach additional page at US$ 0.49",
@@ -112,12 +112,12 @@
                   "amount": 29.99,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15159&siftsessionid=1751562979673787601dqkm0pz6iv'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15159&siftsessionid=175200771664970360yzocamw523'",
                 "yearly_price": {
                   "amount": 329.99,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15159&siftsessionid=1751562979673787601dqkm0pz6iv'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15159&siftsessionid=175200771664970360yzocamw523'",
                 "features": {
                   "Incoming Mail": "125 / month",
                   "Open & Scan": "20 pages / month",
@@ -131,12 +131,12 @@
                       "amount": 29.99,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15159&siftsessionid=1751562979673787601dqkm0pz6iv&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15159&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 329.99,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15159&siftsessionid=1751562979673787601dqkm0pz6iv&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15159&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
                   "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
@@ -156,12 +156,12 @@
                   "amount": 69.99,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15160&siftsessionid=1751562979673787601dqkm0pz6iv'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15160&siftsessionid=175200771664970360yzocamw523'",
                 "yearly_price": {
                   "amount": 659.99,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15160&siftsessionid=1751562979673787601dqkm0pz6iv'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15160&siftsessionid=175200771664970360yzocamw523'",
                 "features": {
                   "Incoming Mail": "Unlimited",
                   "Open & Scan": "100 pages / month",
@@ -175,12 +175,12 @@
                       "amount": 69.99,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15160&siftsessionid=1751562979673787601dqkm0pz6iv&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15160&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 659.99,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15160&siftsessionid=1751562979673787601dqkm0pz6iv&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15160&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "Unlimited",
                   "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
@@ -204,27 +204,27 @@
               "country": "Austria",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -246,5 +246,5 @@
     "state_name": "Austria"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:16:37.878430"
+  "scraped_at": "2025-07-08T16:48:55.188673"
 }

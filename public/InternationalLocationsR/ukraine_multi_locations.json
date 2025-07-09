@@ -1,0 +1,489 @@
+{
+  "country": "Ukraine",
+  "regions": [
+    {
+      "region": "Kyiv Oblast",
+      "locations": [
+        {
+          "title": "Kiev",
+          "price": {
+            "amount": 19.99,
+            "currency": "USD"
+          },
+          "address": "vul. Borisa Hmyri 9v, 187, вул. Бориса Гмирі 9в, 187, 02144 Київ, Kyiv, Ukraine",
+          "latitude": "50.433359",
+          "longitude": "30.533949",
+          "plan_url": "https://www.anytimemailbox.com/s/kyiv-vul-borisa-hmyri-9v-187",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Bronze",
+              "monthly_price": {
+                "amount": 19.99,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15162&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 159.99,
+                "currency": "USD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15162&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "30 / month",
+                "Open & Scan": "5 pages / month",
+                "Forwarding": "1 / month",
+                "Recipients": "4"
+              },
+              "service_plan_id": "15162",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 19.99,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15162&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 159.99,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15162&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                "Forwarding": "1 / month\nEach additional at US$ 2.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at US$ 0.15",
+                "Local Pickup": "US$ 4.99 per visit\nPickup by appointment only",
+                "Physical Storage": "Standard Envelope: Free storage for 5 day(s), then US$ 1.99 for every mail item per month\nSmall Box: Free storage for 1 day(s), then US$ 9.99 for every mail item per month\nMedium Box: Free storage for 1 day(s), then US$ 14.99 for every mail item per month\nLarge Box: Free storage for 1 day(s), then US$ 19.99 for every mail item per month\nAll other mail: Free storage for 5 day(s), then US$ 0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional US$ 9.99 / month"
+              }
+            },
+            {
+              "title": "Silver",
+              "monthly_price": {
+                "amount": 29.99,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15163&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 219.89,
+                "currency": "USD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15163&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "60 / month",
+                "Open & Scan": "10 pages / month",
+                "Forwarding": "1 / month",
+                "Recipients": "4"
+              },
+              "service_plan_id": "15163",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 29.99,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15163&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 219.89,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15163&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                "Forwarding": "1 / month\nEach additional at US$ 2.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Not available",
+                "Shredding": "Each at US$ 0.15",
+                "Local Pickup": "US$ 4.99 per visit\nPickup by appointment only",
+                "Physical Storage": "Small Box: Free storage for 5 day(s), then US$ 9.99 for every mail item per month\nMedium Box: Free storage for 5 day(s), then US$ 14.99 for every mail item per month\nLarge Box: Free storage for 5 day(s), then US$ 19.99 for every mail item per month\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional US$ 9.99 / month"
+              }
+            },
+            {
+              "title": "Gold",
+              "monthly_price": {
+                "amount": 39.99,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15164&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 379.99,
+                "currency": "USD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15164&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "125 / month",
+                "Open & Scan": "20 pages / month",
+                "Forwarding": "1 / month",
+                "Recipients": "4"
+              },
+              "service_plan_id": "15164",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 39.99,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15164&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 379.99,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15164&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                "Forwarding": "1 / month\nEach additional at US$ 2.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at US$ 0.15",
+                "Local Pickup": "US$ 4.99 per visit\nPickup by appointment only",
+                "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional US$ 9.99 / month"
+              }
+            },
+            {
+              "title": "Unlimited",
+              "monthly_price": {
+                "amount": 69.99,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15165&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 659.99,
+                "currency": "USD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15165&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "100 pages / month",
+                "Forwarding": "1 / month",
+                "Recipients": "4"
+              },
+              "service_plan_id": "15165",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 69.99,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15165&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 659.99,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15165&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                "Forwarding": "1 / month\nEach additional at US$ 2.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Unlimited",
+                "Local Pickup": "US$ 2.00 per visit\nPickup by appointment only",
+                "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional US$ 9.99 / month"
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nvul. Borisa Hmyri 9v, 187\nвул. Бориса Гмирі 9в, 187\n02144 Київ, Kyiv\nUkraine",
+            "street_address": "vul. Borisa Hmyri 9v, 187",
+            "suite_info": "",
+            "city_state_zip": "02144 Київ, Kyiv",
+            "country": "Ukraine",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with FedEx",
+              "Ship with UPS",
+              "Ship with DHL"
+            ],
+            "operator_info": {
+              "name": "Ukraine Virtual MailBox Verified",
+              "verified": true
+            }
+          },
+          "name": "Kyiv Oblast",
+          "region": "Kyiv Oblast"
+        }
+      ],
+      "location_count": 1
+    },
+    {
+      "region": "Western Ukraine",
+      "locations": [
+        {
+          "title": "Lviv",
+          "price": {
+            "amount": 12.99,
+            "currency": "USD"
+          },
+          "address": "Stryjska Str 94/5, вул Стрийська 94/5, Lviv, Львів, 79026, Ukraine",
+          "latitude": "49.8138643",
+          "longitude": "24.0189573",
+          "plan_url": "https://www.anytimemailbox.com/s/lviv-stryjska-str-945",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Bronze",
+              "monthly_price": {
+                "amount": 12.99,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16985&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 129.99,
+                "currency": "USD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16985&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "Each at US$ 0.49",
+                "Open & Scan": "Each at US$ 0.49",
+                "Forwarding": "Each at US$ 0.49",
+                "Recipients": "1"
+              },
+              "service_plan_id": "16985",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 12.99,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16985&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 129.99,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16985&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "Each at US$ 0.49",
+                "Open & Scan": "Each at US$ 0.49\nEach page at US$ 0.49",
+                "Forwarding": "Each at US$ 0.49\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Each at US$ 0.49",
+                "Shredding": "Each at US$ 0.49",
+                "Local Pickup": "US$ 4.99 per visit\nUS$ 5.99 for each Small Box and 1 item(s) per month at no cost\nUS$ 7.99 for each Medium Box and 1 item(s) per month at no cost\nUS$ 9.99 for each Large Box and 1 item(s) per month at no cost\nUS$ 1.99 for each of all other mail and 1 item(s) per month at no cost\nPickup by appointment only",
+                "Physical Storage": "Small Box: Free storage for 1 day(s), then US$ 9.99 for every mail item per month\nMedium Box: Free storage for 1 day(s), then US$ 14.99 for every mail item per month\nLarge Box: Free storage for 30 day(s), then US$ 19.99 for every mail item per month\nAll other mail: Free storage for 5 day(s), then US$ 0.20 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "1\nEach additional US$ 12.99 / month"
+              }
+            },
+            {
+              "title": "Silver",
+              "monthly_price": {
+                "amount": 15.99,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16986&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 175.99,
+                "currency": "USD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16986&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "60 / month",
+                "Open & Scan": "10 pages / month",
+                "Forwarding": "1 / month",
+                "Recipients": "4"
+              },
+              "service_plan_id": "16986",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 15.99,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16986&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 175.99,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16986&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                "Forwarding": "1 / month\nEach additional at US$ 2.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at US$ 0.15",
+                "Local Pickup": "US$ 2.00 per visit\nPickup by appointment only",
+                "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional US$ 15.99 / month"
+              }
+            },
+            {
+              "title": "Gold",
+              "monthly_price": {
+                "amount": 29.99,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16987&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 329.99,
+                "currency": "USD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16987&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "125 / month",
+                "Open & Scan": "20 pages / month",
+                "Forwarding": "10 / month",
+                "Recipients": "4"
+              },
+              "service_plan_id": "16987",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 29.99,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16987&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 329.99,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16987&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                "Forwarding": "10 / month\nEach additional at US$ 0.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Each at US$ 0.15",
+                "Local Pickup": "US$ 2.00 per visit\nPickup by appointment only",
+                "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional US$ 10.00 / month"
+              }
+            },
+            {
+              "title": "Unlimited",
+              "monthly_price": {
+                "amount": 69.99,
+                "currency": "USD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16988&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 659.99,
+                "currency": "USD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16988&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "100 pages / month",
+                "Forwarding": "1 / month",
+                "Recipients": "4"
+              },
+              "service_plan_id": "16988",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 69.99,
+                    "currency": "USD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16988&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 659.99,
+                    "currency": "USD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16988&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                "Forwarding": "1 / month\nEach additional at US$ 2.00\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Unlimited",
+                "Local Pickup": "US$ 2.00 per visit\nPickup by appointment only",
+                "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional US$ 10.00 / month"
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nStryjska Str 94/5\nвул Стрийська 94/5\nLviv, Львів\n79026\nUkraine",
+            "street_address": "Stryjska Str 94/5",
+            "suite_info": "",
+            "city_state_zip": "79026",
+            "country": "Ukraine",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with FedEx",
+              "Ship with UPS",
+              "Ship with DHL"
+            ],
+            "operator_info": {
+              "name": "Lviv Ukraine Virtual MailBox Verified",
+              "verified": true
+            }
+          },
+          "name": "Western Ukraine",
+          "region": "Western Ukraine"
+        }
+      ],
+      "location_count": 1
+    }
+  ],
+  "total_locations": 2,
+  "scraped_at": "2025-07-09T08:12:23.905360"
+}

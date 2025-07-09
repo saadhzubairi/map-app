@@ -2,157 +2,6 @@
   "country": "Hong Kong",
   "regions": [
     {
-      "region": "Direct Locations",
-      "locations": [
-        {
-          "title": "Kwun Tong",
-          "price": {
-            "amount": 360.0,
-            "currency": "HKD"
-          },
-          "address": "",
-          "latitude": "22.3103684",
-          "longitude": "114.2262136",
-          "plan_url": "https://www.anytimemailbox.com/s/kwun-tong-11-shing-yip-street",
-          "is_premier": false,
-          "plans": [
-            {
-              "title": "Virtual Mailbox (Standard)",
-              "monthly_price": {
-                "amount": 360.0,
-                "currency": "HKD"
-              },
-              "yearly_price": {
-                "amount": 4320.0,
-                "currency": "HKD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11484&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11484&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-              "features": {
-                "Incoming Mail": "30 / month",
-                "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited",
-                "Recipients": "4"
-              },
-              "detailed_features": {
-                "Incoming Mail": "30 / month\nEach additional at HKD 0.50",
-                "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited\nShipping fees will apply",
-                "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Unlimited",
-                "Local Pickup": "HKD 3.00 for each Small Box\nHKD 3.00 for each Medium Box\nHKD 5.00 for each Large Box\nHKD 5.00 for each Extra Large Box\nHKD 10.00 for each Crate\nPickup during business hours",
-                "Physical Storage": "Small Box: Free storage for 5 day(s), then HKD 5.00 for every mail item per day\nMedium Box: Free storage for 5 day(s), then HKD 10.00 for every mail item per day\nLarge Box: Free storage for 5 day(s), then HKD 15.00 for every mail item per day\nExtra Large Box: Free storage for 3 day(s), then HKD 25.00 for every mail item per day\nCrate: Free storage for 0 day(s), then HKD 200.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then HKD 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
-                "Recipients": "4\nEach additional HKD 10.00 / month",
-                "pricing": {
-                  "monthly_price": {
-                    "amount": 360.0,
-                    "currency": "HKD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11484&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-                  "yearly_price": {
-                    "amount": 4320.0,
-                    "currency": "HKD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11484&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
-                }
-              }
-            },
-            {
-              "title": "Virtual Mailbox (Business)",
-              "monthly_price": {
-                "amount": 480.0,
-                "currency": "HKD"
-              },
-              "yearly_price": {
-                "amount": 5760.0,
-                "currency": "HKD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16673&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16673&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-              "features": {
-                "Incoming Mail": "Unlimited",
-                "Open & Scan": "Not available",
-                "Forwarding": "Not available",
-                "Recipients": "1"
-              },
-              "detailed_features": {
-                "Incoming Mail": "Unlimited",
-                "Open & Scan": "Not available",
-                "Forwarding": "Not available",
-                "Check Deposit": "Not available",
-                "Recycling": "Not available",
-                "Shredding": "Not available",
-                "Local Pickup": "Unlimited\nPickup during business hours",
-                "Physical Storage": "Free storage for 30 day(s), then HKD 0.00 for every mail item per day",
-                "Online Storage": "Unlimited",
-                "Recipients": "1",
-                "pricing": {
-                  "monthly_price": {
-                    "amount": 480.0,
-                    "currency": "HKD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16673&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-                  "yearly_price": {
-                    "amount": 5760.0,
-                    "currency": "HKD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16673&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
-                }
-              }
-            }
-          ],
-          "location_info": {
-            "address_title": "Your Real Street Address",
-            "address_text": "YOUR NAME\n11 Shing Yip St\nUnit No 9, 9/F Wah Shing Center\nPMB #MAILBOX\nKwun Tong, Hong Kong",
-            "street_address": "11 Shing Yip St",
-            "suite_info": "PMB #MAILBOX",
-            "city_state_zip": "PMB #MAILBOX",
-            "country": "Kwun Tong, Hong Kong",
-            "features": [
-              {
-                "name": "Open & Scan",
-                "available": true
-              },
-              {
-                "name": "Recycling",
-                "available": true
-              },
-              {
-                "name": "Forwarding",
-                "available": true
-              },
-              {
-                "name": "Shredding",
-                "available": true
-              },
-              {
-                "name": "Check Deposit",
-                "available": false
-              },
-              {
-                "name": "Local Pickup",
-                "available": true
-              }
-            ],
-            "shipping_carriers": [
-              "Ship with FedEx",
-              "Ship with UPS",
-              "Ship with DHL"
-            ],
-            "operator_info": {
-              "name": "Mail Boxes Etc. Verified",
-              "verified": true
-            }
-          },
-          "name": "Kowloon",
-          "region": "Kowloon"
-        }
-      ],
-      "location_count": 1
-    },
-    {
       "region": "Hong Kong Island",
       "locations": [
         {
@@ -161,7 +10,7 @@
             "amount": 430.0,
             "currency": "HKD"
           },
-          "address": "",
+          "address": "54 Jervois Street, Sheung Wan, Hong Kong",
           "latitude": "22.284881",
           "longitude": "114.151931",
           "plan_url": "https://www.anytimemailbox.com/s/sheung-wan-54-jervois-street",
@@ -173,19 +22,32 @@
                 "amount": 430.0,
                 "currency": "HKD"
               },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15606&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "yearly_price": {
                 "amount": 5160.0,
                 "currency": "HKD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15606&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15606&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15606&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "features": {
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "Unlimited",
                 "Forwarding": "Unlimited",
                 "Recipients": "4"
               },
+              "service_plan_id": "15606",
               "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 430.0,
+                    "currency": "HKD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15606&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 5160.0,
+                    "currency": "HKD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15606&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "Unlimited",
                 "Forwarding": "Unlimited\nShipping fees will apply",
@@ -195,19 +57,7 @@
                 "Local Pickup": "Unlimited\nPickup during business hours",
                 "Physical Storage": "Free storage for 30 day(s), then HKD 0.00 for every mail item per day",
                 "Online Storage": "Unlimited",
-                "Recipients": "4\nEach additional HKD 50.00 / month",
-                "pricing": {
-                  "monthly_price": {
-                    "amount": 430.0,
-                    "currency": "HKD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=15606&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-                  "yearly_price": {
-                    "amount": 5160.0,
-                    "currency": "HKD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=15606&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
-                }
+                "Recipients": "4\nEach additional HKD 50.00 / month"
               }
             },
             {
@@ -216,19 +66,32 @@
                 "amount": 550.0,
                 "currency": "HKD"
               },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16672&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "yearly_price": {
                 "amount": 6600.0,
                 "currency": "HKD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16672&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16672&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16672&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "features": {
                 "Incoming Mail": "Not available",
                 "Open & Scan": "Not available",
                 "Forwarding": "Not available",
                 "Recipients": "1"
               },
+              "service_plan_id": "16672",
               "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 550.0,
+                    "currency": "HKD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16672&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 6600.0,
+                    "currency": "HKD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16672&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
                 "Incoming Mail": "Not available",
                 "Open & Scan": "Not available",
                 "Forwarding": "Not available",
@@ -238,19 +101,7 @@
                 "Local Pickup": "Unlimited\nPickup during business hours",
                 "Physical Storage": "Free storage for 30 day(s), then HKD 0.00 for every mail item per day",
                 "Online Storage": "Unlimited",
-                "Recipients": "1",
-                "pricing": {
-                  "monthly_price": {
-                    "amount": 550.0,
-                    "currency": "HKD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16672&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'",
-                  "yearly_price": {
-                    "amount": 6600.0,
-                    "currency": "HKD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16672&siftsessionid=175189124018974540kb7un8u5lkk&firstpagehit=https://www.anytimemailbox.com/s/manuka-2-captain-cook-crescent'"
-                }
+                "Recipients": "1"
               }
             }
           ],
@@ -302,8 +153,161 @@
         }
       ],
       "location_count": 1
+    },
+    {
+      "region": "Kowloon",
+      "locations": [
+        {
+          "title": "Kwun Tong",
+          "price": {
+            "amount": 360.0,
+            "currency": "HKD"
+          },
+          "address": "11 Shing Yip St, Unit No 9, 9/F Wah Shing Center, Kwun Tong, Hong Kong",
+          "latitude": "22.3103684",
+          "longitude": "114.2262136",
+          "plan_url": "https://www.anytimemailbox.com/s/kwun-tong-11-shing-yip-street",
+          "is_premier": false,
+          "plans": [
+            {
+              "title": "Virtual Mailbox (Standard)",
+              "monthly_price": {
+                "amount": 360.0,
+                "currency": "HKD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11484&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 4320.0,
+                "currency": "HKD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11484&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "30 / month",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited",
+                "Recipients": "4"
+              },
+              "service_plan_id": "11484",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 360.0,
+                    "currency": "HKD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11484&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 4320.0,
+                    "currency": "HKD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11484&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "30 / month\nEach additional at HKD 0.50",
+                "Open & Scan": "Unlimited",
+                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Check Deposit": "Not available",
+                "Recycling": "Unlimited",
+                "Shredding": "Unlimited",
+                "Local Pickup": "HKD 3.00 for each Small Box\nHKD 3.00 for each Medium Box\nHKD 5.00 for each Large Box\nHKD 5.00 for each Extra Large Box\nHKD 10.00 for each Crate\nPickup during business hours",
+                "Physical Storage": "Small Box: Free storage for 5 day(s), then HKD 5.00 for every mail item per day\nMedium Box: Free storage for 5 day(s), then HKD 10.00 for every mail item per day\nLarge Box: Free storage for 5 day(s), then HKD 15.00 for every mail item per day\nExtra Large Box: Free storage for 3 day(s), then HKD 25.00 for every mail item per day\nCrate: Free storage for 0 day(s), then HKD 200.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then HKD 0.05 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "4\nEach additional HKD 10.00 / month"
+              }
+            },
+            {
+              "title": "Virtual Mailbox (Business)",
+              "monthly_price": {
+                "amount": 480.0,
+                "currency": "HKD"
+              },
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16673&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_price": {
+                "amount": 5760.0,
+                "currency": "HKD"
+              },
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16673&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Not available",
+                "Forwarding": "Not available",
+                "Recipients": "1"
+              },
+              "service_plan_id": "16673",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 480.0,
+                    "currency": "HKD"
+                  },
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16673&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "yearly_price": {
+                    "amount": 5760.0,
+                    "currency": "HKD"
+                  },
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16673&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                },
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Not available",
+                "Forwarding": "Not available",
+                "Check Deposit": "Not available",
+                "Recycling": "Not available",
+                "Shredding": "Not available",
+                "Local Pickup": "Unlimited\nPickup during business hours",
+                "Physical Storage": "Free storage for 30 day(s), then HKD 0.00 for every mail item per day",
+                "Online Storage": "Unlimited",
+                "Recipients": "1"
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\n11 Shing Yip St\nUnit No 9, 9/F Wah Shing Center\nPMB #MAILBOX\nKwun Tong, Hong Kong",
+            "street_address": "11 Shing Yip St",
+            "suite_info": "PMB #MAILBOX",
+            "city_state_zip": "PMB #MAILBOX",
+            "country": "Kwun Tong, Hong Kong",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with FedEx",
+              "Ship with UPS",
+              "Ship with DHL"
+            ],
+            "operator_info": {
+              "name": "Mail Boxes Etc. Verified",
+              "verified": true
+            }
+          },
+          "name": "Kowloon",
+          "region": "Kowloon"
+        }
+      ],
+      "location_count": 1
     }
   ],
   "total_locations": 2,
-  "scraped_at": "2025-07-07T09:25:00.778073"
+  "scraped_at": "2025-07-09T07:53:53.427178"
 }

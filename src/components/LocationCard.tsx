@@ -17,7 +17,7 @@ const LocationCard = forwardRef<HTMLDivElement, LocationCardProps>(
     return (
       <div
         ref={ref}
-        className={`group hover:ring-2 hover:ring-green-400 border flex cursor-pointer flex-col p-4 gap-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 ${selected ? 'ring-2 ring-green-400' : ''} ${highlighted ? 'ring-4 ring-green-500' : ''}`}
+        className={`w-84 group hover:ring-2 hover:ring-green-400 border flex cursor-pointer flex-col p-4 gap-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 ${selected ? 'ring-2 ring-green-400' : ''} ${highlighted ? 'ring-4 ring-green-500' : ''}`}
         onClick={() => onSelect(location)}
       >
         <div className="font-bold text-lg text-gray-900 group-hover:text-green-700 transition-colors">

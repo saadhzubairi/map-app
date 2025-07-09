@@ -7,12 +7,12 @@
         "city_name": "Lithuania",
         "locations": [
           {
-            "title": "",
+            "title": "Vilnius",
             "price": {
               "amount": 14.95,
               "currency": "USD"
             },
-            "address": "",
+            "address": "4 Palangos St, Vilnius, Vilnius 01402",
             "latitude": "54.6829278",
             "longitude": "25.2784592",
             "plan_url": "https://www.anytimemailbox.com/s/vilnius-4-palangos-street",
@@ -24,12 +24,12 @@
                   "amount": 14.95,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22143&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22143&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 149.95,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22143&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22143&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "10 / month",
                   "Open & Scan": "Each page at €0.50",
@@ -43,12 +43,12 @@
                       "amount": 14.95,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22143&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22143&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 149.95,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22143&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22143&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "10 / month\nEach additional at €0.35",
                   "Open & Scan": "Unlimited\nEach page at €0.50",
@@ -68,12 +68,12 @@
                   "amount": 29.95,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22144&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22144&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 299.95,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22144&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22144&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "30 / month",
                   "Open & Scan": "10 pages / month",
@@ -87,12 +87,12 @@
                       "amount": 29.95,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22144&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22144&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 299.95,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22144&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22144&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "30 / month\nEach additional at €0.15",
                   "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at €0.20",
@@ -112,12 +112,12 @@
                   "amount": 34.95,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22145&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22145&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 349.95,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22145&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22145&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "125 / month",
                   "Open & Scan": "20 pages / month",
@@ -131,12 +131,12 @@
                       "amount": 34.95,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22145&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22145&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 349.95,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22145&siftsessionid=175156324306220390f6rzl2g0trt&firstpagehit=https://www.anytimemailbox.com/s/vilnius-4-palangos-street'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22145&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "125 / month\nEach additional at €0.35",
                   "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at €0.50",
@@ -160,27 +160,27 @@
               "country": "Lithuania",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -200,5 +200,5 @@
     "state_name": "Lithuania"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:20:59.023741"
+  "scraped_at": "2025-07-08T16:51:55.159077"
 }

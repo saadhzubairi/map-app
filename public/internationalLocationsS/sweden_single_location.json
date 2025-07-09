@@ -7,12 +7,12 @@
         "city_name": "Sweden",
         "locations": [
           {
-            "title": "",
+            "title": "Stockholm - Kungsholmsgatan",
             "price": {
               "amount": 120.0,
               "currency": "USD"
             },
-            "address": "",
+            "address": "Kungsholmsgatan 10, Stockholm, 112 27",
             "latitude": "59.3309982",
             "longitude": "18.0483111",
             "plan_url": "https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10",
@@ -24,12 +24,12 @@
                   "amount": 120.0,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18243&siftsessionid=175156348117789180zepcasobrh'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18243&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 1070.0,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18243&siftsessionid=175156348117789180zepcasobrh'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18243&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "2 / month",
                   "Open & Scan": "2 pages / month",
@@ -43,12 +43,12 @@
                       "amount": 120.0,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18243&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18243&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 1070.0,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18243&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18243&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "2 / month\nEach additional at Kr 10.00",
                   "Open & Scan": "Unlimited\n2 pages / month\nEach additional page at Kr 1.00",
@@ -68,12 +68,12 @@
                   "amount": 220.0,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18244&siftsessionid=175156348117789180zepcasobrh'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18244&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 2190.0,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18244&siftsessionid=175156348117789180zepcasobrh'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18244&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "20 / month",
                   "Open & Scan": "20 pages / month",
@@ -87,12 +87,12 @@
                       "amount": 220.0,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18244&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18244&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 2190.0,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18244&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18244&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "20 / month\nEach additional at Kr 7.00",
                   "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at Kr 1.00",
@@ -112,12 +112,12 @@
                   "amount": 350.0,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18245&siftsessionid=175156348117789180zepcasobrh'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18245&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 3500.0,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18245&siftsessionid=175156348117789180zepcasobrh'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18245&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "80 / month",
                   "Open & Scan": "40 pages / month",
@@ -131,12 +131,12 @@
                       "amount": 350.0,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18245&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=18245&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 3500.0,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18245&siftsessionid=175156348117789180zepcasobrh&firstpagehit=https://www.anytimemailbox.com/s/stockholm-kungsholmsgatan-10'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=18245&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "80 / month\nEach additional at Kr 7.00",
                   "Open & Scan": "Unlimited\n40 pages / month\nEach additional page at Kr 1.00",
@@ -160,27 +160,27 @@
               "country": "Sweden",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -202,5 +202,5 @@
     "state_name": "Sweden"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:24:57.274218"
+  "scraped_at": "2025-07-08T16:54:37.027978"
 }

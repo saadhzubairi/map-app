@@ -7,12 +7,12 @@
         "city_name": "Colombia",
         "locations": [
           {
-            "title": "",
+            "title": "Cajicá",
             "price": {
               "amount": 40000.0,
               "currency": "COP"
             },
-            "address": "",
+            "address": "Carrera 3 #1-50 Unit #MAILBOX\nCajicá, Cundinamarca Colombia 240250",
             "latitude": "4.9161346",
             "longitude": "-74.024491",
             "plan_url": "https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50",
@@ -24,12 +24,12 @@
                   "amount": 40000.0,
                   "currency": "COP"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26566&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26566&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 400000.0,
                   "currency": "COP"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26566&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26566&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "20 / month",
                   "Open & Scan": "5 pages / month",
@@ -43,12 +43,12 @@
                       "amount": 40000.0,
                       "currency": "COP"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26566&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26566&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 400000.0,
                       "currency": "COP"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26566&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26566&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "20 / month\nEach additional at COP 1,000.00",
                   "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at COP 100.00",
@@ -68,12 +68,12 @@
                   "amount": 80000.0,
                   "currency": "COP"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26567&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26567&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 800000.0,
                   "currency": "COP"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26567&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26567&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "30 / month",
                   "Open & Scan": "10 pages / month",
@@ -87,12 +87,12 @@
                       "amount": 80000.0,
                       "currency": "COP"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26567&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26567&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 800000.0,
                       "currency": "COP"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26567&siftsessionid=1751563032706267601n57z8je1cg&firstpagehit=https://www.anytimemailbox.com/s/cajicá-carrera-3-1-50'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26567&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "30 / month\nEach additional at COP 1,000.00",
                   "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at COP 100.00",
@@ -111,32 +111,32 @@
               "address_title": "Your Real Street Address",
               "address_text": "YOUR NAME\nCarrera 3 #1-50 Unit #MAILBOX\nCajicá, Cundinamarca Colombia 240250",
               "street_address": "Carrera 3 #1-50 Unit #MAILBOX",
-              "suite_info": "Carrera 3 #1-50 Unit #MAILBOX",
-              "city_state_zip": "Carrera 3 #1-50 Unit #MAILBOX",
+              "suite_info": "Unit #MAILBOX",
+              "city_state_zip": "Cajicá, Cundinamarca Colombia 240250",
               "country": "Cajicá, Cundinamarca Colombia 240250",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -156,5 +156,5 @@
     "state_name": "Colombia"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:17:23.642389"
+  "scraped_at": "2025-07-08T16:49:27.878136"
 }

@@ -7,12 +7,12 @@
         "city_name": "Hungary",
         "locations": [
           {
-            "title": "",
+            "title": "Budapest - Szabadság sqr",
             "price": {
               "amount": 2450.0,
               "currency": "HUF"
             },
-            "address": "",
+            "address": "Mail Boxes Etc - MBE Magyarorszag Kft, Szabadság tér 7, Budapest, Budapest 1054",
             "latitude": "47.5029182",
             "longitude": "19.0518241",
             "plan_url": "https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7",
@@ -24,12 +24,12 @@
                   "amount": 2450.0,
                   "currency": "HUF"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21107&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21107&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 24500.0,
                   "currency": "HUF"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21107&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21107&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "10 / month",
                   "Open & Scan": "5 / month",
@@ -43,12 +43,12 @@
                       "amount": 2450.0,
                       "currency": "HUF"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21107&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21107&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 24500.0,
                       "currency": "HUF"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21107&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21107&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "10 / month\nEach additional at HUF 350.00",
                   "Open & Scan": "5 / month\nEach additional at HUF 350.00\n5 pages / month\nEach additional page at HUF 350.00\n1 pages / request\nEach additional page at HUF 350.00",
@@ -68,12 +68,12 @@
                   "amount": 6500.0,
                   "currency": "HUF"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21108&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21108&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 65000.0,
                   "currency": "HUF"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21108&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21108&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "25 / month",
                   "Open & Scan": "10 pages / month",
@@ -87,12 +87,12 @@
                       "amount": 6500.0,
                       "currency": "HUF"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21108&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21108&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 65000.0,
                       "currency": "HUF"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21108&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21108&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "25 / month\nEach additional at HUF 350.00",
                   "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at HUF 350.00",
@@ -112,12 +112,12 @@
                   "amount": 11500.0,
                   "currency": "HUF"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21109&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21109&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 115000.0,
                   "currency": "HUF"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21109&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21109&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "125 / month",
                   "Open & Scan": "20 pages / month",
@@ -131,12 +131,12 @@
                       "amount": 11500.0,
                       "currency": "HUF"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21109&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=21109&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 115000.0,
                       "currency": "HUF"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21109&siftsessionid=17515631260302890ftbxucibm4c&firstpagehit=https://www.anytimemailbox.com/s/budapest-szabadság-sqr-7'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=21109&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "125 / month\nEach additional at HUF 0.35",
                   "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at HUF 0.50",
@@ -160,27 +160,27 @@
               "country": "Hungary",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -201,5 +201,5 @@
     "state_name": "Hungary"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:19:00.484172"
+  "scraped_at": "2025-07-08T16:50:35.981350"
 }

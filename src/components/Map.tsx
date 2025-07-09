@@ -25,6 +25,7 @@ import CustomMapLayout from './CustomMapLayout';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import PdfExportDialogButton from './PdfExportDialog';
+import { Button } from './ui/button';
 
 interface Location {
   price: string;
@@ -704,13 +705,16 @@ export default function MapComponent({ className = '' }: MapProps) {
                 </div>
               )}
             </div>
-            <div className="">
-              <PdfExportDialogButton />
+            <div className="flex items-center justify-center py-3">
+              <PdfExportDialogButton
+                mode={mode.toLowerCase() as 'us' | 'international'}
+                selected={selectedState}
+                usStates={states}
+                intlCountries={intlCountries}
+              />
             </div>
           </div>
-
         )}
-
 
         {/* Map area (conditionally rendered) */}
         {showMap && (

@@ -7,12 +7,12 @@
         "city_name": "Thailand",
         "locations": [
           {
-            "title": "",
+            "title": "Bangkok",
             "price": {
               "amount": 400.0,
               "currency": "USD"
             },
-            "address": "",
+            "address": "Bangkok, 10120 Thailand",
             "latitude": "13.71935",
             "longitude": "100.53139",
             "plan_url": "https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul",
@@ -24,12 +24,12 @@
                   "amount": 400.0,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6900&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6900&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 3990.0,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6900&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6900&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "5 / month",
                   "Open & Scan": "3 / month",
@@ -43,12 +43,12 @@
                       "amount": 400.0,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6900&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6900&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 3990.0,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6900&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6900&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "5 / month\nEach additional at ฿50",
                   "Open & Scan": "3 / month\nEach additional at ฿30\n2 pages / month\nEach additional page at ฿30\n1 pages / request\nEach additional page at ฿15",
@@ -68,12 +68,12 @@
                   "amount": 500.0,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6901&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6901&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 4990.0,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6901&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6901&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "10 / month",
                   "Open & Scan": "5 pages / month",
@@ -87,12 +87,12 @@
                       "amount": 500.0,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6901&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6901&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 4990.0,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6901&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6901&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "10 / month\nEach additional at ฿50",
                   "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at ฿30\n1 pages / request\nEach additional page at ฿15",
@@ -112,12 +112,12 @@
                   "amount": 900.0,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6902&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6902&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 8990.0,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6902&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6902&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "30 / month",
                   "Open & Scan": "15 / month",
@@ -131,12 +131,12 @@
                       "amount": 900.0,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6902&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6902&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 8990.0,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6902&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6902&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "30 / month\nEach additional at ฿50",
                   "Open & Scan": "15 / month\nEach additional at ฿30\n15 pages / month\nEach additional page at ฿30\n2 pages / request\nEach additional page at ฿15",
@@ -156,12 +156,12 @@
                   "amount": 2000.0,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6903&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6903&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 19990.0,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6903&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6903&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "100 / month",
                   "Open & Scan": "60 / month",
@@ -175,12 +175,12 @@
                       "amount": 2000.0,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6903&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6903&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 19990.0,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6903&siftsessionid=17515635304231330c5z810fmugs&firstpagehit=https://www.anytimemailbox.com/s/bangkok-55-19-narathiwas-road-soi-pikul'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6903&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "100 / month\nEach additional at ฿50",
                   "Open & Scan": "60 / month\nEach additional at ฿30\n60 pages / month\nEach additional page at ฿30\n2 pages / request\nEach additional page at ฿15",
@@ -199,32 +199,32 @@
               "address_title": "Your Real Street Address",
               "address_text": "YOUR NAME\n#MAILBOX\nNo.8 Narathiwas Rajanagarindra Road, Yannawa, Sathorn\nBangkok, 10120 Thailand\nPhone: +66(0)830443962",
               "street_address": "#MAILBOX",
-              "suite_info": "#MAILBOX",
+              "suite_info": "No.8 Narathiwas Rajanagarindra Road, Yannawa, Sathorn",
               "city_state_zip": "Bangkok, 10120 Thailand",
               "country": "Phone: +66(0)830443962",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -245,5 +245,5 @@
     "state_name": "Thailand"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:25:49.992274"
+  "scraped_at": "2025-07-08T16:55:11.613628"
 }

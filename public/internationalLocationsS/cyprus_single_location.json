@@ -7,12 +7,12 @@
         "city_name": "Cyprus",
         "locations": [
           {
-            "title": "",
+            "title": "Paphos",
             "price": {
               "amount": 55.99,
               "currency": "USD"
             },
-            "address": "",
+            "address": "M5, Konia, 8300",
             "latitude": "34.79405",
             "longitude": "32.44076",
             "plan_url": "https://www.anytimemailbox.com/s/paphos-andrea-vlami-34",
@@ -24,12 +24,12 @@
                   "amount": 55.99,
                   "currency": "USD"
                 },
-                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7632&siftsessionid=1751563054219356207bynzoxfgdt'",
+                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7632&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "yearly_price": {
                   "amount": 599.99,
                   "currency": "USD"
                 },
-                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7632&siftsessionid=1751563054219356207bynzoxfgdt'",
+                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7632&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                 "features": {
                   "Incoming Mail": "Unlimited",
                   "Open & Scan": "Unlimited",
@@ -43,12 +43,12 @@
                       "amount": 55.99,
                       "currency": "USD"
                     },
-                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7632&siftsessionid=1751563054219356207bynzoxfgdt&firstpagehit=https://www.anytimemailbox.com/s/paphos-andrea-vlami-34'",
+                    "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=7632&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'",
                     "yearly_price": {
                       "amount": 599.99,
                       "currency": "USD"
                     },
-                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7632&siftsessionid=1751563054219356207bynzoxfgdt&firstpagehit=https://www.anytimemailbox.com/s/paphos-andrea-vlami-34'"
+                    "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=7632&siftsessionid=175200771664970360yzocamw523&firstpagehit=https://www.anytimemailbox.com/s/vienna-nauschgasse-432'"
                   },
                   "Incoming Mail": "Unlimited",
                   "Open & Scan": "Unlimited",
@@ -67,32 +67,32 @@
               "address_title": "Your Real Street Address",
               "address_text": "YOUR NAME\n#MAILBOX\nSouliou 16\nM5\nKonia, 8300\nCyprus",
               "street_address": "#MAILBOX",
-              "suite_info": "#MAILBOX",
+              "suite_info": "Souliou 16",
               "city_state_zip": "Konia, 8300",
               "country": "Cyprus",
               "features": [
                 {
-                  "name": "",
+                  "name": "Open & Scan",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Recycling",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Forwarding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Shredding",
                   "available": true
                 },
                 {
-                  "name": "",
+                  "name": "Check Deposit",
                   "available": false
                 },
                 {
-                  "name": "",
+                  "name": "Local Pickup",
                   "available": true
                 }
               ],
@@ -115,5 +115,5 @@
     "state_name": "Cyprus"
   },
   "total_locations": 1,
-  "scraped_at": "2025-07-03T13:17:41.583499"
+  "scraped_at": "2025-07-08T16:49:38.343879"
 }
