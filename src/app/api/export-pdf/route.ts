@@ -6,7 +6,7 @@ import path from 'path';
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { mode, selected, allLocations, exportType } = body;
+    const { mode, selected, exportType } = body;
     
     const pdfGenerator = new PDFGenerator();
     let pdfBuffer: Uint8Array;
@@ -114,8 +114,10 @@ export async function POST(req: NextRequest) {
       },
     });
     
-  } catch (e: any) {
+  } catch (e: unknown) {
     console.error('PDF generation error:', e);
-    return NextResponse.json({ error: 'Failed to generate PDF', details: e?.message || String(e), stack: e?.stack }, { status: 500 });
+    const message = typeof e === 'object' && e && 'message' in e ? (e as { message: string }).message : String(e);
+    const stack = typeof e === 'object' && e && 'stack' in e ? (e as { stack?: string }).stack : undefined;
+    return NextResponse.json({ error: 'Failed to generate PDF', details: message, stack }, { status: 500 });
   }
 } 

@@ -1,5 +1,5 @@
 export function getInternationalPdfHtml(countryData: any): string {
-    const { country, regions, total_locations, scraped_at } = countryData;
+    const { country, regions, total_locations, scraped_at, priceIncluded = true } = countryData;
 
     const createFeatureIcon = (available: boolean) => {
         if (available) {
@@ -21,8 +21,8 @@ export function getInternationalPdfHtml(countryData: any): string {
             <div class="plan-card flex flex-col rounded-lg p-6 h-full">
                 <h4 class="text-xl font-bold text-gray-800 mb-2">${plan.title}</h4>
                 <div class="mb-4">
-                    <p class="text-3xl font-extrabold text-indigo-600">${plan.monthly_price?.amount?.toFixed(2) || 'N/A'} ${plan.monthly_price?.currency}</p>
-                    <p class="text-sm text-gray-500">per month</p>
+                    ${priceIncluded ? `<p class="text-3xl font-extrabold text-indigo-600">${plan.monthly_price?.amount?.toFixed(2) || 'N/A'} ${plan.monthly_price?.currency}</p>
+                    <p class="text-sm text-gray-500">per month</p>` : ''}
                 </div>
                 <div class="mt-auto pt-4 border-t border-gray-200">
                     <h5 class="font-bold mb-2 text-gray-700">Plan Details:</h5>
@@ -41,20 +41,22 @@ export function getInternationalPdfHtml(countryData: any): string {
         `).join('');
     };
 
-    const renderLocation = (location: any) => {
+    const renderLocation = (location: any, regionName: string, locationIndex: number) => {
         const safePrice = location.price || { amount: 0, currency: '' };
+        const locationId = `location-${regionName.toLowerCase().replace(/\s+/g, '-')}-${locationIndex}`;
+        
         const locationCardHtml = `
-            <div class="card mb-6">
+            <div class="card mb-6" id="${locationId}">
                 <div class="p-8">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <!-- Left Column: Info & Map -->
                         <div>
                             <h3 class="text-3xl font-bold text-gray-900 mb-2">${location.title}</h3>
                             <p class="text-gray-600 mb-4">${location.address}</p>
-                            <div class="flex items-center text-lg font-semibold text-gray-700 mb-6">
+                            ${priceIncluded ? `<div class="flex items-center text-lg font-semibold text-gray-700 mb-6">
                                 <span class="text-gray-500 mr-2">Starting from:</span>
-                                <span class="text-indigo-600">${safePrice.amount?.toFixed(2) || 'N/A'} ${safePrice.currency}/month</span>
-                            </div>
+                                <span class="text-indigo-600">${safePrice.amount?.toFixed(2)} ${safePrice.currency}/month</span>
+                            </div>` : ''}
                             ${createMap(location.mapImage)}
                         </div>
                         <!-- Right Column: Operator Info & Features -->
@@ -100,12 +102,42 @@ export function getInternationalPdfHtml(countryData: any): string {
         return locationCardHtml + plansHtml;
     };
 
-    const regionsHtml = (regions || []).map((region: any, index: number) => `
-        <section class="mb-16 ${index > 0 ? 'page-break-before' : ''}">
-            <h2 class="text-4xl font-bold text-gray-800 mb-8 pb-4 border-b-2 border-indigo-500 inline-block">${region.region} (${region.location_count} Locations)</h2>
-            ${region.locations.map(renderLocation).join('')}
-        </section>
-    `).join('');
+    // Generate table of contents
+    const generateTableOfContents = () => {
+        if (!regions || regions.length === 0) return '';
+        
+        const tocItems = regions.map((region: any) => {
+            const regionId = `region-${region.region.toLowerCase().replace(/\s+/g, '-')}`;
+            return `
+                <li class="mb-2">
+                    <a href="#${regionId}" class="text-blue-600 hover:text-blue-800 underline">
+                        ${region.region} (${region.location_count} Locations)
+                    </a>
+                </li>
+            `;
+        }).join('');
+        
+        return `
+            <div class="mb-8 p-6 bg-gray-50 rounded-lg border">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Table of Contents</h2>
+                <ul class="space-y-1">
+                    ${tocItems}
+                </ul>
+            </div>
+        `;
+    };
+
+    const regionsHtml = (regions || []).map((region: any, index: number) => {
+        const regionId = `region-${region.region.toLowerCase().replace(/\s+/g, '-')}`;
+        return `
+            <section class="mb-16 ${index > 0 ? 'page-break-before' : ''}" id="${regionId}">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8 pb-4 border-b-2 border-indigo-500 inline-block">${region.region} (${region.location_count} Locations)</h2>
+                ${region.locations.map((location: any, locationIndex: number) => 
+                    renderLocation(location, region.region, locationIndex)
+                ).join('')}
+            </section>
+        `;
+    }).join('');
 
     return `
     <!DOCTYPE html>
@@ -124,6 +156,8 @@ export function getInternationalPdfHtml(countryData: any): string {
             .plans-section { break-inside: avoid; page-break-inside: avoid; }
             .map-container { height: 300px; width: 100%; border-radius: 0.5rem; overflow: hidden; border: 1px solid #e5e7eb; }
             .feature-icon { width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; flex-shrink: 0; }
+            .page-break-after { page-break-after: always; }
+            .page-number { display: none; }
             
             @media print {
                 html, body {
@@ -170,6 +204,26 @@ export function getInternationalPdfHtml(countryData: any): string {
                 .page-break-before {
                     page-break-before: always;
                 }
+                .page-break-after {
+                    display: block;
+                    page-break-after: always;
+                }
+                .page-number {
+                    display: block;
+                    position: fixed;
+                    bottom: 10mm;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    font-size: 10pt;
+                    color: #888;
+                }
+                @page {
+                    margin: 20mm 15mm 20mm 15mm;
+                    @bottom-center {
+                        content: counter(page);
+                    }
+                }
             }
         </style>
     </head>
@@ -179,10 +233,13 @@ export function getInternationalPdfHtml(countryData: any): string {
                 <h1 class="text-5xl font-extrabold text-gray-900">${country}</h1>
                 <p class="text-lg text-gray-500 mt-2">Available Mailbox Locations (${total_locations} total)</p>
             </header>
+            ${generateTableOfContents()}
+            <div class="page-break-after"></div>
             ${regionsHtml}
             <footer class="text-center mt-16 pt-8 border-t text-gray-500">
                 <p>Report generated on: ${new Date(scraped_at).toLocaleString()}</p>
             </footer>
+            <div class="page-number"></div>
         </div>
     </body>
     </html>
@@ -190,7 +247,7 @@ export function getInternationalPdfHtml(countryData: any): string {
 } 
 
 export function getUsStatePdfHtml(stateData: any): string {
-    const { country: stateName, regions, total_locations, scraped_at } = stateData;
+    const { country: stateName, regions, total_locations, scraped_at, priceIncluded = true } = stateData;
 
     const createFeatureIcon = (available: boolean) => {
         if (available) {
@@ -212,8 +269,8 @@ export function getUsStatePdfHtml(stateData: any): string {
             <div class="plan-card flex flex-col rounded-lg p-6 h-full">
                 <h4 class="text-xl font-bold text-gray-800 mb-2">${plan.title || 'Plan'}</h4>
                 <div class="mb-4">
-                    <p class="text-3xl font-extrabold text-indigo-600">${plan.monthly_price?.amount?.toFixed(2) || 'N/A'} ${plan.monthly_price?.currency}</p>
-                    <p class="text-sm text-gray-500">per month</p>
+                    ${priceIncluded ? `<p class="text-3xl font-extrabold text-indigo-600">${plan.monthly_price?.amount?.toFixed(2) || 'N/A'} ${plan.monthly_price?.currency}</p>
+                    <p class="text-sm text-gray-500">per month</p>` : ''}
                 </div>
                 <div class="mt-auto pt-4 border-t border-gray-200">
                     <h5 class="font-bold mb-2 text-gray-700">Plan Details:</h5>
@@ -232,10 +289,12 @@ export function getUsStatePdfHtml(stateData: any): string {
         `).join('');
     };
 
-    const renderLocation = (location: any) => {
+    const renderLocation = (location: any, cityName: string, locationIndex: number) => {
         const safePrice = location.price || { amount: 0, currency: '' };
+        const locationId = `location-${cityName.toLowerCase().replace(/\s+/g, '-')}-${locationIndex}`;
+        
         const locationCardHtml = `
-            <div class="card mb-6">
+            <div class="card mb-6" id="${locationId}">
                 <div class="p-8">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <div>
@@ -243,7 +302,7 @@ export function getUsStatePdfHtml(stateData: any): string {
                             <p class="text-gray-600 mb-4">${location.address}</p>
                             <div class="flex items-center text-lg font-semibold text-gray-700 mb-6">
                                 <span class="text-gray-500 mr-2">Starting from:</span>
-                                <span class="text-indigo-600">${safePrice.amount?.toFixed(2) || 'N/A'} ${safePrice.currency}/month</span>
+                                ${priceIncluded ? `<span class="text-indigo-600">${safePrice.amount?.toFixed(2) || 'N/A'} ${safePrice.currency}/month</span>` : '<span class="text-indigo-600">(Price hidden)</span>'}
                             </div>
                             ${createMap(location.mapImage)}
                         </div>
@@ -289,12 +348,42 @@ export function getUsStatePdfHtml(stateData: any): string {
         return locationCardHtml + plansHtml;
     };
 
-    const citiesHtml = (regions || []).map((city: any, index: number) => `
-        <section class="mb-16 ${index > 0 ? 'page-break-before' : ''}">
-            <h2 class="text-4xl font-bold text-gray-800 mb-8 pb-4 border-b-2 border-indigo-500 inline-block">${city.region} (${city.location_count} Locations)</h2>
-            ${city.locations.map(renderLocation).join('')}
-        </section>
-    `).join('');
+    // Generate table of contents
+    const generateTableOfContents = () => {
+        if (!regions || regions.length === 0) return '';
+        
+        const tocItems = regions.map((city: any) => {
+            const cityId = `city-${city.region.toLowerCase().replace(/\s+/g, '-')}`;
+            return `
+                <li class="mb-2">
+                    <a href="#${cityId}" class="text-blue-600 hover:text-blue-800 underline">
+                        ${city.region} (${city.location_count} Locations)
+                    </a>
+                </li>
+            `;
+        }).join('');
+        
+        return `
+            <div class="mb-8 p-6 bg-gray-50 rounded-lg border">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Table of Contents</h2>
+                <ul class="space-y-1">
+                    ${tocItems}
+                </ul>
+            </div>
+        `;
+    };
+
+    const citiesHtml = (regions || []).map((city: any, index: number) => {
+        const cityId = `city-${city.region.toLowerCase().replace(/\s+/g, '-')}`;
+        return `
+            <section class="mb-16 ${index > 0 ? 'page-break-before' : ''}" id="${cityId}">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8 pb-4 border-b-2 border-indigo-500 inline-block">${city.region} (${city.location_count} Locations)</h2>
+                ${city.locations.map((location: any, locationIndex: number) => 
+                    renderLocation(location, city.region, locationIndex)
+                ).join('')}
+            </section>
+        `;
+    }).join('');
 
     return `
     <!DOCTYPE html>
@@ -313,6 +402,8 @@ export function getUsStatePdfHtml(stateData: any): string {
             .plans-section { break-inside: avoid; page-break-inside: avoid; }
             .map-container { height: 300px; width: 100%; border-radius: 0.5rem; overflow: hidden; border: 1px solid #e5e7eb; }
             .feature-icon { width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; flex-shrink: 0; }
+            .page-break-after { page-break-after: always; }
+            .page-number { display: none; }
             
             @media print {
                 html, body {
@@ -359,6 +450,26 @@ export function getUsStatePdfHtml(stateData: any): string {
                 .page-break-before {
                     page-break-before: always;
                 }
+                .page-break-after {
+                    display: block;
+                    page-break-after: always;
+                }
+                .page-number {
+                    display: block;
+                    position: fixed;
+                    bottom: 10mm;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    font-size: 10pt;
+                    color: #888;
+                }
+                @page {
+                    margin: 20mm 15mm 20mm 15mm;
+                    @bottom-center {
+                        content: counter(page);
+                    }
+                }
             }
         </style>
     </head>
@@ -368,10 +479,13 @@ export function getUsStatePdfHtml(stateData: any): string {
                 <h1 class="text-5xl font-extrabold text-gray-900">${stateName}</h1>
                 <p class="text-lg text-gray-500 mt-2">Available Mailbox Locations (${total_locations} total)</p>
             </header>
+            ${generateTableOfContents()}
+            <div class="page-break-after"></div>
             ${citiesHtml}
             <footer class="text-center mt-16 pt-8 border-t text-gray-500">
                 <p>Report generated on: ${new Date(scraped_at).toLocaleString()}</p>
             </footer>
+            <div class="page-number"></div>
         </div>
     </body>
     </html>

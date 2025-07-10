@@ -107,7 +107,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Gold",
                 "monthly_price": {
                   "amount": 29.99,
                   "currency": "USD"
@@ -300,7 +300,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Silver",
                 "monthly_price": {
                   "amount": 19.99,
                   "currency": "USD"
@@ -393,8 +393,8 @@
               "address_text": "YOUR NAME\n103 W. Main St #MAILBOX\nBlytheville, AR 72315\nUnited States",
               "street_address": "103 W. Main St #MAILBOX",
               "suite_info": "Blytheville, AR 72315",
-              "city_state_zip": "United States",
-              "country": "",
+              "city_state_zip": "-",
+              "country": "United States",
               "features": [
                 {
                   "name": "Open & Scan",
@@ -2061,10 +2061,10 @@
             "location_info": {
               "address_title": "Your Real Street Address",
               "address_text": "YOUR NAME\n6834 Cantrell Road #MAILBOX\nLittle Rock, AR 72207\nUnited States",
-              "street_address": "6834 Cantrell Road #MAILBOX",
-              "suite_info": "Little Rock, AR 72207",
-              "city_state_zip": "United States",
-              "country": "",
+              "street_address": "6834 Cantrell Road",
+              "suite_info": "-",
+              "city_state_zip": "Little Rock, AR 72207",
+              "country": "United States",
               "features": [
                 {
                   "name": "Open & Scan",

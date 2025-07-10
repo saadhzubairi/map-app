@@ -1,30 +1,23 @@
 import { NextResponse } from 'next/server';
-import { generateUsStatePdf } from '@/lib/puppeteerPdfGenerator';
+import { generateAllInternationalPdf } from '@/lib/puppeteerPdfGenerator';
 
-// Increase timeout for large datasets
-export const maxDuration = 300; // 5 minutes instead of default 30 seconds
+// Increase timeout for large datasets - this one needs more time since it processes all countries
+export const maxDuration = 600; // 10 minutes for all international locations
 
 export async function POST(request: Request) {
     try {
         const body = await request.json();
-        const { state, richMap = true, priceIncluded = true } = body;
+        const { richMap = true, priceIncluded = true } = body;
 
-        if (!state) {
-            return new NextResponse(JSON.stringify({ error: 'State is required' }), {
-                status: 400,
-                headers: { 'Content-Type': 'application/json' },
-            });
-        }
+        console.log(`Starting PDF generation for ALL international locations with ${richMap ? 'rich' : 'simple'} map and ${priceIncluded ? 'with' : 'without'} prices`);
 
-        console.log(`Starting PDF generation for ${state} with ${richMap ? 'rich' : 'simple'} map and ${priceIncluded ? 'with' : 'without'} prices`);
+        // Generate the PDF buffer for all international locations
+        const pdfBuffer = await generateAllInternationalPdf({ richMap, priceIncluded });
 
-        // Generate the PDF buffer for the selected state
-        const pdfBuffer = await generateUsStatePdf(state, { richMap, priceIncluded });
-
-        console.log(`PDF generation completed for ${state}`);
+        console.log(`PDF generation completed for ALL international locations`);
 
         // Create a filename for the PDF
-        const filename = `AnytimeMailbox_${state.replace(/\s+/g, '_')}.pdf`;
+        const filename = `AnytimeMailbox_All_International.pdf`;
 
         // Return the PDF as a response
         return new NextResponse(pdfBuffer, {
@@ -35,7 +28,6 @@ export async function POST(request: Request) {
                 'Cache-Control': 'no-cache, no-store, must-revalidate',
             },
         });
-
     } catch (error: unknown) {
         console.error('PDF Generation Error:', error);
         const message = typeof error === 'object' && error && 'message' in error ? (error as { message: string }).message : 'Unknown error';
@@ -43,7 +35,7 @@ export async function POST(request: Request) {
         // Check if it's a timeout error
         if (message.includes('timeout') || message.includes('Timed out')) {
             return new NextResponse(JSON.stringify({ 
-                error: 'PDF generation timed out. This can happen for states with many locations. Please try again or contact support if the issue persists.',
+                error: 'PDF generation timed out. This can happen when processing all international locations. Please try again or contact support if the issue persists.',
                 details: message 
             }), {
                 status: 408, // Request Timeout

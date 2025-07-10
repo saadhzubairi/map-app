@@ -30,7 +30,7 @@ interface Plan {
     currency: string;
   };
   features: Record<string, string>;
-  detailed_features?: Record<string, any>;
+  detailed_features?: Record<string, unknown>;
   service_plan_id: string;
 }
 
@@ -178,7 +178,7 @@ export class PDFGenerator {
       Object.keys(plan.features).length + ' features'
     ]);
     
-    (this.doc as any).autoTable({
+    (this.doc as unknown as any).autoTable({
       startY: this.currentY,
       head: [['Plan', 'Monthly', 'Yearly', 'Features']],
       body: tableData,
@@ -200,7 +200,7 @@ export class PDFGenerator {
       }
     });
     
-    this.currentY = (this.doc as any).lastAutoTable.finalY + 10;
+    this.currentY = (this.doc as unknown as any).lastAutoTable.finalY + 10;
   }
 
   private addFeaturesList(plan: Plan) {

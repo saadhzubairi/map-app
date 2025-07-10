@@ -7,7 +7,7 @@ const INTL_SINGLE_DIR = path.join(process.cwd(), 'public', 'InternationalLocatio
 const INTL_MULTI_DIR = path.join(process.cwd(), 'public', 'InternationalLocationsR');
 
 const US_FILES = [
-  'us_state_alabama.json', 'us_state_alaska.json', 'us_state_arizona.json', 'us_state_arkansas.json', 'us_state_california.json', 'us_state_colorado.json', 'us_state_connecticut.json', 'us_state_delaware.json', 'us_state_florida.json', 'us_state_georgia.json', 'us_state_hawaii.json', 'us_state_idaho.json', 'us_state_illinois.json', 'us_state_indiana.json', 'us_state_iowa.json', 'us_state_kansas.json', 'us_state_kentucky.json', 'us_state_louisiana.json', 'us_state_maine.json', 'us_state_maryland.json', 'us_state_massachusetts.json', 'us_state_michigan.json', 'us_state_minnesota.json', 'us_state_mississippi.json', 'us_state_missouri.json', 'us_state_montana.json', 'us_state_nebraska.json', 'us_state_nevada.json', 'us_state_new_hampshire.json', 'us_state_new_jersey.json', 'us_state_new_mexico.json', 'us_state_new_york.json', 'us_state_north_carolina.json', 'us_state_north_dakota.json', 'us_state_ohio.json', 'us_state_oklahoma.json', 'us_state_oregon.json', 'us_state_pennsylvania.json', 'us_state_rhode_island.json', 'us_state_south_carolina.json', 'us_state_south_dakota.json', 'us_state_tennessee.json', 'us_state_texas.json', 'us_state_utah.json', 'us_state_vermont.json', 'us_state_virginia.json', 'us_state_washington.json', 'us_state_west_virginia.json', 'us_state_wisconsin.json', 'us_state_wyoming.json',
+  'us_state_alabama.json', 'us_state_district_of_columbia.json', 'us_state_alaska.json', 'us_state_arizona.json', 'us_state_arkansas.json', 'us_state_california.json', 'us_state_colorado.json', 'us_state_connecticut.json', 'us_state_delaware.json', 'us_state_florida.json', 'us_state_georgia.json', 'us_state_hawaii.json', 'us_state_idaho.json', 'us_state_illinois.json', 'us_state_indiana.json', 'us_state_iowa.json', 'us_state_kansas.json', 'us_state_kentucky.json', 'us_state_louisiana.json', 'us_state_maine.json', 'us_state_maryland.json', 'us_state_massachusetts.json', 'us_state_michigan.json', 'us_state_minnesota.json', 'us_state_mississippi.json', 'us_state_missouri.json', 'us_state_montana.json', 'us_state_nebraska.json', 'us_state_nevada.json', 'us_state_new_hampshire.json', 'us_state_new_jersey.json', 'us_state_new_mexico.json', 'us_state_new_york.json', 'us_state_north_carolina.json', 'us_state_north_dakota.json', 'us_state_ohio.json', 'us_state_oklahoma.json', 'us_state_oregon.json', 'us_state_pennsylvania.json', 'us_state_rhode_island.json', 'us_state_south_carolina.json', 'us_state_south_dakota.json', 'us_state_tennessee.json', 'us_state_texas.json', 'us_state_utah.json', 'us_state_vermont.json', 'us_state_virginia.json', 'us_state_washington.json', 'us_state_west_virginia.json', 'us_state_wisconsin.json', 'us_state_wyoming.json',
 ];
 
 function checkFileExists(filePath: string) {
@@ -19,19 +19,20 @@ function checkFileExists(filePath: string) {
   }
 }
 
-function validateUSJson(data: any) {
+function validateUSJson(data: unknown) {
   const errors = [];
-  if (!data.state) errors.push('Missing state');
-  if (!data.state_data) errors.push('Missing state_data');
-  if (!data.state_data.cities || !Array.isArray(data.state_data.cities)) errors.push('Missing or invalid cities array');
-  else if (data.state_data.cities.length === 0) errors.push('No cities');
-  // Deep check for missing/blank/zero values
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return ['Invalid data type'];
+  const d = data as { state?: unknown; state_data?: { cities?: unknown[] } };
+  if (!d.state) errors.push('Missing state');
+  if (!d.state_data) errors.push('Missing state_data');
+  if (!d.state_data?.cities || !Array.isArray(d.state_data.cities)) errors.push('Missing or invalid cities array');
+  else if (d.state_data.cities.length === 0) errors.push('No cities');
   errors.push(...deepCheck(data));
   return errors;
 }
 
 // Recursively check for empty, null, undefined, or 0 (for price/currency fields)
-function deepCheck(obj: any, path: string[] = []): string[] {
+function deepCheck(obj: unknown, path: string[] = []): string[] {
   let errors: string[] = [];
   if (Array.isArray(obj)) {
     obj.forEach((item, idx) => {
@@ -39,11 +40,11 @@ function deepCheck(obj: any, path: string[] = []): string[] {
     });
   } else if (obj && typeof obj === 'object') {
     for (const key of Object.keys(obj)) {
-      const value = obj[key];
+      const value = (obj as Record<string, unknown>)[key];
       const currentPath = [...path, key];
       if (
         value === '' ||
-      value === null ||
+        value === null ||
         value === undefined ||
         (typeof value === 'number' && key.match(/amount|price|currency/i) && value === 0)
       ) {
@@ -56,29 +57,31 @@ function deepCheck(obj: any, path: string[] = []): string[] {
   return errors;
 }
 
-function validateIntlSingleJson(data: any) {
+function validateIntlSingleJson(data: unknown) {
   const errors = [];
-  if (!data.state) errors.push('Missing country (state)');
-  if (!data.state_data) errors.push('Missing state_data');
-  if (!data.state_data.cities || !Array.isArray(data.state_data.cities)) errors.push('Missing or invalid cities array');
-  else if (data.state_data.cities.length === 0) errors.push('No cities');
-  // Deep check for missing/blank/zero values
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return ['Invalid data type'];
+  const d = data as { state?: unknown; state_data?: { cities?: unknown[] } };
+  if (!d.state) errors.push('Missing country (state)');
+  if (!d.state_data) errors.push('Missing state_data');
+  if (!d.state_data?.cities || !Array.isArray(d.state_data.cities)) errors.push('Missing or invalid cities array');
+  else if (d.state_data.cities.length === 0) errors.push('No cities');
   errors.push(...deepCheck(data));
   return errors;
 }
 
-function validateIntlMultiJson(data: any) {
+function validateIntlMultiJson(data: unknown) {
   const errors = [];
-  if (!data.country) errors.push('Missing country');
-  if (!data.regions || !Array.isArray(data.regions)) errors.push('Missing or invalid regions array');
-  else if (data.regions.length === 0) errors.push('No regions');
-  // Deep check for missing/blank/zero values
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return ['Invalid data type'];
+  const d = data as { country?: unknown; regions?: unknown[] };
+  if (!d.country) errors.push('Missing country');
+  if (!d.regions || !Array.isArray(d.regions)) errors.push('Missing or invalid regions array');
+  else if (d.regions.length === 0) errors.push('No regions');
   errors.push(...deepCheck(data));
   return errors;
 }
 
-export async function GET(req: NextRequest) {
-  const results: any[] = [];
+export async function GET() {
+  const results: unknown[] = [];
 
   // US State JSONs (no deep check for now)
   for (const file of US_FILES) {
@@ -91,8 +94,9 @@ export async function GET(req: NextRequest) {
         const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
         errors = validateUSJson(data);
         valid = errors.length === 0;
-      } catch (e: any) {
-        errors = ['Invalid JSON: ' + e.message];
+      } catch (e: unknown) {
+        const message = typeof e === 'object' && e && 'message' in e ? (e as { message: string }).message : 'Unknown error';
+        errors = ['Invalid JSON: ' + message];
       }
     } else {
       errors = ['File does not exist'];
@@ -112,8 +116,9 @@ export async function GET(req: NextRequest) {
         const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
         errors = validateIntlSingleJson(data);
         valid = errors.length === 0;
-      } catch (e: any) {
-        errors = ['Invalid JSON: ' + e.message];
+      } catch (e: unknown) {
+        const message = typeof e === 'object' && e && 'message' in e ? (e as { message: string }).message : 'Unknown error';
+        errors = ['Invalid JSON: ' + message];
       }
     } else {
       errors = ['File does not exist'];
@@ -133,8 +138,9 @@ export async function GET(req: NextRequest) {
         const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
         errors = validateIntlMultiJson(data);
         valid = errors.length === 0;
-      } catch (e: any) {
-        errors = ['Invalid JSON: ' + e.message];
+      } catch (e: unknown) {
+        const message = typeof e === 'object' && e && 'message' in e ? (e as { message: string }).message : 'Unknown error';
+        errors = ['Invalid JSON: ' + message];
       }
     } else {
       errors = ['File does not exist'];
