@@ -107,7 +107,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Gold",
                 "monthly_price": {
                   "amount": 29.99,
                   "currency": "USD"
@@ -200,8 +200,8 @@
               "address_text": "YOUR NAME\n1204 Main St #MAILBOX\nBranford, CT 06405\nUnited States",
               "street_address": "1204 Main St #MAILBOX",
               "suite_info": "Branford, CT 06405",
-              "city_state_zip": "United States",
-              "country": "",
+              "city_state_zip": "-",
+              "country": "United States",
               "features": [
                 {
                   "name": "Open & Scan",

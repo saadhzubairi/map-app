@@ -151,7 +151,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Gold Mailbox",
                 "monthly_price": {
                   "amount": 19.99,
                   "currency": "USD"
@@ -195,7 +195,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Unlimited Mailbox",
                 "monthly_price": {
                   "amount": 29.99,
                   "currency": "USD"
@@ -499,7 +499,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Silver Annual",
                 "features": {
                   "Incoming Mail": "60 / month",
                   "Open & Scan": "10 pages / month",

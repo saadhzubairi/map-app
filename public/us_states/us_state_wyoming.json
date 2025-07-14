@@ -346,7 +346,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Unlimited",
                 "monthly_price": {
                   "amount": 49.99,
                   "currency": "USD"
@@ -796,7 +796,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Unlimited",
                 "monthly_price": {
                   "amount": 69.99,
                   "currency": "USD"

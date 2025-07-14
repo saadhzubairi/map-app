@@ -200,8 +200,8 @@
               "address_text": "YOUR NAME\n103 Randolph Ave #MAILBOX\nElkins, WV 26241\nUnited States",
               "street_address": "103 Randolph Ave #MAILBOX",
               "suite_info": "Elkins, WV 26241",
-              "city_state_zip": "United States",
-              "country": "",
+              "city_state_zip": "-",
+              "country": "United States",
               "features": [
                 {
                   "name": "Open & Scan",
@@ -389,7 +389,7 @@
                 }
               },
               {
-                "title": "",
+                "title": "Unlimited",
                 "monthly_price": {
                   "amount": 69.99,
                   "currency": "USD"

@@ -1,5 +1,101 @@
+// Utility function to modify pricing information for PDF export
+function modifyPricingInfo(data: any): any {
+    if (data === null || data === undefined) return data;
+    
+    if (typeof data === 'string') {
+        // Check if the string contains "not available" or similar phrases
+        const notAvailablePatterns = [
+            /not\s+available/i,
+            /n\/a/i,
+            /unavailable/i,
+            /no\s+price/i,
+            /price\s+not\s+available/i,
+            /contact\s+for\s+pricing/i,
+            /pricing\s+upon\s+request/i
+        ];
+        
+        // If it matches any "not available" pattern, leave as is
+        if (notAvailablePatterns.some(pattern => pattern.test(data))) {
+            return data;
+        }
+        
+        // If it contains any pricing information (currency symbols, numbers, etc.), replace with "Available"
+        const hasPricingInfo = /\b[A-Z]{1,3}\$?\s*\d+\.?\d*\b|\$\d+|\€\d+|\£\d+|\¥\d+|\d+\s*(usd|eur|gbp|jpy|cad|aud)/i.test(data);
+        if (hasPricingInfo) {
+            return 'Available';
+        }
+        
+        return data;
+    }
+    
+    if (Array.isArray(data)) {
+        return data.map(item => modifyPricingInfo(item));
+    }
+    
+    if (typeof data === 'object') {
+        const modified: any = {};
+        for (const [key, value] of Object.entries(data)) {
+            // Handle pricing-related keys specially
+            if (key.toLowerCase().includes('price') || 
+                key.toLowerCase().includes('cost') || 
+                key.toLowerCase().includes('fee') ||
+                key.toLowerCase().includes('amount') ||
+                key.toLowerCase().includes('currency') ||
+                key === 'monthly_button_url' ||
+                key === 'yearly_button_url' ||
+                key === 'pricing') {
+                
+                // For pricing objects, check if they contain "not available" patterns
+                if (typeof value === 'string') {
+                    const notAvailablePatterns = [
+                        /not\s+available/i,
+                        /n\/a/i,
+                        /unavailable/i,
+                        /no\s+price/i,
+                        /price\s+not\s+available/i,
+                        /contact\s+for\s+pricing/i,
+                        /pricing\s+upon\s+request/i
+                    ];
+                    
+                    if (notAvailablePatterns.some(pattern => pattern.test(value))) {
+                        modified[key] = value; // Leave as is
+                    } else if (/\b[A-Z]{1,3}\$?\s*\d+\.?\d*\b|\$\d+|\€\d+|\£\d+|\¥\d+|\d+\s*(usd|eur|gbp|jpy|cad|aud)/i.test(value)) {
+                        modified[key] = 'Available';
+                    } else {
+                        modified[key] = value; // Leave as is if no clear pricing info
+                    }
+                } else if (typeof value === 'object' && value !== null) {
+                    // For pricing objects (like {amount: 10, currency: 'USD'}), replace with "Available"
+                    modified[key] = 'Available';
+                } else {
+                    modified[key] = value;
+                }
+            } else {
+                modified[key] = modifyPricingInfo(value);
+            }
+        }
+        return modified;
+    }
+    
+    return data;
+}
+
 export function getInternationalPdfHtml(countryData: any): string {
     const { country, regions, total_locations, scraped_at, priceIncluded = true } = countryData;
+
+    // Modify pricing information if priceIncluded is false
+    const cleanedData = priceIncluded ? countryData : {
+        ...countryData,
+        regions: regions?.map((region: any) => ({
+            ...region,
+            locations: region.locations?.map((location: any) => ({
+                ...location,
+                plans: location.plans?.map((plan: any) => modifyPricingInfo(plan))
+            }))
+        }))
+    };
+
+    const { regions: cleanedRegions } = cleanedData;
 
     const createFeatureIcon = (available: boolean) => {
         if (available) {
@@ -20,15 +116,10 @@ export function getInternationalPdfHtml(countryData: any): string {
         return plans.map(plan => `
             <div class="plan-card flex flex-col rounded-lg p-6 h-full">
                 <h4 class="text-xl font-bold text-gray-800 mb-2">${plan.title}</h4>
-                <div class="mb-4">
-                    ${priceIncluded ? `<p class="text-3xl font-extrabold text-indigo-600">${plan.monthly_price?.amount?.toFixed(2) || 'N/A'} ${plan.monthly_price?.currency}</p>
-                    <p class="text-sm text-gray-500">per month</p>` : ''}
-                </div>
                 <div class="mt-auto pt-4 border-t border-gray-200">
                     <h5 class="font-bold mb-2 text-gray-700">Plan Details:</h5>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        ${Object.entries(plan.detailed_features)
-                            .filter(([key]) => key !== 'pricing')
+                        ${Object.entries(plan.detailed_features || {})
                             .map(([key, value]) => `
                                 <li class="flex">
                                     <div class="font-semibold w-2/5 flex-shrink-0 pr-2">${key}:</div>
@@ -53,10 +144,6 @@ export function getInternationalPdfHtml(countryData: any): string {
                         <div>
                             <h3 class="text-3xl font-bold text-gray-900 mb-2">${location.title}</h3>
                             <p class="text-gray-600 mb-4">${location.address}</p>
-                            ${priceIncluded ? `<div class="flex items-center text-lg font-semibold text-gray-700 mb-6">
-                                <span class="text-gray-500 mr-2">Starting from:</span>
-                                <span class="text-indigo-600">${safePrice.amount?.toFixed(2)} ${safePrice.currency}/month</span>
-                            </div>` : ''}
                             ${createMap(location.mapImage)}
                         </div>
                         <!-- Right Column: Operator Info & Features -->
@@ -104,9 +191,9 @@ export function getInternationalPdfHtml(countryData: any): string {
 
     // Generate table of contents
     const generateTableOfContents = () => {
-        if (!regions || regions.length === 0) return '';
+        if (!cleanedRegions || cleanedRegions.length === 0) return '';
         
-        const tocItems = regions.map((region: any) => {
+        const tocItems = cleanedRegions.map((region: any) => {
             const regionId = `region-${region.region.toLowerCase().replace(/\s+/g, '-')}`;
             return `
                 <li class="mb-2">
@@ -127,7 +214,7 @@ export function getInternationalPdfHtml(countryData: any): string {
         `;
     };
 
-    const regionsHtml = (regions || []).map((region: any, index: number) => {
+    const regionsHtml = (cleanedRegions || []).map((region: any, index: number) => {
         const regionId = `region-${region.region.toLowerCase().replace(/\s+/g, '-')}`;
         return `
             <section class="mb-16 ${index > 0 ? 'page-break-before' : ''}" id="${regionId}">
@@ -249,6 +336,20 @@ export function getInternationalPdfHtml(countryData: any): string {
 export function getUsStatePdfHtml(stateData: any): string {
     const { country: stateName, regions, total_locations, scraped_at, priceIncluded = true } = stateData;
 
+    // Modify pricing information if priceIncluded is false
+    const cleanedData = priceIncluded ? stateData : {
+        ...stateData,
+        regions: regions?.map((city: any) => ({
+            ...city,
+            locations: city.locations?.map((location: any) => ({
+                ...location,
+                plans: location.plans?.map((plan: any) => modifyPricingInfo(plan))
+            }))
+        }))
+    };
+
+    const { regions: cleanedRegions } = cleanedData;
+
     const createFeatureIcon = (available: boolean) => {
         if (available) {
             return `<svg class="feature-icon text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>`;
@@ -268,15 +369,10 @@ export function getUsStatePdfHtml(stateData: any): string {
         return plans.map(plan => `
             <div class="plan-card flex flex-col rounded-lg p-6 h-full">
                 <h4 class="text-xl font-bold text-gray-800 mb-2">${plan.title || 'Plan'}</h4>
-                <div class="mb-4">
-                    ${priceIncluded ? `<p class="text-3xl font-extrabold text-indigo-600">${plan.monthly_price?.amount?.toFixed(2) || 'N/A'} ${plan.monthly_price?.currency}</p>
-                    <p class="text-sm text-gray-500">per month</p>` : ''}
-                </div>
                 <div class="mt-auto pt-4 border-t border-gray-200">
                     <h5 class="font-bold mb-2 text-gray-700">Plan Details:</h5>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        ${Object.entries(plan.detailed_features)
-                            .filter(([key]) => key !== 'pricing')
+                        ${Object.entries(plan.detailed_features || {})
                             .map(([key, value]) => `
                                 <li class="flex">
                                     <div class="font-semibold w-2/5 flex-shrink-0 pr-2">${key}:</div>
@@ -300,10 +396,6 @@ export function getUsStatePdfHtml(stateData: any): string {
                         <div>
                             <h3 class="text-3xl font-bold text-gray-900 mb-2">${location.title}</h3>
                             <p class="text-gray-600 mb-4">${location.address}</p>
-                            <div class="flex items-center text-lg font-semibold text-gray-700 mb-6">
-                                <span class="text-gray-500 mr-2">Starting from:</span>
-                                ${priceIncluded ? `<span class="text-indigo-600">${safePrice.amount?.toFixed(2) || 'N/A'} ${safePrice.currency}/month</span>` : '<span class="text-indigo-600">(Price hidden)</span>'}
-                            </div>
                             ${createMap(location.mapImage)}
                         </div>
                         <div class="bg-gray-50 p-6 rounded-lg border">
@@ -350,9 +442,9 @@ export function getUsStatePdfHtml(stateData: any): string {
 
     // Generate table of contents
     const generateTableOfContents = () => {
-        if (!regions || regions.length === 0) return '';
+        if (!cleanedRegions || cleanedRegions.length === 0) return '';
         
-        const tocItems = regions.map((city: any) => {
+        const tocItems = cleanedRegions.map((city: any) => {
             const cityId = `city-${city.region.toLowerCase().replace(/\s+/g, '-')}`;
             return `
                 <li class="mb-2">
@@ -373,7 +465,7 @@ export function getUsStatePdfHtml(stateData: any): string {
         `;
     };
 
-    const citiesHtml = (regions || []).map((city: any, index: number) => {
+    const citiesHtml = (cleanedRegions || []).map((city: any, index: number) => {
         const cityId = `city-${city.region.toLowerCase().replace(/\s+/g, '-')}`;
         return `
             <section class="mb-16 ${index > 0 ? 'page-break-before' : ''}" id="${cityId}">
