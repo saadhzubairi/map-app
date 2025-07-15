@@ -1,5 +1,4 @@
 import MapComponent from '@/components/Map';
-import MapPdfButtons from '@/components/MapPdfButtons';
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
           </p>
         </div>
         <MapComponent />
-        <MapPdfButtons className="mt-4" />
         <div className="mt-8 text-center text-sm text-gray-500">
           <p>Click on any pin to view location details</p>
         </div>

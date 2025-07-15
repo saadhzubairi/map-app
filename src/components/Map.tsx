@@ -25,8 +25,6 @@ import CustomMapLayout from './CustomMapLayout';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import PdfExportDialogButton from './PdfExportDialog';
-import MapPdfButtons from './MapPdfButtons';
-import { Button } from './ui/button';
 
 interface Location {
   price: string;
@@ -720,9 +718,9 @@ export default function MapComponent({ className = '' }: MapProps) {
                 intlCountries={intlCountries}
               />
             </div>
-            <div className="flex items-center justify-center py-3">
+            {/*<div className="flex items-center justify-center py-3">
               <MapPdfButtons />
-            </div>
+            </div>*/}
           </div>
         )}
 
