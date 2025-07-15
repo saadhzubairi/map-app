@@ -3,6 +3,16 @@ import PDFGenerator from '@/lib/pdfGenerator';
 import fs from 'fs/promises';
 import path from 'path';
 
+interface InternationalLocation {
+  name: string;
+  url: string;
+  region?: string;
+  urls?: Array<{
+    name: string;
+    url: string;
+  }>;
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
@@ -29,14 +39,14 @@ export async function POST(req: NextRequest) {
       // Load all international data
       const intlDir = path.join(process.cwd(), 'public', 'InternationalLocationsR');
       const intlFiles = await fs.readdir(intlDir);
-      const internationalData: Record<string, any[]> = {};
+      const internationalData: Record<string, InternationalLocation[]> = {};
       
       for (const file of intlFiles) {
         if (file.endsWith('.json') && file !== 'country_s_urls.json') {
           const filePath = path.join(intlDir, file);
           const content = await fs.readFile(filePath, 'utf-8');
           const countryName = file.replace('international_', '').replace('.json', '');
-          internationalData[countryName] = JSON.parse(content);
+          internationalData[countryName] = JSON.parse(content) as InternationalLocation[];
         }
       }
       
@@ -66,14 +76,14 @@ export async function POST(req: NextRequest) {
         // Load all international data
         const intlDir = path.join(process.cwd(), 'public', 'InternationalLocationsR');
         const intlFiles = await fs.readdir(intlDir);
-        const internationalData: Record<string, any[]> = {};
+        const internationalData: Record<string, InternationalLocation[]> = {};
         
         for (const file of intlFiles) {
           if (file.endsWith('.json') && file !== 'country_s_urls.json') {
             const filePath = path.join(intlDir, file);
             const content = await fs.readFile(filePath, 'utf-8');
             const countryName = file.replace('international_', '').replace('.json', '');
-            internationalData[countryName] = JSON.parse(content);
+            internationalData[countryName] = JSON.parse(content) as InternationalLocation[];
           }
         }
         

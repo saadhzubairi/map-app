@@ -8,9 +8,9 @@
           "title": "Bacolod City",
           "price": {
             "amount": 1000.0,
-            "currency": "USD"
+            "currency": "PHP"
           },
-          "address": "Bacolod City, NEC Philippines 6100",
+          "address": "2nd Fl\n6100 Bacolod City (NEC)\nPhilippines",
           "latitude": "10.6789137",
           "longitude": "122.9539622",
           "plan_url": "https://www.anytimemailbox.com/s/bacolod-2nd-flr-st-annes-bldg-lacson-st",
@@ -20,14 +20,14 @@
               "title": "Virtual Address with Business Permit",
               "monthly_price": {
                 "amount": 1000.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26699&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26699&siftsessionid=175260781942355080mf7weztq9x&firstpagehit=https://www.anytimemailbox.com/s/bacolod-2nd-flr-st-annes-bldg-lacson-st'",
               "yearly_price": {
                 "amount": 10000.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26699&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26699&siftsessionid=175260781942355080mf7weztq9x&firstpagehit=https://www.anytimemailbox.com/s/bacolod-2nd-flr-st-annes-bldg-lacson-st'",
               "features": {
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "Unlimited",
@@ -39,23 +39,23 @@
                 "pricing": {
                   "monthly_price": {
                     "amount": 1000.0,
-                    "currency": "USD"
+                    "currency": "PHP"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26699&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26699&siftsessionid=175260781942355080mf7weztq9x&firstpagehit=https://www.anytimemailbox.com/s/bacolod-2nd-flr-st-annes-bldg-lacson-st'",
                   "yearly_price": {
                     "amount": 10000.0,
-                    "currency": "USD"
+                    "currency": "PHP"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26699&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26699&siftsessionid=175260781942355080mf7weztq9x&firstpagehit=https://www.anytimemailbox.com/s/bacolod-2nd-flr-st-annes-bldg-lacson-st'"
                 },
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "Unlimited",
                 "Forwarding": "Not available",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Unlimited",
-                "Local Pickup": "Unlimited\nPickup during business hours",
-                "Physical Storage": "Free storage for 30 day(s), then ₱30.00 for every mail item per day",
+                "Recycling": "Available",
+                "Shredding": "Available",
+                "Local Pickup": "Available",
+                "Physical Storage": "Available",
                 "Online Storage": "Unlimited",
                 "Recipients": "1"
               }
@@ -64,14 +64,12 @@
               "title": "Bronze",
               "monthly_price": {
                 "amount": 2499.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22628&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "yearly_price": {
                 "amount": 24990.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22628&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "features": {
                 "Incoming Mail": "30 / month",
                 "Open & Scan": "Unlimited",
@@ -83,39 +81,35 @@
                 "pricing": {
                   "monthly_price": {
                     "amount": 2499.0,
-                    "currency": "USD"
+                    "currency": "PHP"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22628&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
                   "yearly_price": {
                     "amount": 24990.0,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22628&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                    "currency": "PHP"
+                  }
                 },
-                "Incoming Mail": "30 / month\nEach additional at ₱5.00",
+                "Incoming Mail": "30 / month",
                 "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Forwarding": "Unlimited",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at ₱10.00",
+                "Recycling": "Available",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Physical Storage": "Available",
                 "Online Storage": "Unlimited",
-                "Recipients": "2\nEach additional ₱500.00 / month"
+                "Recipients": "2"
               }
             },
             {
               "title": "Silver",
               "monthly_price": {
                 "amount": 3499.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22629&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "yearly_price": {
                 "amount": 34990.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22629&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "features": {
                 "Incoming Mail": "60 / month",
                 "Open & Scan": "Unlimited",
@@ -127,39 +121,35 @@
                 "pricing": {
                   "monthly_price": {
                     "amount": 3499.0,
-                    "currency": "USD"
+                    "currency": "PHP"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22629&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
                   "yearly_price": {
                     "amount": 34990.0,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22629&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                    "currency": "PHP"
+                  }
                 },
-                "Incoming Mail": "60 / month\nEach additional at ₱5.00",
+                "Incoming Mail": "60 / month",
                 "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Forwarding": "Unlimited",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at ₱10.00",
+                "Recycling": "Available",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Physical Storage": "Available",
                 "Online Storage": "Unlimited",
-                "Recipients": "3\nEach additional ₱500.00 / month"
+                "Recipients": "3"
               }
             },
             {
               "title": "Gold",
               "monthly_price": {
                 "amount": 4999.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22630&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "yearly_price": {
                 "amount": 49990.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22630&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "features": {
                 "Incoming Mail": "125 / month",
                 "Open & Scan": "Unlimited",
@@ -171,39 +161,35 @@
                 "pricing": {
                   "monthly_price": {
                     "amount": 4999.0,
-                    "currency": "USD"
+                    "currency": "PHP"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22630&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
                   "yearly_price": {
                     "amount": 49990.0,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22630&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                    "currency": "PHP"
+                  }
                 },
-                "Incoming Mail": "125 / month\nEach additional at ₱5.00",
+                "Incoming Mail": "125 / month",
                 "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Forwarding": "Unlimited",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at ₱10.00",
+                "Recycling": "Available",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Physical Storage": "Available",
                 "Online Storage": "Unlimited",
-                "Recipients": "4\nEach additional ₱10.00 / month"
+                "Recipients": "4"
               }
             },
             {
               "title": "Unlimited",
               "monthly_price": {
                 "amount": 8999.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22631&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "yearly_price": {
                 "amount": 99990.0,
-                "currency": "USD"
+                "currency": "PHP"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22631&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
               "features": {
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "Unlimited",
@@ -215,60 +201,36 @@
                 "pricing": {
                   "monthly_price": {
                     "amount": 8999.0,
-                    "currency": "USD"
+                    "currency": "PHP"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=22631&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
                   "yearly_price": {
                     "amount": 99990.0,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=22631&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                    "currency": "PHP"
+                  }
                 },
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited\nShipping fees will apply",
+                "Forwarding": "Unlimited",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Unlimited",
+                "Recycling": "Available",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Physical Storage": "Available",
                 "Online Storage": "Unlimited",
-                "Recipients": "5\nEach additional ₱500.00 / month"
+                "Recipients": "5"
               }
             }
           ],
           "location_info": {
             "address_title": "Your Real Street Address",
             "address_text": "YOUR NAME\nUnit AMAILBOX - 2nd Fl\nBacolod City, NEC Philippines 6100",
-            "street_address": "Unit AMAILBOX - 2nd Fl",
-            "suite_info": "Unit AMAILBOX - 2nd Fl",
-            "city_state_zip": "Unit AMAILBOX - 2nd Fl",
-            "country": "Bacolod City, NEC Philippines 6100",
             "features": [
-              {
-                "name": "Open & Scan",
-                "available": true
-              },
-              {
-                "name": "Recycling",
-                "available": true
-              },
-              {
-                "name": "Forwarding",
-                "available": true
-              },
-              {
-                "name": "Shredding",
-                "available": true
-              },
-              {
-                "name": "Check Deposit",
-                "available": false
-              },
-              {
-                "name": "Local Pickup",
-                "available": true
-              }
+              { "name": "Open & Scan", "available": true },
+              { "name": "Recycling", "available": true },
+              { "name": "Forwarding", "available": true },
+              { "name": "Shredding", "available": true },
+              { "name": "Check Deposit", "available": false },
+              { "name": "Local Pickup", "available": true }
             ],
             "shipping_carriers": [
               "Ship with FedEx",
@@ -276,11 +238,11 @@
               "Ship with DHL"
             ],
             "operator_info": {
-              "name": "Banwa CoWorking Space Verified",
+              "name": "Banwa CoWorking Space",
               "verified": true
             }
           },
-          "name": "Bacolod",
+          "name": "Bacolod City",
           "region": "Bacolod"
         }
       ],
@@ -295,7 +257,7 @@
             "amount": 0,
             "currency": "USD"
           },
-          "address": "11th Flr One Park Dr BGC, 9th Ave, Taguig, NCR 1630, Philippines",
+          "address": "11th Flr One Park Dr BGC, 9th Ave\n1630 Taguig (NCR)\nPhilippines",
           "latitude": "14.556149",
           "longitude": "121.0537",
           "plan_url": "https://www.anytimemailbox.com/s/taguig-11th-flr-one-park-dr-bgc-9th-ave",
@@ -303,101 +265,98 @@
           "plans": [
             {
               "title": "Bronze",
-              "monthly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "",
-              "yearly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "",
               "features": {
                 "Incoming Mail": "30 / month",
                 "Open & Scan": "Unlimited",
                 "Forwarding": "Unlimited",
                 "Recipients": "2"
               },
-              "service_plan_id": "",
+              "service_plan_id": "15557",
               "detailed_features": {
-                "pricing": {},
-                "Incoming Mail": "30 / month\nEach additional at ₱50.00",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "yearly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                "Incoming Mail": "30 / month",
                 "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited\nShipping fees will apply",
-                "Check Deposit": "Each at ₱250.00",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at ₱10.00",
+                "Forwarding": "Unlimited",
+                "Check Deposit": "Available",
+                "Recycling": "Available",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Physical Storage": "Available",
                 "Online Storage": "Unlimited",
-                "Recipients": "2\nEach additional ₱500.00 / month"
+                "Recipients": "2"
               }
             },
             {
               "title": "Silver",
-              "monthly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "",
-              "yearly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "",
               "features": {
                 "Incoming Mail": "60 / month",
                 "Open & Scan": "Unlimited",
                 "Forwarding": "Unlimited",
                 "Recipients": "3"
               },
-              "service_plan_id": "",
+              "service_plan_id": "15203",
               "detailed_features": {
-                "pricing": {},
-                "Incoming Mail": "60 / month\nEach additional at ₱50.00",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "yearly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                "Incoming Mail": "60 / month",
                 "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited\nShipping fees will apply",
-                "Check Deposit": "Each at ₱250.00",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at ₱10.00",
+                "Forwarding": "Unlimited",
+                "Check Deposit": "Available",
+                "Recycling": "Available",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Physical Storage": "Available",
                 "Online Storage": "Unlimited",
-                "Recipients": "3\nEach additional ₱500.00 / month"
+                "Recipients": "3"
               }
             },
             {
               "title": "Gold",
-              "monthly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "",
-              "yearly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "",
               "features": {
                 "Incoming Mail": "125 / month",
                 "Open & Scan": "Unlimited",
                 "Forwarding": "Unlimited",
                 "Recipients": "4"
               },
-              "service_plan_id": "",
+              "service_plan_id": "15204",
               "detailed_features": {
-                "pricing": {},
-                "Incoming Mail": "125 / month\nEach additional at ₱50.00",
+                "pricing": {
+                  "monthly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  },
+                  "yearly_price": {
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                "Incoming Mail": "125 / month",
                 "Open & Scan": "Unlimited",
-                "Forwarding": "Unlimited\nShipping fees will apply",
-                "Check Deposit": "Each at ₱250.00",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at ₱10.00",
+                "Forwarding": "Unlimited",
+                "Check Deposit": "Available",
+                "Recycling": "Available",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Free storage for 30 day(s), then ₱20.00 for every mail item per day",
+                "Physical Storage": "Available",
                 "Online Storage": "Unlimited",
-                "Recipients": "4\nEach additional ₱500.00 / month"
+                "Recipients": "4"
               }
             }
           ],
@@ -407,32 +366,14 @@
             "street_address": "11th Flr One Park Dr BGC, 9th Ave",
             "suite_info": "Unit 1101 #MAILBOX",
             "city_state_zip": "Taguig, NCR 1630",
-            "country": "Philippines",
+            "country": "United States",
             "features": [
-              {
-                "name": "Open & Scan",
-                "available": true
-              },
-              {
-                "name": "Recycling",
-                "available": true
-              },
-              {
-                "name": "Forwarding",
-                "available": true
-              },
-              {
-                "name": "Shredding",
-                "available": true
-              },
-              {
-                "name": "Check Deposit",
-                "available": true
-              },
-              {
-                "name": "Local Pickup",
-                "available": false
-              }
+              { "name": "Open & Scan", "available": true },
+              { "name": "Recycling", "available": true },
+              { "name": "Forwarding", "available": true },
+              { "name": "Shredding", "available": true },
+              { "name": "Check Deposit", "available": true },
+              { "name": "Local Pickup", "available": false }
             ],
             "shipping_carriers": [
               "Ship with FedEx",
@@ -440,11 +381,11 @@
               "Ship with DHL"
             ],
             "operator_info": {
-              "name": "Taskraft Verified",
+              "name": "Taskraft",
               "verified": true
             }
           },
-          "name": "Luzon",
+          "name": "Taguig",
           "region": "Luzon"
         }
       ],
@@ -452,5 +393,6 @@
     }
   ],
   "total_locations": 2,
-  "scraped_at": "2025-07-09T08:05:53.165772"
+  "scraped_at": "2025-07-15T15:30:19",
+  "cities": []
 }

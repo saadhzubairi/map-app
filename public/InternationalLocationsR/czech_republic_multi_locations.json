@@ -5,16 +5,6 @@
       "region": "Prague",
       "locations": [
         {
-          "title": "Prague",
-          "price": {
-            "amount": 12.99,
-            "currency": "USD"
-          },
-          "address": "MOBITEL, K Brance 1173/15, Prague, 15500, Czech Republic",
-          "latitude": "50.0480136",
-          "longitude": "14.3115273",
-          "plan_url": "https://www.anytimemailbox.com/s/prague-na-piskach-126665",
-          "is_premier": false,
           "plans": [
             {
               "title": "Bronze",
@@ -22,12 +12,12 @@
                 "amount": 12.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11870&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11870&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "yearly_price": {
                 "amount": 129.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11870&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11870&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "features": {
                 "Incoming Mail": "Each at US$ 0.50",
                 "Open & Scan": "Each page at US$ 0.50",
@@ -41,12 +31,12 @@
                     "amount": 12.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11870&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11870&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
                   "yearly_price": {
                     "amount": 129.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11870&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11870&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'"
                 },
                 "Incoming Mail": "Each at US$ 0.50",
                 "Open & Scan": "Unlimited\nEach page at US$ 0.50\nEach page at US$ 0.50",
@@ -66,12 +56,12 @@
                 "amount": 15.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11871&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11871&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "yearly_price": {
                 "amount": 175.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11871&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11871&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "features": {
                 "Incoming Mail": "10 / month",
                 "Open & Scan": "5 pages / month",
@@ -85,12 +75,12 @@
                     "amount": 15.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11871&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11871&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
                   "yearly_price": {
                     "amount": 175.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11871&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11871&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'"
                 },
                 "Incoming Mail": "10 / month\nEach additional at US$ 0.35",
                 "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
@@ -110,12 +100,12 @@
                 "amount": 29.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11872&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11872&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "yearly_price": {
                 "amount": 329.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11872&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11872&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "features": {
                 "Incoming Mail": "125 / month",
                 "Open & Scan": "20 pages / month",
@@ -129,12 +119,12 @@
                     "amount": 29.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11872&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11872&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
                   "yearly_price": {
                     "amount": 329.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11872&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11872&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'"
                 },
                 "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
                 "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
@@ -154,12 +144,12 @@
                 "amount": 69.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11873&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11873&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "yearly_price": {
                 "amount": 659.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11873&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11873&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "features": {
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "100 pages / month",
@@ -173,12 +163,12 @@
                     "amount": 69.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11873&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=11873&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
                   "yearly_price": {
                     "amount": 659.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11873&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=11873&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'"
                 },
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
@@ -195,11 +185,11 @@
           ],
           "location_info": {
             "address_title": "Your Real Street Address",
-            "address_text": "YOUR NAME\nMOBITEL\n\n\nK Brance 1173/15\nPrague, 15500\nCzech Republic",
+            "address_text": "YOUR NAME\nMOBITEL\nK Brance 1173/15\nPrague, 15500\nCzech Republic",
             "street_address": "MOBITEL",
-            "suite_info": "",
+            "suite_info": "K Brance 1173/15",
             "city_state_zip": "Prague, 15500",
-            "country": "Czech Republic",
+            "country": "United States",
             "features": [
               {
                 "name": "Open & Scan",
@@ -232,24 +222,17 @@
               "Ship with DHL"
             ],
             "operator_info": {
-              "name": "Czech Virtual MailBox Verified",
+              "name": "Czech Virtual MailBox",
               "verified": true
             }
           },
+          "plan_url": "https://www.anytimemailbox.com/s/prague-na-piskach-126665",
+          "title": "Prague",
+          "address": "K Brance 1173/15\n15500 Prague (Prague)\nCzech Republic",
           "name": "Prague",
           "region": "Prague"
         },
         {
-          "title": "Praha 7-Holešovice - Jankovcova 51638",
-          "price": {
-            "amount": 14.99,
-            "currency": "USD"
-          },
-          "address": "17000 Praha 7-Holešovice,, Czech Republic, Czech Republic",
-          "latitude": "50.1105468",
-          "longitude": "14.4457988",
-          "plan_url": "https://www.anytimemailbox.com/s/praha-7-hole%C5%A1ovice-jankovcova-51638",
-          "is_premier": false,
           "plans": [
             {
               "title": "Silver",
@@ -257,12 +240,12 @@
                 "amount": 14.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26704&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26704&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "yearly_price": {
                 "amount": 164.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26704&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26704&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "features": {
                 "Incoming Mail": "15 / month",
                 "Open & Scan": "5 pages / month",
@@ -276,12 +259,12 @@
                     "amount": 14.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26704&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26704&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
                   "yearly_price": {
                     "amount": 164.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26704&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26704&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'"
                 },
                 "Incoming Mail": "15 / month\nEach additional at US$ 0.50",
                 "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
@@ -301,12 +284,12 @@
                 "amount": 29.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26705&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26705&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "yearly_price": {
                 "amount": 329.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26705&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26705&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "features": {
                 "Incoming Mail": "30 / month",
                 "Open & Scan": "10 pages / month",
@@ -320,12 +303,12 @@
                     "amount": 29.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26705&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26705&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
                   "yearly_price": {
                     "amount": 329.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26705&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26705&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'"
                 },
                 "Incoming Mail": "30 / month\nEach additional at US$ 0.50",
                 "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
@@ -345,12 +328,12 @@
                 "amount": 69.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26706&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26706&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "yearly_price": {
                 "amount": 659.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26706&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26706&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
               "features": {
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "50 pages / month",
@@ -364,12 +347,12 @@
                     "amount": 69.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26706&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=26706&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'",
                   "yearly_price": {
                     "amount": 659.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26706&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=26706&siftsessionid=175259793397206069wmilpuahm&firstpagehit=https://www.anytimemailbox.com/s/prague-na-piskach-126665'"
                 },
                 "Incoming Mail": "Unlimited",
                 "Open & Scan": "Unlimited\n50 pages / month\nEach additional page at US$ 0.50",
@@ -388,9 +371,9 @@
             "address_title": "Your Real Street Address",
             "address_text": "YOUR NAME\nJankovcova 516/38 #MAILBOX\n17000 Praha 7-Holešovice,\nCzech Republic\nCzech Republic",
             "street_address": "Jankovcova 516/38 #MAILBOX",
-            "suite_info": "Jankovcova 516/38 #MAILBOX",
+            "suite_info": "17000 Praha 7-Holešovice,",
             "city_state_zip": "Czech Republic",
-            "country": "Czech Republic",
+            "country": "United States",
             "features": [
               {
                 "name": "Open & Scan",
@@ -422,11 +405,14 @@
               "Ship with DHL"
             ],
             "operator_info": {
-              "name": "MBE CZ s.r.o. Verified",
+              "name": "MBE CZ s.r.o.",
               "verified": true
             }
           },
-          "name": "Praha 7-Holešovice - Jankovcova 51638",
+          "plan_url": "https://www.anytimemailbox.com/s/praha-7-holešovice-jankovcova-51638",
+          "title": "Jankovcova 51638",
+          "address": "Jankovcova 516/38\n17000 Praha 7-Holešovice (Czechia)\nCzech Republic",
+          "name": "Jankovcova 51638",
           "region": "Prague"
         }
       ],
@@ -434,5 +420,5 @@
     }
   ],
   "total_locations": 2,
-  "scraped_at": "2025-07-09T07:51:21.210585"
+  "scraped_at": "2025-07-15T12:45:33"
 }

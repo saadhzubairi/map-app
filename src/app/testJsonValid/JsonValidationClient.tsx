@@ -1,6 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import { cn } from '@/lib/utils';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 interface ValidationResult {
   file: string;
@@ -16,7 +17,7 @@ export default function JsonValidationClient() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchResults = async () => {
+  const fetchResults = useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
@@ -24,17 +25,18 @@ export default function JsonValidationClient() {
       if (!res.ok) throw new Error('Failed to fetch validation results');
       const data = await res.json();
       setResults(data.results);
-    } catch (err: any) {
-      setError(err.message || 'Unknown error');
+    } catch (err: unknown) {
+      const errorMessage = err instanceof Error ? err.message : 'Unknown error';
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }
     console.log('Results:', results);
-  };
+  }, []);
 
   useEffect(() => {
     fetchResults();
-  }, []);
+  }, [fetchResults]);
 
   return (
     <div className="flex flex-col items-center mx-auto py-10">

@@ -620,5 +620,7 @@
             }
         ],
         "state_name": "DC"
-    }
+    },
+    "total_locations": 3,
+    "scraped_at": "2025-07-14T20:05:02.232675"
 }

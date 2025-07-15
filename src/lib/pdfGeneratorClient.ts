@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import jsPDF from 'jspdf';
 
 // Types for US locations
@@ -248,7 +249,7 @@ function addDetailedFeatures(doc: jsPDF, detailedFeatures: any, currentY: number
     
     featureY = checkPageBreak(doc, featureY, margin, lines.length * 4);
     
-    lines.forEach(line => {
+    lines.forEach((line: any) => {
       doc.text(line, margin + 5, featureY);
       featureY += 4;
     });

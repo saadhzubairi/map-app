@@ -1,6 +1,5 @@
 import { createCanvas } from 'canvas';
 import fs from 'fs';
-import bbox from '@turf/bbox';
 
 interface Pin {
   latitude: string;
@@ -29,7 +28,7 @@ export async function renderGeoJsonMapImage({ geojsonPath, pins, country }: { ge
     if (lat > maxY) maxY = lat;
   });
   // Add margin (in degrees)
-  let margin = 5;
+  const margin = 5;
   minX -= margin; maxX += margin; minY -= margin; maxY += margin;
 
   // --- Aspect ratio correction ---
@@ -62,17 +61,21 @@ export async function renderGeoJsonMapImage({ geojsonPath, pins, country }: { ge
   // Draw borders
   ctx.strokeStyle = '#888';
   ctx.lineWidth = 1;
-  geojson.features.forEach((f: any) => {
-    const coords = f.geometry.type === 'Polygon'
-      ? [f.geometry.coordinates]
-      : f.geometry.coordinates;
-    coords.forEach((poly: any) => {
+  geojson.features.forEach((f: unknown) => {
+    const feature = f as { geometry: { type: string; coordinates: unknown } };
+    const coords = feature.geometry.type === 'Polygon'
+      ? [feature.geometry.coordinates]
+      : feature.geometry.coordinates;
+    (coords as unknown[][]).forEach((poly: unknown) => {
       ctx.beginPath();
-      poly[0].forEach(([lon, lat]: [number, number], i: number) => {
+      const polyCoords = (poly as number[][])[0];
+      for (let i = 0; i < polyCoords.length; i++) {
+        const coord = polyCoords[i] as unknown as number[];
+        const [lon, lat] = coord;
         const [x, y] = project([lon, lat]);
         if (i === 0) ctx.moveTo(x, y);
         else ctx.lineTo(x, y);
-      });
+      }
       ctx.closePath();
       ctx.stroke();
     });

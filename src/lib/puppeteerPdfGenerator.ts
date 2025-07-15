@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import puppeteer from 'puppeteer';
 import { getInternationalPdfHtml, getUsStatePdfHtml } from './pdfTemplates';
 import fs from 'fs/promises';

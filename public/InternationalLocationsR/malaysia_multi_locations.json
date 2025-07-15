@@ -10,7 +10,7 @@
             "amount": 0,
             "currency": "USD"
           },
-          "address": "Space Z@GurneyWalk, No. 18A, Unit 1, Ground Floor, Gurney Drive, 10250 GeorgeTown, PNG, Malaysia",
+          "address": "Space Z@GurneyWalk\nGeorgeTown 10250\nPenang\nMalaysia",
           "latitude": "5.430466",
           "longitude": "100.3191859",
           "plan_url": "https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw",
@@ -18,23 +18,13 @@
           "plans": [
             {
               "title": "Personal Box Yearly",
-              "monthly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "",
-              "yearly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "",
               "features": {
                 "Incoming Mail": "30 / month",
                 "Open & Scan": "10 pages / month",
                 "Forwarding": "No handling fees",
                 "Recipients": "1"
               },
-              "service_plan_id": "",
+              "service_plan_id": "16841",
               "detailed_features": {
                 "pricing": {},
                 "Incoming Mail": "30 / month\nEach additional at US$ 1.00",
@@ -51,23 +41,13 @@
             },
             {
               "title": "Business Box Yearly",
-              "monthly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "",
-              "yearly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "",
               "features": {
                 "Incoming Mail": "50 / month",
                 "Open & Scan": "25 pages / month",
                 "Forwarding": "No handling fees",
                 "Recipients": "2"
               },
-              "service_plan_id": "",
+              "service_plan_id": "17087",
               "detailed_features": {
                 "pricing": {},
                 "Incoming Mail": "50 / month\nEach additional at US$ 1.00",
@@ -84,23 +64,13 @@
             },
             {
               "title": "Personal Box Monthly",
-              "monthly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "",
-              "yearly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "",
               "features": {
                 "Incoming Mail": "30 / month",
                 "Open & Scan": "10 pages / month",
                 "Forwarding": "Each shipping bundle at US$ 5.00",
                 "Recipients": "1"
               },
-              "service_plan_id": "",
+              "service_plan_id": "16840",
               "detailed_features": {
                 "pricing": {},
                 "Incoming Mail": "30 / month\nEach additional at US$ 1.00",
@@ -117,23 +87,13 @@
             },
             {
               "title": "Business Box Monthly",
-              "monthly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "",
-              "yearly_price": {
-                "amount": 0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "",
               "features": {
                 "Incoming Mail": "50 / month",
                 "Open & Scan": "25 pages / month",
                 "Forwarding": "No handling fees",
                 "Recipients": "2"
               },
-              "service_plan_id": "",
+              "service_plan_id": "16843",
               "detailed_features": {
                 "pricing": {},
                 "Incoming Mail": "50 / month\nEach additional at US$ 1.00",
@@ -153,9 +113,9 @@
             "address_title": "Your Real Street Address",
             "address_text": "YOUR NAME\nUnit # MAILBOX\nSpace Z@GurneyWalk\nNo. 18A, Unit 1, Ground Floor, Gurney Drive\n10250 GeorgeTown\nPNG\nMalaysia",
             "street_address": "Unit # MAILBOX",
-            "suite_info": "Unit # MAILBOX",
-            "city_state_zip": "PNG",
-            "country": "Malaysia",
+            "suite_info": "Space Z@GurneyWalk",
+            "city_state_zip": "No. 18A, Unit 1, Ground Floor, Gurney Drive",
+            "country": "United States",
             "features": [
               {
                 "name": "Open & Scan",
@@ -187,11 +147,11 @@
               "Ship with UPS"
             ],
             "operator_info": {
-              "name": "Space Z Ventures Verified",
+              "name": "Space Z Ventures",
               "verified": true
             }
           },
-          "name": "Penang",
+          "name": "George Town",
           "region": "Penang"
         }
       ],
@@ -206,7 +166,7 @@
             "amount": 9.99,
             "currency": "USD"
           },
-          "address": "19, Jalan Eco Majestic 7/1A,, Mellowood, Eco Majestic,,, 43500 Semenyih ,, SGR,, Malaysia",
+          "address": "19, Jalan Eco Majestic 7/1A,\nSemenyih 43500\nSelangor Darul Ehsan\nMalaysia",
           "latitude": "3.192573",
           "longitude": "101.599425",
           "plan_url": "https://www.anytimemailbox.com/s/petaling-jaya-armanee",
@@ -218,12 +178,12 @@
                 "amount": 9.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4278&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4278&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "yearly_price": {
                 "amount": 109.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4278&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4278&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "features": {
                 "Incoming Mail": "20 / month",
                 "Open & Scan": "5 pages / month",
@@ -237,12 +197,12 @@
                     "amount": 9.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4278&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4278&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
                   "yearly_price": {
                     "amount": 109.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4278&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4278&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'"
                 },
                 "Incoming Mail": "20 / month\nEach additional at US$ 0.35",
                 "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
@@ -262,12 +222,12 @@
                 "amount": 14.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4279&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4279&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "yearly_price": {
                 "amount": 164.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4279&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4279&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "features": {
                 "Incoming Mail": "30 / month",
                 "Open & Scan": "10 pages / month",
@@ -281,12 +241,12 @@
                     "amount": 14.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4279&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4279&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
                   "yearly_price": {
                     "amount": 164.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4279&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4279&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'"
                 },
                 "Incoming Mail": "30 / month\nEach additional at US$ 0.50",
                 "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
@@ -306,12 +266,12 @@
                 "amount": 29.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4280&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4280&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "yearly_price": {
                 "amount": 329.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4280&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4280&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "features": {
                 "Incoming Mail": "50 / month",
                 "Open & Scan": "20 pages / month",
@@ -325,12 +285,12 @@
                     "amount": 29.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4280&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4280&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
                   "yearly_price": {
                     "amount": 329.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4280&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4280&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'"
                 },
                 "Incoming Mail": "50 / month\nEach additional at US$ 0.50",
                 "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
@@ -350,12 +310,12 @@
                 "amount": 50.0,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16905&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16905&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "yearly_price": {
                 "amount": 500.0,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16905&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16905&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "features": {
                 "Incoming Mail": "50 / month",
                 "Open & Scan": "5 / month",
@@ -369,12 +329,12 @@
                     "amount": 50.0,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16905&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16905&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
                   "yearly_price": {
                     "amount": 500.0,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16905&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16905&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'"
                 },
                 "Incoming Mail": "50 / month\nEach additional at US$ 1.00",
                 "Open & Scan": "5 / month\nEach additional at US$ 0.50\n5 pages / month\nEach additional page at US$ 0.50",
@@ -394,12 +354,12 @@
                 "amount": 69.99,
                 "currency": "USD"
               },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4281&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4281&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "yearly_price": {
                 "amount": 659.99,
                 "currency": "USD"
               },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4281&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4281&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
               "features": {
                 "Incoming Mail": "90 / month",
                 "Open & Scan": "Unlimited",
@@ -413,12 +373,12 @@
                     "amount": 69.99,
                     "currency": "USD"
                   },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4281&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=4281&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'",
                   "yearly_price": {
                     "amount": 659.99,
                     "currency": "USD"
                   },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4281&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=4281&siftsessionid=175260622813244501kfy41pvwle&firstpagehit=https://www.anytimemailbox.com/s/george-town-no-18a-unit-1-ground-fl-space-zgurneyw'"
                 },
                 "Incoming Mail": "90 / month\nEach additional at US$ 0.30",
                 "Open & Scan": "Unlimited",
@@ -437,9 +397,9 @@
             "address_title": "Your Real Street Address",
             "address_text": "YOUR NAME\n19, Jalan Eco Majestic 7/1A,\nMellowood, Eco Majestic,,\nMBX #MAILBOX,\n43500 Semenyih ,\nSGR,\nMalaysia",
             "street_address": "19, Jalan Eco Majestic 7/1A,",
-            "suite_info": "MBX #MAILBOX,",
-            "city_state_zip": "SGR,",
-            "country": "Malaysia",
+            "suite_info": "Mellowood, Eco Majestic,,",
+            "city_state_zip": "MBX #MAILBOX,",
+            "country": "United States",
             "features": [
               {
                 "name": "Open & Scan",
@@ -471,11 +431,11 @@
               "Ship with DHL"
             ],
             "operator_info": {
-              "name": "Wind Turbine Solutions Verified",
+              "name": "Wind Turbine Solutions",
               "verified": true
             }
           },
-          "name": "Selangor",
+          "name": "Petaling Jaya",
           "region": "Selangor"
         }
       ],
@@ -483,5 +443,5 @@
     }
   ],
   "total_locations": 2,
-  "scraped_at": "2025-07-09T07:56:25.306667"
+  "scraped_at": "2025-07-15T15:03:46"
 }

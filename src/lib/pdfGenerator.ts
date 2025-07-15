@@ -1,5 +1,15 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
+
+// Extend jsPDF type to include autoTable
+interface jsPDFWithAutoTable extends jsPDF {
+  autoTable: (options: any) => void;
+  lastAutoTable: {
+    finalY: number;
+  };
+}
 
 interface Location {
   title: string;
@@ -58,14 +68,14 @@ interface InternationalLocation {
 }
 
 export class PDFGenerator {
-  private doc: jsPDF;
+  private doc: jsPDFWithAutoTable;
   private currentY: number = 20;
   private pageWidth: number;
   private margin: number = 20;
   private contentWidth: number;
 
   constructor() {
-    this.doc = new jsPDF('p', 'mm', 'a4');
+    this.doc = new jsPDF('p', 'mm', 'a4') as jsPDFWithAutoTable;
     this.pageWidth = this.doc.internal.pageSize.getWidth();
     this.contentWidth = this.pageWidth - (this.margin * 2);
   }
@@ -178,7 +188,7 @@ export class PDFGenerator {
       Object.keys(plan.features).length + ' features'
     ]);
     
-    (this.doc as unknown as any).autoTable({
+    this.doc.autoTable({
       startY: this.currentY,
       head: [['Plan', 'Monthly', 'Yearly', 'Features']],
       body: tableData,
@@ -200,7 +210,7 @@ export class PDFGenerator {
       }
     });
     
-    this.currentY = (this.doc as unknown as any).lastAutoTable.finalY + 10;
+    this.currentY = this.doc.lastAutoTable.finalY + 10;
   }
 
   private addFeaturesList(plan: Plan) {
@@ -269,7 +279,7 @@ export class PDFGenerator {
     }
   }
 
-  private wrapText(text: string, maxWidth: number, fontSize: number): string[] {
+  private wrapText(text: string, maxWidth: number, _fontSize: number): string[] {
     const words = text.split(' ');
     const lines: string[] = [];
     let currentLine = '';
@@ -314,7 +324,8 @@ export class PDFGenerator {
       });
     });
     
-    return this.doc.output('arraybuffer');
+    const arrayBuffer = this.doc.output('arraybuffer');
+    return new Uint8Array(arrayBuffer);
   }
 
   async generateInternationalPDF(countryData: Record<string, InternationalLocation[]>): Promise<Uint8Array> {
@@ -328,7 +339,8 @@ export class PDFGenerator {
       });
     });
     
-    return this.doc.output('arraybuffer');
+    const arrayBuffer = this.doc.output('arraybuffer');
+    return new Uint8Array(arrayBuffer);
   }
 
   async generateAllLocationsPDF(usData: StateData[], internationalData: Record<string, InternationalLocation[]>): Promise<Uint8Array> {
@@ -356,7 +368,8 @@ export class PDFGenerator {
       });
     });
     
-    return this.doc.output('arraybuffer');
+    const arrayBuffer = this.doc.output('arraybuffer');
+    return new Uint8Array(arrayBuffer);
   }
 
   async generateSpecificLocationPDF(location: Location, cityName: string, stateName: string): Promise<Uint8Array> {
@@ -372,7 +385,8 @@ export class PDFGenerator {
       });
     }
     
-    return this.doc.output('arraybuffer');
+    const arrayBuffer = this.doc.output('arraybuffer');
+    return new Uint8Array(arrayBuffer);
   }
 }
 

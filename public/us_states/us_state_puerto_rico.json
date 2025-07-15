@@ -1,0 +1,447 @@
+{
+    "state": "Puerto Rico",
+    "state_data": {
+        "state_url": "https://www.anytimemailbox.com/l/usa/puerto-rico",
+        "cities": [
+            {
+                "city_name": "Fajardo",
+                "location_count": 1,
+                "locations": [
+                    {
+                        "title": "Fajardo",
+                        "price": {
+                            "amount": 9.99,
+                            "currency": "USD"
+                        },
+                        "address": "410 Avenida Montesol\nFajardo, PR 00738",
+                        "latitude": "18.2959588",
+                        "longitude": "-65.6448391",
+                        "plan_url": "https://www.anytimemailbox.com/s/fajardo-410-avenida-montesol",
+                        "is_premier": false,
+                        "country": "United States",
+                        "plans": [
+                            {
+                                "title": "Bronze",
+                                "monthly_price": {
+                                    "amount": 9.99,
+                                    "currency": "USD"
+                                },
+                                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25161&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "yearly_price": {
+                                    "amount": 109.99,
+                                    "currency": "USD"
+                                },
+                                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25161&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "features": {
+                                    "Incoming Mail": "30 / month",
+                                    "Open & Scan": "5 pages / month",
+                                    "Forwarding": "Each shipping bundle at US$ 5.00",
+                                    "Recipients": "1"
+                                },
+                                "service_plan_id": "25161",
+                                "detailed_features": {
+                                    "pricing": {
+                                        "monthly_price": {
+                                            "amount": 9.99,
+                                            "currency": "USD"
+                                        },
+                                        "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25161&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                        "yearly_price": {
+                                            "amount": 109.99,
+                                            "currency": "USD"
+                                        },
+                                        "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25161&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'"
+                                    },
+                                    "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                                    "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 0.50",
+                                    "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                                    "Check Deposit": "Not available",
+                                    "Recycling": "Unlimited",
+                                    "Shredding": "Each at US$ 0.15",
+                                    "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                                    "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nMailing Tube: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 1 day(s), then US$ 10.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                                    "Online Storage": "Unlimited",
+                                    "Recipients": "1\nEach additional US$ 10.00 / month"
+                                }
+                            },
+                            {
+                                "title": "Silver",
+                                "monthly_price": {
+                                    "amount": 14.99,
+                                    "currency": "USD"
+                                },
+                                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25162&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "yearly_price": {
+                                    "amount": 164.99,
+                                    "currency": "USD"
+                                },
+                                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25162&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "features": {
+                                    "Incoming Mail": "60 / month",
+                                    "Open & Scan": "10 pages / month",
+                                    "Forwarding": "Each shipping bundle at US$ 5.00",
+                                    "Recipients": "2"
+                                },
+                                "service_plan_id": "25162",
+                                "detailed_features": {
+                                    "pricing": {
+                                        "monthly_price": {
+                                            "amount": 14.99,
+                                            "currency": "USD"
+                                        },
+                                        "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25162&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                        "yearly_price": {
+                                            "amount": 164.99,
+                                            "currency": "USD"
+                                        },
+                                        "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25162&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'"
+                                    },
+                                    "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                                    "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 0.50",
+                                    "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                                    "Check Deposit": "Not available",
+                                    "Recycling": "Unlimited",
+                                    "Shredding": "Each at US$ 0.15",
+                                    "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                                    "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nMailing Tube: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 2 day(s), then US$ 10.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                                    "Online Storage": "Unlimited",
+                                    "Recipients": "2\nEach additional US$ 10.00 / month"
+                                }
+                            },
+                            {
+                                "title": "Gold",
+                                "monthly_price": {
+                                    "amount": 29.99,
+                                    "currency": "USD"
+                                },
+                                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25163&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "yearly_price": {
+                                    "amount": 329.99,
+                                    "currency": "USD"
+                                },
+                                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25163&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "features": {
+                                    "Incoming Mail": "125 / month",
+                                    "Open & Scan": "20 pages / month",
+                                    "Forwarding": "Each shipping bundle at US$ 5.00",
+                                    "Recipients": "3"
+                                },
+                                "service_plan_id": "25163",
+                                "detailed_features": {
+                                    "pricing": {
+                                        "monthly_price": {
+                                            "amount": 29.99,
+                                            "currency": "USD"
+                                        },
+                                        "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25163&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                        "yearly_price": {
+                                            "amount": 329.99,
+                                            "currency": "USD"
+                                        },
+                                        "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25163&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'"
+                                    },
+                                    "Incoming Mail": "125 / month\nEach additional at US$ 0.35",
+                                    "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 0.50",
+                                    "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                                    "Check Deposit": "Not available",
+                                    "Recycling": "Unlimited",
+                                    "Shredding": "Each at US$ 0.15",
+                                    "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                                    "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nMailing Tube: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 2 day(s), then US$ 10.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                                    "Online Storage": "Unlimited",
+                                    "Recipients": "3\nEach additional US$ 10.00 / month"
+                                }
+                            },
+                            {
+                                "title": "Unlimited",
+                                "monthly_price": {
+                                    "amount": 69.99,
+                                    "currency": "USD"
+                                },
+                                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25164&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "yearly_price": {
+                                    "amount": 659.99,
+                                    "currency": "USD"
+                                },
+                                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25164&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "features": {
+                                    "Incoming Mail": "Unlimited",
+                                    "Open & Scan": "100 pages / month",
+                                    "Forwarding": "Each shipping bundle at US$ 5.00",
+                                    "Recipients": "4"
+                                },
+                                "service_plan_id": "25164",
+                                "detailed_features": {
+                                    "pricing": {
+                                        "monthly_price": {
+                                            "amount": 69.99,
+                                            "currency": "USD"
+                                        },
+                                        "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=25164&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                        "yearly_price": {
+                                            "amount": 659.99,
+                                            "currency": "USD"
+                                        },
+                                        "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=25164&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'"
+                                    },
+                                    "Incoming Mail": "Unlimited",
+                                    "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at US$ 0.50",
+                                    "Forwarding": "Each shipping bundle at US$ 5.00\nShipping fees will apply",
+                                    "Check Deposit": "Not available",
+                                    "Recycling": "Unlimited",
+                                    "Shredding": "Unlimited",
+                                    "Local Pickup": "US$ 2.00 per visit\nPickup during business hours",
+                                    "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then US$ 0.10 for every mail item per day\nSmall Box: Free storage for 10 day(s), then US$ 0.25 for every mail item per day\nMedium Box: Free storage for 10 day(s), then US$ 0.50 for every mail item per day\nLarge Box: Free storage for 10 day(s), then US$ 0.75 for every mail item per day\nExtra Large Box: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nMailing Tube: Free storage for 10 day(s), then US$ 1.00 for every mail item per day\nCrate: Free storage for 2 day(s), then US$ 10.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then US$ 0.10 for every mail item per day",
+                                    "Online Storage": "Unlimited",
+                                    "Recipients": "4\nEach additional US$ 10.00 / month"
+                                }
+                            }
+                        ],
+                        "location_info": {
+                            "address_title": "Your Real Street Address",
+                            "address_text": "YOUR NAME\n410 Avenida Montesol\nSte 14 #MAILBOX\nFajardo, PR 00738\nUnited States",
+                            "street_address": "410 Avenida Montesol",
+                            "suite_info": "Ste 14 #MAILBOX",
+                            "city_state_zip": "Fajardo, PR 00738",
+                            "country": "United States",
+                            "features": [
+                                {
+                                    "name": "Open & Scan",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Recycling",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Forwarding",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Shredding",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Check Deposit",
+                                    "available": false
+                                },
+                                {
+                                    "name": "Local Pickup",
+                                    "available": true
+                                }
+                            ],
+                            "shipping_carriers": [
+                                "Ship with USPS",
+                                "Ship with UPS"
+                            ],
+                            "operator_info": {
+                                "name": "Postal Inbox LLC",
+                                "verified": true
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "city_name": "San Juan",
+                "location_count": 1,
+                "locations": [
+                    {
+                        "title": "San Juan",
+                        "price": {
+                            "amount": 19.99,
+                            "currency": "USD"
+                        },
+                        "address": "116 Calle Manuel Domenech\nSan Juan, PR 00918",
+                        "latitude": "18.415713",
+                        "longitude": "-66.0580392",
+                        "plan_url": "https://www.anytimemailbox.com/s/san-juan-220-calle-manuel-domenech",
+                        "is_premier": false,
+                        "country": "United States",
+                        "plans": [
+                            {
+                                "title": "Bronze PR",
+                                "monthly_price": {
+                                    "amount": 19.99,
+                                    "currency": "USD"
+                                },
+                                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16035&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "yearly_price": {
+                                    "amount": 220.0,
+                                    "currency": "USD"
+                                },
+                                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16035&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "features": {
+                                    "Incoming Mail": "30 / month",
+                                    "Open & Scan": "5 pages / month",
+                                    "Forwarding": "Each shipping bundle at US$ 0.00",
+                                    "Recipients": "1"
+                                },
+                                "service_plan_id": "16035",
+                                "detailed_features": {
+                                    "pricing": {
+                                        "monthly_price": {
+                                            "amount": 19.99,
+                                            "currency": "USD"
+                                        },
+                                        "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16035&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                        "yearly_price": {
+                                            "amount": 220.0,
+                                            "currency": "USD"
+                                        },
+                                        "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16035&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'"
+                                    },
+                                    "Incoming Mail": "30 / month\nEach additional at US$ 0.35",
+                                    "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at US$ 1.00\n2 pages / request\nEach additional page at US$ 0.00",
+                                    "Forwarding": "Each shipping bundle at US$ 0.00\nShipping fees will apply",
+                                    "Check Deposit": "Not available",
+                                    "Recycling": "Unlimited",
+                                    "Shredding": "Each at US$ 0.50",
+                                    "Local Pickup": "Unlimited\nPickup upon request",
+                                    "Physical Storage": "Medium Box: Free storage for 5 day(s), then US$ 5.00 for every mail item per month\nAll other mail: Free storage for 30 day(s), then US$ 0.05 for every mail item per month",
+                                    "Online Storage": "Unlimited",
+                                    "Recipients": "1"
+                                }
+                            },
+                            {
+                                "title": "Silver PR",
+                                "monthly_price": {
+                                    "amount": 32.0,
+                                    "currency": "USD"
+                                },
+                                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16036&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "yearly_price": {
+                                    "amount": 352.0,
+                                    "currency": "USD"
+                                },
+                                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16036&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "features": {
+                                    "Incoming Mail": "60 / month",
+                                    "Open & Scan": "10 pages / month",
+                                    "Forwarding": "Each at US$ 2.50",
+                                    "Recipients": "1"
+                                },
+                                "service_plan_id": "16036",
+                                "detailed_features": {
+                                    "pricing": {
+                                        "monthly_price": {
+                                            "amount": 32.0,
+                                            "currency": "USD"
+                                        },
+                                        "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16036&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                        "yearly_price": {
+                                            "amount": 352.0,
+                                            "currency": "USD"
+                                        },
+                                        "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16036&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'"
+                                    },
+                                    "Incoming Mail": "60 / month\nEach additional at US$ 0.35",
+                                    "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at US$ 1.00",
+                                    "Forwarding": "Each at US$ 2.50\nShipping fees will apply",
+                                    "Check Deposit": "Unlimited",
+                                    "Recycling": "Unlimited",
+                                    "Shredding": "Unlimited",
+                                    "Local Pickup": "Unlimited\nPickup upon request",
+                                    "Physical Storage": "Free storage for 30 day(s), then US$ 0.05 for every mail item per month",
+                                    "Online Storage": "Unlimited",
+                                    "Recipients": "1"
+                                }
+                            },
+                            {
+                                "title": "Gold PR",
+                                "monthly_price": {
+                                    "amount": 55.0,
+                                    "currency": "USD"
+                                },
+                                "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16037&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "yearly_price": {
+                                    "amount": 605.0,
+                                    "currency": "USD"
+                                },
+                                "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16037&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                "features": {
+                                    "Incoming Mail": "100 / month",
+                                    "Open & Scan": "20 pages / month",
+                                    "Forwarding": "No handling fees",
+                                    "Recipients": "1"
+                                },
+                                "service_plan_id": "16037",
+                                "detailed_features": {
+                                    "pricing": {
+                                        "monthly_price": {
+                                            "amount": 55.0,
+                                            "currency": "USD"
+                                        },
+                                        "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=16037&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'",
+                                        "yearly_price": {
+                                            "amount": 605.0,
+                                            "currency": "USD"
+                                        },
+                                        "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=16037&siftsessionid=1752525307887547609f6w07x5wh&firstpagehit=https://www.anytimemailbox.com/l/usa/puerto-rico'"
+                                    },
+                                    "Incoming Mail": "100 / month\nEach additional at US$ 0.35",
+                                    "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at US$ 1.00",
+                                    "Forwarding": "No handling fees\nShipping fees will apply",
+                                    "Check Deposit": "Unlimited",
+                                    "Recycling": "Unlimited",
+                                    "Shredding": "Unlimited",
+                                    "Local Pickup": "Unlimited\nPickup upon request",
+                                    "Physical Storage": "Free storage for 60 day(s), then US$ 0.05 for every mail item per month",
+                                    "Online Storage": "Unlimited",
+                                    "Recipients": "1"
+                                }
+                            }
+                        ],
+                        "location_info": {
+                            "address_title": "Your Real Street Address",
+                            "address_text": "YOUR NAME\n116 Calle Manuel Domenech\nUnit #MAILBOX\nSan Juan, PR 00918\nUnited States",
+                            "street_address": "116 Calle Manuel Domenech",
+                            "suite_info": "Unit #MAILBOX",
+                            "city_state_zip": "San Juan, PR 00918",
+                            "country": "United States",
+                            "features": [
+                                {
+                                    "name": "Open & Scan",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Recycling",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Forwarding",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Shredding",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Check Deposit",
+                                    "available": true
+                                },
+                                {
+                                    "name": "Local Pickup",
+                                    "available": true
+                                }
+                            ],
+                            "shipping_carriers": [
+                                "Ship with FedEx",
+                                "Ship with UPS",
+                                "Ship with DHL",
+                                "Ship with USPS"
+                            ],
+                            "operator_info": {
+                                "name": "PR Shipping & Hub",
+                                "verified": true
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "state_name": "Puerto-Rico"
+    },
+    "total_locations": 2,
+    "scraped_at": "2025-07-14T20:05:02.232675"
+}

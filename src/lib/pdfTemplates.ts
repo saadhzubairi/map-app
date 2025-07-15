@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // Utility function to modify pricing information for PDF export
 function modifyPricingInfo(data: any): any {
     if (data === null || data === undefined) return data;

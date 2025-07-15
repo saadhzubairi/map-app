@@ -5,20 +5,91 @@
       "region": "Geneva",
       "locations": [
         {
-          "title": "",
-          "price": {
-            "amount": 0,
-            "currency": "USD"
+          "plans": [
+            {
+              "title": "Domiciliation Individuals or Companies",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6799&siftsessionid=17525980180277178023al28mw7gm'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6799&siftsessionid=17525980180277178023al28mw7gm'",
+              "features": {
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
+                "Recipients": "1"
+              },
+              "service_plan_id": "6799",
+              "detailed_features": {
+                "pricing": {
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=6799&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=6799&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
+                },
+                "Incoming Mail": "Unlimited",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
+                "Check Deposit": "Not available",
+                "Recycling": "Available",
+                "Shredding": "Available",
+                "Local Pickup": "Available",
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
+                "Recipients": "1"
+              }
+            }
+          ],
+          "location_info": {
+            "address_title": "Your Real Street Address",
+            "address_text": "YOUR NAME\nSWISSMAILBOX\nSuite MAILBOX\nRUE LE CORBUSIER 12\n1208 GENEVA\nSWITZERLAND\nSwitzerland",
+            "street_address": "SWISSMAILBOX",
+            "suite_info": "Suite MAILBOX",
+            "city_state_zip": "RUE LE CORBUSIER 12",
+            "country": "United States",
+            "features": [
+              {
+                "name": "Open & Scan",
+                "available": true
+              },
+              {
+                "name": "Recycling",
+                "available": true
+              },
+              {
+                "name": "Forwarding",
+                "available": true
+              },
+              {
+                "name": "Shredding",
+                "available": true
+              },
+              {
+                "name": "Check Deposit",
+                "available": false
+              },
+              {
+                "name": "Local Pickup",
+                "available": true
+              }
+            ],
+            "shipping_carriers": [
+              "Ship with FedEx",
+              "Ship with UPS",
+              "Ship with DHL",
+              "Ship with USPS"
+            ],
+            "operator_info": {
+              "name": "SwissMailbox.com",
+              "verified": true
+            }
           },
-          "address": "",
-          "latitude": "",
-          "longitude": "",
           "plan_url": "https://www.anytimemailbox.com/s/geneva-12-cp-525",
-          "is_premier": false,
-          "plans": [],
-          "location_info": {},
-          "name": "Geneva",
-          "region": "Geneva"
+          "title": "Rue Le Corbusier",
+          "address": "RUE LE CORBUSIER 12\n1208 GENEVA\nSwitzerland",
+          "name": "Rue Le Corbusier",
+          "region": "Geneva",
+          "latitude": "46.204391",
+          "longitude": "6.143158"
         }
       ],
       "location_count": 1
@@ -27,191 +98,133 @@
       "region": "Vaud",
       "locations": [
         {
-          "title": "Nyon",
-          "price": {
-            "amount": 9.99,
-            "currency": "USD"
-          },
-          "address": "C/O Anibarro, Route de Saint-Cergue 24Bis, 1260 Nyon, Switzerland",
-          "latitude": "46.3860449",
-          "longitude": "6.2313436",
-          "plan_url": "https://www.anytimemailbox.com/s/nyon-route-de-saint-cergue-24b",
-          "is_premier": false,
           "plans": [
             {
               "title": "Bronze",
-              "monthly_price": {
-                "amount": 9.99,
-                "currency": "USD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12591&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-              "yearly_price": {
-                "amount": 100.99,
-                "currency": "USD"
-              },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12591&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12591&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12591&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
               "features": {
                 "Incoming Mail": "30 / month",
-                "Open & Scan": "5 pages / month",
-                "Forwarding": "Each at Fr. 4.57",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Recipients": "4"
               },
               "service_plan_id": "12591",
               "detailed_features": {
                 "pricing": {
-                  "monthly_price": {
-                    "amount": 9.99,
-                    "currency": "USD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12591&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-                  "yearly_price": {
-                    "amount": 100.99,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12591&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12591&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12591&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
                 },
-                "Incoming Mail": "30 / month\nEach additional at Fr. 0.32",
-                "Open & Scan": "Unlimited\n5 pages / month\nEach additional page at Fr. 0.46",
-                "Forwarding": "Each at Fr. 4.57\nShipping fees will apply",
+                "Incoming Mail": "30 / month",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at Fr. 0.14",
-                "Local Pickup": "Fr. 1.83 per visit\nPickup by appointment only",
-                "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nSmall Box: Free storage for 30 day(s), then Fr. 0.20 for every mail item per day\nMedium Box: Free storage for 30 day(s), then Fr. 0.20 for every mail item per day\nLarge Box: Free storage for 30 day(s), then Fr. 0.30 for every mail item per day\nExtra Large Box: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nMailing Tube: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nCrate: Free storage for 15 day(s), then Fr. 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
-                "Recipients": "4\nEach additional Fr. 9.13 / month"
+                "Recycling": "Available",
+                "Shredding": "Available",
+                "Local Pickup": "Available",
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
+                "Recipients": "4"
               }
             },
             {
               "title": "Silver",
-              "monthly_price": {
-                "amount": 13.99,
-                "currency": "USD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12592&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-              "yearly_price": {
-                "amount": 150.99,
-                "currency": "USD"
-              },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12592&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12592&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12592&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
               "features": {
                 "Incoming Mail": "60 / month",
-                "Open & Scan": "10 pages / month",
-                "Forwarding": "Each at Fr. 4.57",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Recipients": "4"
               },
               "service_plan_id": "12592",
               "detailed_features": {
                 "pricing": {
-                  "monthly_price": {
-                    "amount": 13.99,
-                    "currency": "USD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12592&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-                  "yearly_price": {
-                    "amount": 150.99,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12592&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12592&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12592&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
                 },
-                "Incoming Mail": "60 / month\nEach additional at Fr. 0.32",
-                "Open & Scan": "Unlimited\n10 pages / month\nEach additional page at Fr. 0.46",
-                "Forwarding": "Each at Fr. 4.57\nShipping fees will apply",
+                "Incoming Mail": "60 / month",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at Fr. 0.14",
-                "Local Pickup": "Fr. 1.83 per visit\nPickup by appointment only",
-                "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nSmall Box: Free storage for 30 day(s), then Fr. 0.20 for every mail item per day\nMedium Box: Free storage for 30 day(s), then Fr. 0.20 for every mail item per day\nLarge Box: Free storage for 30 day(s), then Fr. 0.30 for every mail item per day\nExtra Large Box: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nMailing Tube: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nCrate: Free storage for 30 day(s), then Fr. 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
-                "Recipients": "4\nEach additional Fr. 9.13 / month"
+                "Recycling": "Available",
+                "Shredding": "Available",
+                "Local Pickup": "Available",
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
+                "Recipients": "4"
               }
             },
             {
               "title": "Gold",
-              "monthly_price": {
-                "amount": 27.99,
-                "currency": "USD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12593&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-              "yearly_price": {
-                "amount": 301.99,
-                "currency": "USD"
-              },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12593&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12593&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12593&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
               "features": {
                 "Incoming Mail": "125 / month",
-                "Open & Scan": "20 pages / month",
-                "Forwarding": "Each at Fr. 4.57",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Recipients": "4"
               },
               "service_plan_id": "12593",
               "detailed_features": {
                 "pricing": {
-                  "monthly_price": {
-                    "amount": 27.99,
-                    "currency": "USD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12593&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-                  "yearly_price": {
-                    "amount": 301.99,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12593&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12593&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12593&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
                 },
-                "Incoming Mail": "125 / month\nEach additional at Fr. 0.32",
-                "Open & Scan": "Unlimited\n20 pages / month\nEach additional page at Fr. 0.46",
-                "Forwarding": "Each at Fr. 4.57\nShipping fees will apply",
+                "Incoming Mail": "125 / month",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Each at Fr. 0.14",
-                "Local Pickup": "Fr. 1.83 per visit\nPickup by appointment only",
-                "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then Fr. 0.10 for every mail item per month\nPadded Mailer: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nSmall Box: Free storage for 30 day(s), then Fr. 0.20 for every mail item per day\nMedium Box: Free storage for 30 day(s), then Fr. 0.20 for every mail item per day\nLarge Box: Free storage for 30 day(s), then Fr. 0.30 for every mail item per day\nExtra Large Box: Free storage for 30 day(s), then Fr. 0.30 for every mail item per day\nMailing Tube: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nCrate: Free storage for 15 day(s), then Fr. 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
-                "Recipients": "4\nEach additional Fr. 9.13 / month"
+                "Recycling": "Available",
+                "Shredding": "Available",
+                "Local Pickup": "Available",
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
+                "Recipients": "4"
               }
             },
             {
               "title": "Unlimited",
-              "monthly_price": {
-                "amount": 63.99,
-                "currency": "USD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12594&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-              "yearly_price": {
-                "amount": 602.99,
-                "currency": "USD"
-              },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12594&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12594&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12594&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
               "features": {
                 "Incoming Mail": "Unlimited",
-                "Open & Scan": "100 pages / month",
-                "Forwarding": "Each at Fr. 4.57",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Recipients": "4"
               },
               "service_plan_id": "12594",
               "detailed_features": {
                 "pricing": {
-                  "monthly_price": {
-                    "amount": 63.99,
-                    "currency": "USD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12594&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-                  "yearly_price": {
-                    "amount": 602.99,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12594&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12594&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12594&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
                 },
                 "Incoming Mail": "Unlimited",
-                "Open & Scan": "Unlimited\n100 pages / month\nEach additional page at Fr. 0.46",
-                "Forwarding": "Each at Fr. 4.57\nShipping fees will apply",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Check Deposit": "Not available",
-                "Recycling": "Unlimited",
-                "Shredding": "Unlimited",
-                "Local Pickup": "Fr. 1.83 per visit\nPickup by appointment only",
-                "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then Fr. 0.10 for every mail item per day\nSmall Box: Free storage for 30 day(s), then Fr. 0.20 for every mail item per day\nMedium Box: Free storage for 30 day(s), then Fr. 0.20 for every mail item per day\nLarge Box: Free storage for 30 day(s), then Fr. 0.30 for every mail item per day\nExtra Large Box: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nMailing Tube: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nCrate: Free storage for 10 day(s), then Fr. 1.00 for every mail item per day\nAll other mail: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
-                "Recipients": "4\nEach additional Fr. 9.13 / month"
+                "Recycling": "Available",
+                "Shredding": "Available",
+                "Local Pickup": "Available",
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
+                "Recipients": "4"
               }
             }
           ],
@@ -220,8 +233,8 @@
             "address_text": "YOUR NAME\nC/O Anibarro\nUnit #MAILBOX\nRoute de Saint-Cergue 24Bis\n1260 Nyon\nSwitzerland",
             "street_address": "C/O Anibarro",
             "suite_info": "Unit #MAILBOX",
-            "city_state_zip": "1260 Nyon",
-            "country": "Switzerland",
+            "city_state_zip": "Route de Saint-Cergue 24Bis",
+            "country": "United States",
             "features": [
               {
                 "name": "Open & Scan",
@@ -254,12 +267,17 @@
               "Ship with DHL"
             ],
             "operator_info": {
-              "name": "Anibarro Team Verified",
+              "name": "Anibarro Team",
               "verified": true
             }
           },
-          "name": "Vaud",
-          "region": "Vaud"
+          "plan_url": "https://www.anytimemailbox.com/s/nyon-route-de-saint-cergue-24b",
+          "title": "Nyon",
+          "address": "Route de Saint-Cergue 24Bis\n1260 Nyon\nSwitzerland",
+          "name": "Nyon",
+          "region": "Vaud",
+          "latitude": "46.376389",
+          "longitude": "6.238056"
         }
       ],
       "location_count": 1
@@ -268,102 +286,68 @@
       "region": "Zug",
       "locations": [
         {
-          "title": "Baar",
-          "price": {
-            "amount": 60.0,
-            "currency": "USD"
-          },
-          "address": "( ), (c/o ZEOH GmbH), Blegistrasse 15, 6340 Baar, Switzerland, Switzerland",
-          "latitude": "47.2156722",
-          "longitude": "8.5687067",
-          "plan_url": "https://www.anytimemailbox.com/s/baar-blegistrasse-15",
-          "is_premier": false,
           "plans": [
             {
               "title": "Valid ℅ domicile [Art. 117(3) Swiss CRO/HRegV/ORC]",
-              "monthly_price": {
-                "amount": 60.0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12599&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-              "yearly_price": {
-                "amount": 600.0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12599&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12599&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12599&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
               "features": {
                 "Incoming Mail": "25 / month",
-                "Open & Scan": "25 / month",
-                "Forwarding": "Each at Fr. 5.00",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Recipients": "1"
               },
               "service_plan_id": "12599",
               "detailed_features": {
                 "pricing": {
-                  "monthly_price": {
-                    "amount": 60.0,
-                    "currency": "USD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12599&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-                  "yearly_price": {
-                    "amount": 600.0,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12599&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=12599&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=12599&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
                 },
-                "Incoming Mail": "25 / month\nEach additional at Fr. 1.00",
-                "Open & Scan": "25 / month\nEach additional at Fr. 1.00\n5 pages / request\nEach additional page at Fr. 0.35",
-                "Forwarding": "Each at Fr. 5.00\nShipping fees will apply",
+                "Incoming Mail": "25 / month",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Check Deposit": "Not available",
                 "Recycling": "Not available",
-                "Shredding": "Unlimited",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then Fr. 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nSmall Box: Free storage for 0 day(s), then Fr. 3.00 for every mail item per day\nMedium Box: Free storage for 0 day(s), then Fr. 5.00 for every mail item per day\nExtra Large Box: Free storage for 0 day(s), then Fr. 15.00 for every mail item per day\nMailing Tube: Free storage for 0 day(s), then Fr. 15.00 for every mail item per day\nCrate: Free storage for 0 day(s), then Fr. 150.00 for every mail item per week\nAll other mail: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
-                "Recipients": "1\nEach additional Fr. 25.00 / month"
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
+                "Recipients": "1"
               }
             },
             {
               "title": "Valid ℅ domicile [incl. physical mail forwarding]",
-              "monthly_price": {
-                "amount": 70.0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20474&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-              "yearly_price": {
-                "amount": 700.0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20474&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20474&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20474&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
               "features": {
                 "Incoming Mail": "25 / month",
-                "Open & Scan": "25 / month",
-                "Forwarding": "No handling fees",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Recipients": "1"
               },
               "service_plan_id": "20474",
               "detailed_features": {
                 "pricing": {
-                  "monthly_price": {
-                    "amount": 70.0,
-                    "currency": "USD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20474&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-                  "yearly_price": {
-                    "amount": 700.0,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20474&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=20474&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=20474&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
                 },
-                "Incoming Mail": "25 / month\nEach additional at Fr. 1.00",
-                "Open & Scan": "25 / month\nEach additional at Fr. 1.00\n5 pages / request\nEach additional page at Fr. 0.35",
-                "Forwarding": "No handling fees\nShipping fees will apply",
+                "Incoming Mail": "25 / month",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Check Deposit": "Not available",
                 "Recycling": "Not available",
-                "Shredding": "Unlimited",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Fr. 0.05 for every mail item per month\nLarge Envelope: Free storage for 30 day(s), then Fr. 0.05 for every mail item per month\nPadded Mailer: Free storage for 30 day(s), then Fr. 0.50 for every mail item per month\nSmall Box: Free storage for 0 day(s), then Fr. 3.00 for every mail item per day\nMedium Box: Free storage for 0 day(s), then Fr. 5.00 for every mail item per day\nExtra Large Box: Free storage for 0 day(s), then Fr. 15.00 for every mail item per day\nMailing Tube: Free storage for 0 day(s), then Fr. 15.00 for every mail item per day\nCrate: Free storage for 0 day(s), then Fr. 150.00 for every mail item per week\nAll other mail: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
                 "Recipients": "1"
               }
             }
@@ -372,9 +356,9 @@
             "address_title": "Your Real Street Address",
             "address_text": "YOUR NAME\n( )\n(c/o ZEOH GmbH)\nBlegistrasse 15\n6340 Baar\nSwitzerland\nSwitzerland",
             "street_address": "( )",
-            "suite_info": "",
-            "city_state_zip": "Switzerland",
-            "country": "Switzerland",
+            "suite_info": "(c/o ZEOH GmbH)",
+            "city_state_zip": "Blegistrasse 15",
+            "country": "United States",
             "features": [
               {
                 "name": "Open & Scan",
@@ -405,12 +389,17 @@
               "Ship with FedEx"
             ],
             "operator_info": {
-              "name": "ZEOH GmbH Verified",
+              "name": "ZEOH GmbH",
               "verified": true
             }
           },
-          "name": "Zug",
-          "region": "Zug"
+          "plan_url": "https://www.anytimemailbox.com/s/baar-blegistrasse-15",
+          "title": "Baar",
+          "address": "Blegistrasse 15\n6340 Baar\nSwitzerland",
+          "name": "Baar",
+          "region": "Zug",
+          "latitude": "47.183333",
+          "longitude": "8.516667"
         }
       ],
       "location_count": 1
@@ -419,103 +408,69 @@
       "region": "Zurich",
       "locations": [
         {
-          "title": "Zurich",
-          "price": {
-            "amount": 40.0,
-            "currency": "USD"
-          },
-          "address": "( ), c/o ZEOH GmbH, Hermetschloostrasse 77, 8048 Zürich, Switzerland, Switzerland",
-          "latitude": "47.3940209",
-          "longitude": "8.473771",
-          "plan_url": "https://www.anytimemailbox.com/s/zurich-hermetschloostrasse-77",
-          "is_premier": false,
           "plans": [
             {
               "title": "Valid ℅ forwarding address address for business purposes [no legal domicile]",
-              "monthly_price": {
-                "amount": 40.0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19846&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-              "yearly_price": {
-                "amount": 400.0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19846&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19846&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19846&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
               "features": {
                 "Incoming Mail": "25 / month",
-                "Open & Scan": "25 / month",
-                "Forwarding": "No handling fees",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Recipients": "5"
               },
               "service_plan_id": "19846",
               "detailed_features": {
                 "pricing": {
-                  "monthly_price": {
-                    "amount": 40.0,
-                    "currency": "USD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19846&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-                  "yearly_price": {
-                    "amount": 400.0,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19846&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19846&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19846&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
                 },
-                "Incoming Mail": "25 / month\nEach additional at Fr. 1.00",
-                "Open & Scan": "25 / month\nEach additional at Fr. 1.00\n5 pages / request\nEach additional page at Fr. 0.15",
-                "Forwarding": "No handling fees\nShipping fees will apply",
+                "Incoming Mail": "25 / month",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Check Deposit": "Not available",
                 "Recycling": "Not available",
-                "Shredding": "Unlimited",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then Fr. 0.15 for every mail item per day\nMedium Box: Free storage for 0 day(s), then Fr. 0.15 for every mail item per day\nLarge Box: Free storage for 0 day(s), then Fr. 0.15 for every mail item per day\nExtra Large Box: Free storage for 0 day(s), then Fr. 0.15 for every mail item per day\nMailing Tube: Free storage for 0 day(s), then Fr. 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nSmall Box: Free storage for 0 day(s), then Fr. 15.00 for every mail item per day\nCrate: Free storage for 0 day(s), then Fr. 150.00 for every mail item per week\nAll other mail: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
                 "Recipients": "5"
               }
             },
             {
               "title": "Valid ℅ domicile [Art. 117(3) Swiss CRO/HRegV/ORC]",
-              "monthly_price": {
-                "amount": 60.0,
-                "currency": "USD"
-              },
-              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19847&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-              "yearly_price": {
-                "amount": 600.0,
-                "currency": "USD"
-              },
-              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19847&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
+              "monthly_price": null,
+              "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19847&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+              "yearly_price": null,
+              "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19847&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
               "features": {
                 "Incoming Mail": "25 / month",
-                "Open & Scan": "25 / month",
-                "Forwarding": "Each shipping bundle at Fr. 5.00",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Recipients": "1"
               },
               "service_plan_id": "19847",
               "detailed_features": {
                 "pricing": {
-                  "monthly_price": {
-                    "amount": 60.0,
-                    "currency": "USD"
-                  },
-                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19847&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'",
-                  "yearly_price": {
-                    "amount": 600.0,
-                    "currency": "USD"
-                  },
-                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19847&siftsessionid=175205937564949760afeprg8njbv&firstpagehit=https://www.anytimemailbox.com/s/blacktown-10-12-flushcombe-road'"
+                  "monthly_price": null,
+                  "monthly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=30&srvPlnId=19847&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'",
+                  "yearly_price": null,
+                  "yearly_button_url": "location.href='https://signup.anytimemailbox.com/signup/new?term=360&srvPlnId=19847&siftsessionid=17525980180277178023al28mw7gm&firstpagehit=https://www.anytimemailbox.com/s/geneva-12-cp-525'"
                 },
-                "Incoming Mail": "25 / month\nEach additional at Fr. 1.00",
-                "Open & Scan": "25 / month\nEach additional at Fr. 1.00\n5 pages / request\nEach additional page at Fr. 0.25",
-                "Forwarding": "Each shipping bundle at Fr. 5.00\nShipping fees will apply",
+                "Incoming Mail": "25 / month",
+                "Open & Scan": "Available",
+                "Forwarding": "Available",
                 "Check Deposit": "Not available",
                 "Recycling": "Not available",
-                "Shredding": "Unlimited",
+                "Shredding": "Available",
                 "Local Pickup": "Not available",
-                "Physical Storage": "Standard Envelope: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day\nLarge Envelope: Free storage for 30 day(s), then Fr. 0.15 for every mail item per day\nPadded Mailer: Free storage for 30 day(s), then Fr. 0.50 for every mail item per day\nSmall Box: Free storage for 0 day(s), then Fr. 3.00 for every mail item per day\nMedium Box: Free storage for 0 day(s), then Fr. 5.00 for every mail item per day\nExtra Large Box: Free storage for 0 day(s), then Fr. 15.00 for every mail item per day\nMailing Tube: Free storage for 0 day(s), then Fr. 15.00 for every mail item per day\nCrate: Free storage for 0 day(s), then Fr. 150.00 for every mail item per week\nAll other mail: Free storage for 30 day(s), then Fr. 0.05 for every mail item per day",
-                "Online Storage": "Unlimited",
-                "Recipients": "1\nEach additional Fr. 25.00 / month"
+                "Physical Storage": "Available",
+                "Online Storage": "Available",
+                "Recipients": "1"
               }
             }
           ],
@@ -523,9 +478,9 @@
             "address_title": "Your Real Street Address",
             "address_text": "YOUR NAME\n( )\nc/o ZEOH GmbH\nHermetschloostrasse 77\n8048 Zürich\nSwitzerland\nSwitzerland",
             "street_address": "( )",
-            "suite_info": "",
-            "city_state_zip": "Switzerland",
-            "country": "Switzerland",
+            "suite_info": "c/o ZEOH GmbH",
+            "city_state_zip": "Hermetschloostrasse 77",
+            "country": "United States",
             "features": [
               {
                 "name": "Open & Scan",
@@ -554,17 +509,22 @@
             ],
             "shipping_carriers": [],
             "operator_info": {
-              "name": "ZEOH GmbH Verified",
+              "name": "ZEOH GmbH",
               "verified": true
             }
           },
+          "plan_url": "https://www.anytimemailbox.com/s/zurich-hermetschloostrasse-77",
+          "title": "Zurich",
+          "address": "Hermetschloostrasse 77\n8048 Zürich\nSwitzerland",
           "name": "Zurich",
-          "region": "Zurich"
+          "region": "Zurich",
+          "latitude": "47.376943",
+          "longitude": "8.541694"
         }
       ],
       "location_count": 1
     }
   ],
   "total_locations": 4,
-  "scraped_at": "2025-07-09T08:10:43.297526"
+  "scraped_at": "2025-07-15T12:46:57"
 }

@@ -197,7 +197,7 @@
             "address_title": "Your Real Street Address",
             "address_text": "YOUR NAME\nvul. Borisa Hmyri 9v, 187\nвул. Бориса Гмирі 9в, 187\n02144 Київ, Kyiv\nUkraine",
             "street_address": "vul. Borisa Hmyri 9v, 187",
-            "suite_info": "",
+            "suite_info": "-",
             "city_state_zip": "02144 Київ, Kyiv",
             "country": "Ukraine",
             "features": [
@@ -438,7 +438,7 @@
             "address_title": "Your Real Street Address",
             "address_text": "YOUR NAME\nStryjska Str 94/5\nвул Стрийська 94/5\nLviv, Львів\n79026\nUkraine",
             "street_address": "Stryjska Str 94/5",
-            "suite_info": "",
+            "suite_info": "-",
             "city_state_zip": "79026",
             "country": "Ukraine",
             "features": [

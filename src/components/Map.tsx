@@ -84,7 +84,7 @@ const MAP_STYLE = {
 
 // Helper to get all state JSON filenames
 const STATE_JSONS = [
-  'us_state_alabama.json', 'us_state_alaska.json', 'us_state_arizona.json', 'us_state_arkansas.json', 'us_state_california.json', 'us_state_colorado.json', 'us_state_connecticut.json', 'us_state_delaware.json', 'us_state_florida.json', 'us_state_georgia.json', 'us_state_hawaii.json', 'us_state_idaho.json', 'us_state_illinois.json', 'us_state_indiana.json', 'us_state_iowa.json', 'us_state_kansas.json', 'us_state_kentucky.json', 'us_state_louisiana.json', 'us_state_maine.json', 'us_state_maryland.json', 'us_state_massachusetts.json', 'us_state_michigan.json', 'us_state_minnesota.json', 'us_state_mississippi.json', 'us_state_missouri.json', 'us_state_montana.json', 'us_state_nebraska.json', 'us_state_nevada.json', 'us_state_new_hampshire.json', 'us_state_new_jersey.json', 'us_state_new_mexico.json', 'us_state_new_york.json', 'us_state_north_carolina.json', 'us_state_north_dakota.json', 'us_state_ohio.json', 'us_state_oklahoma.json', 'us_state_oregon.json', 'us_state_pennsylvania.json', 'us_state_rhode_island.json', 'us_state_south_carolina.json', 'us_state_south_dakota.json', 'us_state_tennessee.json', 'us_state_texas.json', 'us_state_utah.json', 'us_state_vermont.json', 'us_state_virginia.json', 'us_state_washington.json', 'us_state_west_virginia.json', 'us_state_wisconsin.json', 'us_state_wyoming.json',
+  'us_state_alabama.json', 'us_state_alaska.json', 'us_state_arizona.json', 'us_state_arkansas.json', 'us_state_california.json', 'us_state_colorado.json', 'us_state_connecticut.json', 'us_state_delaware.json', 'us_state_district_of_columbia.json',  'us_state_florida.json', 'us_state_georgia.json', 'us_state_hawaii.json', 'us_state_idaho.json', 'us_state_illinois.json', 'us_state_indiana.json', 'us_state_iowa.json', 'us_state_kansas.json', 'us_state_kentucky.json', 'us_state_louisiana.json', 'us_state_maine.json', 'us_state_maryland.json', 'us_state_massachusetts.json', 'us_state_michigan.json', 'us_state_minnesota.json', 'us_state_mississippi.json', 'us_state_missouri.json', 'us_state_montana.json', 'us_state_nebraska.json', 'us_state_nevada.json', 'us_state_new_hampshire.json', 'us_state_new_jersey.json', 'us_state_new_mexico.json', 'us_state_new_york.json', 'us_state_north_carolina.json', 'us_state_north_dakota.json', 'us_state_ohio.json', 'us_state_oklahoma.json', 'us_state_oregon.json', 'us_state_pennsylvania.json', 'us_state_puerto_rico.json', 'us_state_rhode_island.json', 'us_state_south_carolina.json', 'us_state_south_dakota.json', 'us_state_tennessee.json', 'us_state_texas.json', 'us_state_utah.json', 'us_state_vermont.json', 'us_state_virginia.json', 'us_state_washington.json', 'us_state_west_virginia.json', 'us_state_wisconsin.json', 'us_state_wyoming.json',
 ];
 
 // New Location type for per-state JSONs
@@ -123,7 +123,7 @@ const INTL_SINGLE_FILES = [
   'austria_single_location.json', 'belgium_single_location.json', 'colombia_single_location.json', 'cyprus_single_location.json', 'denmark_single_location.json', 'egypt_single_location.json', 'hungary_single_location.json', 'india_single_location.json', 'italy_single_location.json', 'kenya_single_location.json', 'lithuania_single_location.json', 'malta_single_location.json', 'mauritius_single_location.json', 'netherlands_single_location.json', 'oman_single_location.json', 'pakistan_single_location.json', 'slovakia_single_location.json', 'slovenia_single_location.json', 'sweden_single_location.json', 'taiwan_single_location.json', 'thailand_single_location.json', 'united_arab_emirates_single_location.json', 'zambia_single_location.json',
 ];
 const INTL_MULTI_FILES = [
-  'australia_multi_locations.json', 'brazil_multi_locations.json', 'bulgaria_multi_locations.json', 'canada_multi_locations.json', 'caribbean_multi_locations.json', 'china_multi_locations.json', 'croatia_multi_locations.json', 'czech_republic_multi_locations.json', 'france_multi_locations.json', 'greece_multi_locations.json', 'hong_kong_multi_locations.json', 'indonesia_multi_locations.json', 'ireland_multi_locations.json', 'malaysia_multi_locations.json', 'mexico_multi_locations.json', 'nigeria_multi_locations.json', 'philippines_multi_locations.json', 'portugal_multi_locations.json', 'romania_multi_locations.json', 'singapore_multi_locations.json', 'south_africa_multi_locations.json', 'spain_multi_locations.json', 'switzerland_multi_locations.json',
+  'australia_multi_locations.json', 'brazil_multi_locations.json', 'bulgaria_multi_locations.json', 'canada_multi_locations.json', 'caribbean_multi_locations.json', 'china_multi_locations.json', 'croatia_multi_locations.json', 'czech_republic_multi_locations.json', 'france_multi_locations.json', 'greece_multi_locations.json', 'hong_kong_multi_locations.json', 'indonesia_multi_locations.json', 'ireland_multi_locations.json', 'malaysia_multi_locations.json', 'mexico_multi_locations.json', 'nigeria_multi_locations.json', 'philippines_multi_locations.json', 'portugal_multi_locations.json', 'romania_multi_locations.json', 'singapore_multi_locations.json', 'south_africa_multi_locations.json', 'spain_multi_locations.json', 'switzerland_multi_locations.json', 'ukraine_multi_locations.json', 'united_kingdom_multi_locations.json',
 ];
 
 export default function MapComponent({ className = '' }: MapProps) {
@@ -253,6 +253,10 @@ export default function MapComponent({ className = '' }: MapProps) {
           const country = data.state;
           const stateData = data.state_data;
           if (!stateData || !stateData.cities) return;
+          
+          // Add country to set even if no coordinates (for PDF export)
+          countrySet.add(country);
+          
           for (const city of stateData.cities) {
             for (const location of city.locations) {
               if (location.latitude && location.longitude) {
@@ -274,7 +278,6 @@ export default function MapComponent({ className = '' }: MapProps) {
                   })
                 }));
                 allIntl.push({ feature, location, country, city: city.city_name });
-                countrySet.add(country);
               }
             }
           }
@@ -288,6 +291,10 @@ export default function MapComponent({ className = '' }: MapProps) {
           const data = await res.json();
           const country = data.country;
           if (!data.regions) return;
+          
+          // Add country to set even if no coordinates (for PDF export)
+          countrySet.add(country);
+          
           for (const region of data.regions) {
             for (const location of region.locations) {
               if (location.latitude && location.longitude) {
@@ -309,7 +316,6 @@ export default function MapComponent({ className = '' }: MapProps) {
                   })
                 }));
                 allIntl.push({ feature, location, country, region: region.region });
-                countrySet.add(country);
               }
             }
           }

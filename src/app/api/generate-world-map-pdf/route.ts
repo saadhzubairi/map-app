@@ -1,48 +1,49 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { NextRequest, NextResponse } from 'next/server';
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 
-// International location files
-const INTL_SINGLE_FILES = [
-  'austria_single_location.json', 'belgium_single_location.json', 'colombia_single_location.json', 
-  'cyprus_single_location.json', 'denmark_single_location.json', 'egypt_single_location.json', 
-  'hungary_single_location.json', 'india_single_location.json', 'italy_single_location.json', 
-  'kenya_single_location.json', 'lithuania_single_location.json', 'malta_single_location.json', 
-  'mauritius_single_location.json', 'netherlands_single_location.json', 'oman_single_location.json', 
-  'pakistan_single_location.json', 'slovakia_single_location.json', 'slovenia_single_location.json', 
-  'sweden_single_location.json', 'taiwan_single_location.json', 'thailand_single_location.json', 
-  'united_arab_emirates_single_location.json', 'zambia_single_location.json'
-];
+// International location files - commented out as they're not used in this implementation
+// const INTL_SINGLE_FILES = [
+//   'austria_single_location.json', 'belgium_single_location.json', 'colombia_single_location.json', 
+//   'cyprus_single_location.json', 'denmark_single_location.json', 'egypt_single_location.json', 
+//   'hungary_single_location.json', 'india_single_location.json', 'italy_single_location.json', 
+//   'kenya_single_location.json', 'lithuania_single_location.json', 'malta_single_location.json', 
+//   'mauritius_single_location.json', 'netherlands_single_location.json', 'oman_single_location.json', 
+//   'pakistan_single_location.json', 'slovakia_single_location.json', 'slovenia_single_location.json', 
+//   'sweden_single_location.json', 'taiwan_single_location.json', 'thailand_single_location.json', 
+//   'united_arab_emirates_single_location.json', 'zambia_single_location.json'
+// ];
 
-const INTL_MULTI_FILES = [
-  'australia_multi_locations.json', 'brazil_multi_locations.json', 'bulgaria_multi_locations.json', 
-  'canada_multi_locations.json', 'caribbean_multi_locations.json', 'china_multi_locations.json', 
-  'croatia_multi_locations.json', 'czech_republic_multi_locations.json', 'france_multi_locations.json', 
-  'greece_multi_locations.json', 'hong_kong_multi_locations.json', 'indonesia_multi_locations.json', 
-  'ireland_multi_locations.json', 'malaysia_multi_locations.json', 'mexico_multi_locations.json', 
-  'nigeria_multi_locations.json', 'philippines_multi_locations.json', 'portugal_multi_locations.json', 
-  'romania_multi_locations.json', 'singapore_multi_locations.json', 'south_africa_multi_locations.json', 
-  'spain_multi_locations.json', 'switzerland_multi_locations.json', 'ukraine_multi_locations.json', 
-  'united_kingdom_multi_locations.json'
-];
+// const INTL_MULTI_FILES = [
+//   'australia_multi_locations.json', 'brazil_multi_locations.json', 'bulgaria_multi_locations.json', 
+//   'canada_multi_locations.json', 'caribbean_multi_locations.json', 'china_multi_locations.json', 
+//   'croatia_multi_locations.json', 'czech_republic_multi_locations.json', 'france_multi_locations.json', 
+//   'greece_multi_locations.json', 'hong_kong_multi_locations.json', 'indonesia_multi_locations.json', 
+//   'ireland_multi_locations.json', 'malaysia_multi_locations.json', 'mexico_multi_locations.json', 
+//   'nigeria_multi_locations.json', 'philippines_multi_locations.json', 'portugal_multi_locations.json', 
+//   'romania_multi_locations.json', 'singapore_multi_locations.json', 'south_africa_multi_locations.json', 
+//   'spain_multi_locations.json', 'switzerland_multi_locations.json', 'ukraine_multi_locations.json', 
+//   'united_kingdom_multi_locations.json'
+// ];
 
-interface Location {
-  title: string;
-  latitude: string;
-  longitude: string;
-  address: string;
-}
+// interface Location {
+//   title: string;
+//   latitude: string;
+//   longitude: string;
+//   address: string;
+// }
 
-interface CountryData {
-  country: string;
-  regions: Array<{
-    region: string;
-    locations: Location[];
-  }>;
-}
+// interface CountryData {
+//   country: string;
+//   regions: Array<{
+//     region: string;
+//     locations: Location[];
+//   }>;
+// }
 
-export async function POST(request: NextRequest) {
+export async function POST() {
   try {
     // Hardcoded country counts from screenshot
     const countryLocationCounts: { [country: string]: number } = {
@@ -97,8 +98,7 @@ export async function POST(request: NextRequest) {
       'United States': 1800
     };
 
-    // Define bins and colors
-    const bins = [0, 1, 2, 6, 11, 26, 51, 101];
+    // Define colors
     const colors = [
       '#f0f0f0', // 0
       '#e3f0ff', // 1
@@ -119,18 +119,6 @@ export async function POST(request: NextRequest) {
       '51–100 locations',
       '101+ locations',
     ];
-
-    // Helper to get color for a count
-    function getColor(count: number) {
-      if (count === 0) return colors[0];
-      if (count === 1) return colors[1];
-      if (count >= 2 && count <= 5) return colors[2];
-      if (count >= 6 && count <= 10) return colors[3];
-      if (count >= 11 && count <= 25) return colors[4];
-      if (count >= 26 && count <= 50) return colors[5];
-      if (count >= 51 && count <= 100) return colors[6];
-      return colors[7];
-    }
 
     // Load world countries GeoJSON
     const worldCountriesPath = path.join(process.cwd(), 'public', 'world-countries.json');
