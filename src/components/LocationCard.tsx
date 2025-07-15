@@ -26,9 +26,6 @@ const LocationCard = forwardRef<HTMLDivElement, LocationCardProps>(
         <div className="text-xs text-gray-500">
           {mode === 'US' ? location.address : `${country || ''}${city ? `, ${city}` : ''}${region ? `, ${region}` : ''}`}
         </div>
-        <div className="text-green-700 font-extrabold text-base">
-          {location.price.currency} {location.price.amount}/month
-        </div>
         <button
           className="w-full cursor-pointer bg-green-600 font-bold text-white text-sm px-4 py-2 rounded-lg group-hover:bg-green-700 transition-colors shadow"
           onClick={e => { e.stopPropagation(); onSelect(location); }}

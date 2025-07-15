@@ -68,6 +68,60 @@ interface LocationModalProps {
 export default function LocationModal({ location, isOpen, onClose }: LocationModalProps) {
   if (!location) return null;
 
+  // Function to replace pricing text with "Available"
+  const replacePricingText = (text: string): string => {
+    if (!text) return text;
+    
+    // Check if text contains pricing information (currency symbols, numbers with $, etc.)
+    const pricingPatterns = [
+      /\b[A-Z]{1,3}\$?\s*\d+\.?\d*\b/g,  // USD 10.00, US$ 5.50, etc.
+      /\$\d+\.?\d*/g,                     // $10.00, $5.50, etc.
+      /\€\d+\.?\d*/g,                     // €10.00, €5.50, etc.
+      /\£\d+\.?\d*/g,                     // £10.00, £5.50, etc.
+      /\¥\d+\.?\d*/g,                     // ¥10.00, ¥5.50, etc.
+      /\d+\s*(usd|eur|gbp|jpy|cad|aud)/gi, // 10 USD, 5 EUR, etc.
+      /\d+\s*\/\s*month/gi,               // 10 / month
+      /\d+\s*\/\s*year/gi,                // 10 / year
+      /\d+\s*per\s*visit/gi,              // 10 per visit
+      /\d+\s*for\s*every/gi,              // 10 for every
+      /\d+\s*day\(s\)/gi,                 // 30 day(s)
+      /\d+\s*page\(s\)/gi,                // 5 page(s)
+      /\d+\s*additional/gi,               // 10 additional
+    ];
+    
+    let modifiedText = text;
+    pricingPatterns.forEach(pattern => {
+      modifiedText = modifiedText.replace(pattern, 'Available');
+    });
+    
+    // Replace common pricing phrases
+    const pricingPhrases = [
+      /Each additional at .*/gi,
+      /Each additional page at .*/gi,
+      /Each shipping bundle at .*/gi,
+      /Shipping fees will apply/gi,
+      /Each at .*/gi,
+      /per visit/gi,
+      /Pickup during business hours/gi,
+      /Free storage for .*/gi,
+      /then .*/gi,
+      /Each additional .*/gi,
+      /\/ month/gi,
+      /\/ year/gi,
+    ];
+    
+    pricingPhrases.forEach(phrase => {
+      modifiedText = modifiedText.replace(phrase, 'Available');
+    });
+    
+    // Clean up multiple "Available" instances
+    modifiedText = modifiedText.replace(/Available\s*\/\s*Available/g, 'Available');
+    modifiedText = modifiedText.replace(/Available\s*Available/g, 'Available');
+    modifiedText = modifiedText.replace(/Available\s*\n\s*Available/g, 'Available');
+    
+    return modifiedText.trim();
+  };
+
   const getFeatureIcon = (featureName: string) => {
     switch (featureName.toLowerCase()) {
       case 'open & scan':
@@ -108,13 +162,7 @@ export default function LocationModal({ location, isOpen, onClose }: LocationMod
                   <p className="font-medium">{location.address}</p>
                 </div>
 
-                <div>
-                  <p className="text-sm text-gray-600 mb-1">Starting Price</p>
-                  <p className="text-2xl font-bold text-green-600">
-                    ${location.price.amount}
-                    <span className="text-sm font-normal text-gray-500">/month</span>
-                  </p>
-                </div>
+
 
                 {location.is_premier && (
                   <Badge variant="premium" className="w-fit">
@@ -204,15 +252,7 @@ export default function LocationModal({ location, isOpen, onClose }: LocationMod
                             <CardTitle className="text-lg">{plan.title} Plan</CardTitle>
                           </CardHeader>
                           <CardContent className="space-y-4">
-                            <div className="text-center">
-                              <p className="text-3xl font-bold text-green-600">
-                                ${plan.monthly_price.amount}
-                                <span className="text-sm font-normal text-gray-500">/month</span>
-                              </p>
-                              <p className="text-sm text-gray-500">
-                                or ${plan.yearly_price.amount}/year
-                              </p>
-                            </div>
+                            
 
                             <div className="space-y-3">
                               <h4 className="font-semibold">Key Features</h4>
@@ -220,7 +260,7 @@ export default function LocationModal({ location, isOpen, onClose }: LocationMod
                                 <div key={key} className="flex justify-between items-center">
                                   <span className="text-sm">{key}</span>
                                   <Badge variant="outline" className="text-xs">
-                                    {value}
+                                    {replacePricingText(value)}
                                   </Badge>
                                 </div>
                               ))}
@@ -240,7 +280,7 @@ export default function LocationModal({ location, isOpen, onClose }: LocationMod
                                 return (
                                   <div key={key} className="border-b pb-2 last:border-b-0">
                                     <h5 className="font-medium text-sm mb-1">{key}</h5>
-                                    <p className="text-xs text-gray-600 whitespace-pre-line">{value}</p>
+                                    <p className="text-xs text-gray-600 whitespace-pre-line">{replacePricingText(value)}</p>
                                   </div>
                                 );
                               })}

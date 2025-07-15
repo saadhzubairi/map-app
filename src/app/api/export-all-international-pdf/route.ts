@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import { generateAllInternationalPdf } from '@/lib/puppeteerPdfGenerator';
 
-// Increase timeout for large datasets - this one needs more time since it processes all countries
-export const maxDuration = 600; // 10 minutes for all international locations
+// Set timeout to maximum allowed for Vercel hobby plan
+export const maxDuration = 300; // 5 minutes (maximum for hobby plan)
 
 export async function POST(request: Request) {
     try {
